@@ -1,0 +1,9 @@
+/home/lich/ROS2/ros2_learning_plumbing/build/base_interfaces_demo/CMakeFiles/uninstall.dir
+/home/lich/ROS2/ros2_learning_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo_uninstall.dir
+/home/lich/ROS2/ros2_learning_plumbing/build/base_interfaces_demo/CMakeFiles/test.dir
+/home/lich/ROS2/ros2_learning_plumbing/build/base_interfaces_demo/CMakeFiles/edit_cache.dir
+/home/lich/ROS2/ros2_learning_plumbing/build/base_interfaces_demo/CMakeFiles/rebuild_cache.dir
+/home/lich/ROS2/ros2_learning_plumbing/build/base_interfaces_demo/CMakeFiles/list_install_components.dir
+/home/lich/ROS2/ros2_learning_plumbing/build/base_interfaces_demo/CMakeFiles/install.dir
+/home/lich/ROS2/ros2_learning_plumbing/build/base_interfaces_demo/CMakeFiles/install/local.dir
+/home/lich/ROS2/ros2_learning_plumbing/build/base_interfaces_demo/CMakeFiles/install/strip.dir

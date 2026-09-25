@@ -1,0 +1,37 @@
+[0.642s] Invoking command in '/home/lich/ROS2/ros2_learning_python/src/pkg_helloworld_py': PYTHONPATH=/home/lich/ROS2/ros2_learning_python/build/pkg_helloworld_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lich/ROS2/ros2_learning_python/install/pkg_helloworld_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg_helloworld_py build --build-base /home/lich/ROS2/ros2_learning_python/build/pkg_helloworld_py/build install --record /home/lich/ROS2/ros2_learning_python/build/pkg_helloworld_py/install.log --install-scripts $base/lib/pkg_helloworld_py --single-version-externally-managed install_data
+[0.855s] running egg_info
+[0.855s] creating ../../build/pkg_helloworld_py/pkg_helloworld_py.egg-info
+[0.856s] writing ../../build/pkg_helloworld_py/pkg_helloworld_py.egg-info/PKG-INFO
+[0.856s] writing dependency_links to ../../build/pkg_helloworld_py/pkg_helloworld_py.egg-info/dependency_links.txt
+[0.857s] writing entry points to ../../build/pkg_helloworld_py/pkg_helloworld_py.egg-info/entry_points.txt
+[0.858s] writing requirements to ../../build/pkg_helloworld_py/pkg_helloworld_py.egg-info/requires.txt
+[0.858s] writing top-level names to ../../build/pkg_helloworld_py/pkg_helloworld_py.egg-info/top_level.txt
+[0.858s] writing manifest file '../../build/pkg_helloworld_py/pkg_helloworld_py.egg-info/SOURCES.txt'
+[0.860s] reading manifest file '../../build/pkg_helloworld_py/pkg_helloworld_py.egg-info/SOURCES.txt'
+[0.860s] writing manifest file '../../build/pkg_helloworld_py/pkg_helloworld_py.egg-info/SOURCES.txt'
+[0.861s] running build
+[0.861s] running build_py
+[0.861s] creating /home/lich/ROS2/ros2_learning_python/build/pkg_helloworld_py/build
+[0.861s] creating /home/lich/ROS2/ros2_learning_python/build/pkg_helloworld_py/build/lib
+[0.861s] creating /home/lich/ROS2/ros2_learning_python/build/pkg_helloworld_py/build/lib/pkg_helloworld_py
+[0.861s] copying pkg_helloworld_py/node_helloworld_py.py -> /home/lich/ROS2/ros2_learning_python/build/pkg_helloworld_py/build/lib/pkg_helloworld_py
+[0.861s] copying pkg_helloworld_py/__init__.py -> /home/lich/ROS2/ros2_learning_python/build/pkg_helloworld_py/build/lib/pkg_helloworld_py
+[0.862s] running install
+[0.862s] running install_lib
+[0.863s] creating /home/lich/ROS2/ros2_learning_python/install/pkg_helloworld_py/lib/python3.10/site-packages/pkg_helloworld_py
+[0.863s] copying /home/lich/ROS2/ros2_learning_python/build/pkg_helloworld_py/build/lib/pkg_helloworld_py/node_helloworld_py.py -> /home/lich/ROS2/ros2_learning_python/install/pkg_helloworld_py/lib/python3.10/site-packages/pkg_helloworld_py
+[0.863s] copying /home/lich/ROS2/ros2_learning_python/build/pkg_helloworld_py/build/lib/pkg_helloworld_py/__init__.py -> /home/lich/ROS2/ros2_learning_python/install/pkg_helloworld_py/lib/python3.10/site-packages/pkg_helloworld_py
+[0.864s] byte-compiling /home/lich/ROS2/ros2_learning_python/install/pkg_helloworld_py/lib/python3.10/site-packages/pkg_helloworld_py/node_helloworld_py.py to node_helloworld_py.cpython-310.pyc
+[0.864s] byte-compiling /home/lich/ROS2/ros2_learning_python/install/pkg_helloworld_py/lib/python3.10/site-packages/pkg_helloworld_py/__init__.py to __init__.cpython-310.pyc
+[0.864s] running install_data
+[0.865s] creating /home/lich/ROS2/ros2_learning_python/install/pkg_helloworld_py/share/ament_index
+[0.865s] creating /home/lich/ROS2/ros2_learning_python/install/pkg_helloworld_py/share/ament_index/resource_index
+[0.865s] creating /home/lich/ROS2/ros2_learning_python/install/pkg_helloworld_py/share/ament_index/resource_index/packages
+[0.865s] copying resource/pkg_helloworld_py -> /home/lich/ROS2/ros2_learning_python/install/pkg_helloworld_py/share/ament_index/resource_index/packages
+[0.865s] copying package.xml -> /home/lich/ROS2/ros2_learning_python/install/pkg_helloworld_py/share/pkg_helloworld_py
+[0.865s] running install_egg_info
+[0.867s] Copying ../../build/pkg_helloworld_py/pkg_helloworld_py.egg-info to /home/lich/ROS2/ros2_learning_python/install/pkg_helloworld_py/lib/python3.10/site-packages/pkg_helloworld_py-0.0.0-py3.10.egg-info
+[0.869s] running install_scripts
+[0.890s] Installing node_helloworld_py script to /home/lich/ROS2/ros2_learning_python/install/pkg_helloworld_py/lib/pkg_helloworld_py
+[0.890s] writing list of installed files to '/home/lich/ROS2/ros2_learning_python/build/pkg_helloworld_py/install.log'
+[0.913s] Invoked command in '/home/lich/ROS2/ros2_learning_python/src/pkg_helloworld_py' returned '0': PYTHONPATH=/home/lich/ROS2/ros2_learning_python/build/pkg_helloworld_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lich/ROS2/ros2_learning_python/install/pkg_helloworld_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg_helloworld_py build --build-base /home/lich/ROS2/ros2_learning_python/build/pkg_helloworld_py/build install --record /home/lich/ROS2/ros2_learning_python/build/pkg_helloworld_py/install.log --install-scripts $base/lib/pkg_helloworld_py --single-version-externally-managed install_data

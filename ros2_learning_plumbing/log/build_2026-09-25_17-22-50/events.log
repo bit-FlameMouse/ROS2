@@ -1,0 +1,260 @@
+[0.000000] (-) TimerEvent: {}
+[0.000284] (base_interfaces_demo) JobQueued: {'identifier': 'base_interfaces_demo', 'dependencies': OrderedDict()}
+[0.000339] (topic_cpp) JobQueued: {'identifier': 'topic_cpp', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/lich/ROS2/ros2_learning_plumbing/install/base_interfaces_demo')])}
+[0.000388] (topic_py) JobQueued: {'identifier': 'topic_py', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/lich/ROS2/ros2_learning_plumbing/install/base_interfaces_demo')])}
+[0.000433] (base_interfaces_demo) JobStarted: {'identifier': 'base_interfaces_demo'}
+[0.013488] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'cmake'}
+[0.015583] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'build'}
+[0.015722] (base_interfaces_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lich/ROS2/ros2_learning_plumbing/build/base_interfaces_demo', '--', '-j6', '-l6'], 'cwd': '/home/lich/ROS2/ros2_learning_plumbing/build/base_interfaces_demo', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lich'), ('SSH_CLIENT', '192.168.126.2 63791 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/lich/.vscode-server/cli/servers/Stable-2242ebbb54efeeb0129e08e919e7e8d43033cd83/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/lich/.vscode-server/cli/servers/Stable-2242ebbb54efeeb0129e08e919e7e8d43033cd83/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lich'), ('TERM_PROGRAM_VERSION', '1.139.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-11d73c55-8c18-45f4-b869-d95137050081.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/lich/.vscode-server/cli/servers/Stable-2242ebbb54efeeb0129e08e919e7e8d43033cd83/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/lich/.vscode-server/cli/servers/Stable-2242ebbb54efeeb0129e08e919e7e8d43033cd83/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/lich/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lich/ROS2/ros2_learning_plumbing/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lich'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lich/.vscode-server/cli/servers/Stable-2242ebbb54efeeb0129e08e919e7e8d43033cd83/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/lich/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lich/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-71b27e881953a888.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/lich/.vscode-server/data/User/workspaceStorage/41da7184d93a119faa944795299de872/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8356595b55.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/lich/ROS2/ros2_learning_plumbing/install/topic_py:/home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp:/home/lich/ROS2/ros2_learning_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/lich/ROS2/ros2_learning_plumbing/build/base_interfaces_demo'), ('SSH_CONNECTION', '192.168.126.2 63791 192.168.126.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lich/ROS2/ros2_learning_plumbing/install/topic_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp:/home/lich/ROS2/ros2_learning_plumbing/install/base_interfaces_demo:/home/lich/ROS2/ros2_learning_plumbing/install/topic_py:/opt/ros/humble')]), 'shell': False}
+[0.090322] (base_interfaces_demo) CommandEnded: {'returncode': 0}
+[0.091277] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'install'}
+[0.098562] (-) TimerEvent: {}
+[0.109391] (base_interfaces_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lich/ROS2/ros2_learning_plumbing/build/base_interfaces_demo'], 'cwd': '/home/lich/ROS2/ros2_learning_plumbing/build/base_interfaces_demo', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lich'), ('SSH_CLIENT', '192.168.126.2 63791 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/lich/.vscode-server/cli/servers/Stable-2242ebbb54efeeb0129e08e919e7e8d43033cd83/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/lich/.vscode-server/cli/servers/Stable-2242ebbb54efeeb0129e08e919e7e8d43033cd83/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lich'), ('TERM_PROGRAM_VERSION', '1.139.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-11d73c55-8c18-45f4-b869-d95137050081.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/lich/.vscode-server/cli/servers/Stable-2242ebbb54efeeb0129e08e919e7e8d43033cd83/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/lich/.vscode-server/cli/servers/Stable-2242ebbb54efeeb0129e08e919e7e8d43033cd83/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/lich/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lich/ROS2/ros2_learning_plumbing/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lich'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lich/.vscode-server/cli/servers/Stable-2242ebbb54efeeb0129e08e919e7e8d43033cd83/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/lich/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lich/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-71b27e881953a888.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/lich/.vscode-server/data/User/workspaceStorage/41da7184d93a119faa944795299de872/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8356595b55.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/lich/ROS2/ros2_learning_plumbing/install/topic_py:/home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp:/home/lich/ROS2/ros2_learning_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/lich/ROS2/ros2_learning_plumbing/build/base_interfaces_demo'), ('SSH_CONNECTION', '192.168.126.2 63791 192.168.126.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lich/ROS2/ros2_learning_plumbing/install/topic_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp:/home/lich/ROS2/ros2_learning_plumbing/install/base_interfaces_demo:/home/lich/ROS2/ros2_learning_plumbing/install/topic_py:/opt/ros/humble')]), 'shell': False}
+[0.128297] (base_interfaces_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.128958] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/lich/ROS2/ros2_learning_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/package_run_dependencies/base_interfaces_demo\n'}
+[0.129067] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/lich/ROS2/ros2_learning_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/parent_prefix_path/base_interfaces_demo\n'}
+[0.129145] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/lich/ROS2/ros2_learning_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.sh\n'}
+[0.129216] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/lich/ROS2/ros2_learning_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.dsv\n'}
+[0.130015] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/lich/ROS2/ros2_learning_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.sh\n'}
+[0.130510] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/lich/ROS2/ros2_learning_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.dsv\n'}
+[0.130900] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/lich/ROS2/ros2_learning_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.bash\n'}
+[0.131175] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/lich/ROS2/ros2_learning_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.sh\n'}
+[0.131493] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/lich/ROS2/ros2_learning_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.zsh\n'}
+[0.131576] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/lich/ROS2/ros2_learning_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.dsv\n'}
+[0.131645] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/lich/ROS2/ros2_learning_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv\n'}
+[0.131713] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/lich/ROS2/ros2_learning_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/packages/base_interfaces_demo\n'}
+[0.131794] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/lich/ROS2/ros2_learning_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig.cmake\n'}
+[0.132253] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/lich/ROS2/ros2_learning_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig-version.cmake\n'}
+[0.132808] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/lich/ROS2/ros2_learning_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.xml\n'}
+[0.134838] (base_interfaces_demo) CommandEnded: {'returncode': 0}
+[0.160556] (base_interfaces_demo) JobEnded: {'identifier': 'base_interfaces_demo', 'rc': 0}
+[0.162807] (topic_cpp) JobStarted: {'identifier': 'topic_cpp'}
+[0.168324] (topic_py) JobStarted: {'identifier': 'topic_py'}
+[0.179173] (topic_cpp) JobProgress: {'identifier': 'topic_cpp', 'progress': 'cmake'}
+[0.180016] (topic_cpp) JobProgress: {'identifier': 'topic_cpp', 'progress': 'build'}
+[0.181945] (topic_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lich/ROS2/ros2_learning_plumbing/build/topic_cpp', '--', '-j6', '-l6'], 'cwd': '/home/lich/ROS2/ros2_learning_plumbing/build/topic_cpp', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lich'), ('SSH_CLIENT', '192.168.126.2 63791 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/lich/.vscode-server/cli/servers/Stable-2242ebbb54efeeb0129e08e919e7e8d43033cd83/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/lich/.vscode-server/cli/servers/Stable-2242ebbb54efeeb0129e08e919e7e8d43033cd83/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lich'), ('TERM_PROGRAM_VERSION', '1.139.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-11d73c55-8c18-45f4-b869-d95137050081.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/lich/.vscode-server/cli/servers/Stable-2242ebbb54efeeb0129e08e919e7e8d43033cd83/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/lich/.vscode-server/cli/servers/Stable-2242ebbb54efeeb0129e08e919e7e8d43033cd83/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/lich/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lich/ROS2/ros2_learning_plumbing/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lich'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lich/.vscode-server/cli/servers/Stable-2242ebbb54efeeb0129e08e919e7e8d43033cd83/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/lich/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lich/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-71b27e881953a888.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/lich/.vscode-server/data/User/workspaceStorage/41da7184d93a119faa944795299de872/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8356595b55.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/lich/ROS2/ros2_learning_plumbing/install/topic_py:/home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp:/home/lich/ROS2/ros2_learning_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/lich/ROS2/ros2_learning_plumbing/build/topic_cpp'), ('SSH_CONNECTION', '192.168.126.2 63791 192.168.126.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lich/ROS2/ros2_learning_plumbing/install/topic_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lich/ROS2/ros2_learning_plumbing/install/base_interfaces_demo:/home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp:/home/lich/ROS2/ros2_learning_plumbing/install/topic_py:/opt/ros/humble')]), 'shell': False}
+[0.198741] (-) TimerEvent: {}
+[0.219185] (topic_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299117] (-) TimerEvent: {}
+[0.399872] (-) TimerEvent: {}
+[0.418639] (topic_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.464629] (topic_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.468560] (topic_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.478753] (topic_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.491383] (topic_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.500470] (-) TimerEvent: {}
+[0.508541] (topic_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.550876] (topic_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.552645] (topic_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600714] (-) TimerEvent: {}
+[0.701698] (-) TimerEvent: {}
+[0.704645] (topic_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.765180] (topic_cpp) StdoutLine: {'line': b'-- Found base_interfaces_demo: 0.0.0 (/home/lich/ROS2/ros2_learning_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)\n'}
+[0.765592] (topic_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.802020] (-) TimerEvent: {}
+[0.858915] (topic_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.859198] (topic_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.859305] (topic_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.859875] (topic_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.861263] (topic_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.861445] (topic_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.861881] (topic_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.863391] (topic_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.887565] (topic_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[0.896977] (topic_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/lich/ROS2/ros2_learning_plumbing/build/topic_cpp\n'}
+[0.902333] (-) TimerEvent: {}
+[0.942889] (topic_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo_talker_str\x1b[0m\n'}
+[0.961345] (topic_cpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/demo_listener_str.dir/src/demo_listener_str.cpp.o\x1b[0m\n'}
+[0.973618] (topic_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/topic_py', 'build', '--build-base', '/home/lich/ROS2/ros2_learning_plumbing/build/topic_py/build', 'install', '--record', '/home/lich/ROS2/ros2_learning_plumbing/build/topic_py/install.log', '--install-scripts', '$base/lib/topic_py', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/lich/ROS2/ros2_learning_plumbing/src/topic_py', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lich'), ('SSH_CLIENT', '192.168.126.2 63791 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/lich/.vscode-server/cli/servers/Stable-2242ebbb54efeeb0129e08e919e7e8d43033cd83/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/lich/.vscode-server/cli/servers/Stable-2242ebbb54efeeb0129e08e919e7e8d43033cd83/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lich'), ('TERM_PROGRAM_VERSION', '1.139.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-11d73c55-8c18-45f4-b869-d95137050081.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/lich/.vscode-server/cli/servers/Stable-2242ebbb54efeeb0129e08e919e7e8d43033cd83/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/lich/.vscode-server/cli/servers/Stable-2242ebbb54efeeb0129e08e919e7e8d43033cd83/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/lich/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lich/ROS2/ros2_learning_plumbing/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lich'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lich/.vscode-server/cli/servers/Stable-2242ebbb54efeeb0129e08e919e7e8d43033cd83/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/lich/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lich/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-71b27e881953a888.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/lich/.vscode-server/data/User/workspaceStorage/41da7184d93a119faa944795299de872/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8356595b55.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/lich/ROS2/ros2_learning_plumbing/install/topic_py:/home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp:/home/lich/ROS2/ros2_learning_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/lich/ROS2/ros2_learning_plumbing/build/topic_py'), ('SSH_CONNECTION', '192.168.126.2 63791 192.168.126.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lich/ROS2/ros2_learning_plumbing/build/topic_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lich/ROS2/ros2_learning_plumbing/install/topic_py/lib/python3.10/site-packages:/home/lich/ROS2/ros2_learning_plumbing/install/topic_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lich/ROS2/ros2_learning_plumbing/install/base_interfaces_demo:/home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp')]), 'shell': False}
+[0.978347] (topic_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo_talker_str.dir/src/demo_talker_str.cpp.o\x1b[0m\n'}
+[1.002749] (-) TimerEvent: {}
+[1.103884] (-) TimerEvent: {}
+[1.204605] (-) TimerEvent: {}
+[1.284799] (topic_py) StdoutLine: {'line': b'running egg_info\n'}
+[1.285759] (topic_py) StdoutLine: {'line': b'writing ../../build/topic_py/topic_py.egg-info/PKG-INFO\n'}
+[1.286319] (topic_py) StdoutLine: {'line': b'writing dependency_links to ../../build/topic_py/topic_py.egg-info/dependency_links.txt\n'}
+[1.286781] (topic_py) StdoutLine: {'line': b'writing entry points to ../../build/topic_py/topic_py.egg-info/entry_points.txt\n'}
+[1.287042] (topic_py) StdoutLine: {'line': b'writing requirements to ../../build/topic_py/topic_py.egg-info/requires.txt\n'}
+[1.287474] (topic_py) StdoutLine: {'line': b'writing top-level names to ../../build/topic_py/topic_py.egg-info/top_level.txt\n'}
+[1.289966] (topic_py) StdoutLine: {'line': b"reading manifest file '../../build/topic_py/topic_py.egg-info/SOURCES.txt'\n"}
+[1.291232] (topic_py) StdoutLine: {'line': b"writing manifest file '../../build/topic_py/topic_py.egg-info/SOURCES.txt'\n"}
+[1.291700] (topic_py) StdoutLine: {'line': b'running build\n'}
+[1.291914] (topic_py) StdoutLine: {'line': b'running build_py\n'}
+[1.292188] (topic_py) StdoutLine: {'line': b'running install\n'}
+[1.292615] (topic_py) StdoutLine: {'line': b'running install_lib\n'}
+[1.294389] (topic_py) StdoutLine: {'line': b'running install_data\n'}
+[1.294708] (topic_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.297113] (topic_py) StdoutLine: {'line': b"removing '/home/lich/ROS2/ros2_learning_plumbing/install/topic_py/lib/python3.10/site-packages/topic_py-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.297788] (topic_py) StdoutLine: {'line': b'Copying ../../build/topic_py/topic_py.egg-info to /home/lich/ROS2/ros2_learning_plumbing/install/topic_py/lib/python3.10/site-packages/topic_py-0.0.0-py3.10.egg-info\n'}
+[1.299206] (topic_py) StdoutLine: {'line': b'running install_scripts\n'}
+[1.305000] (-) TimerEvent: {}
+[1.329583] (topic_py) StdoutLine: {'line': b"writing list of installed files to '/home/lich/ROS2/ros2_learning_plumbing/build/topic_py/install.log'\n"}
+[1.358013] (topic_py) CommandEnded: {'returncode': 0}
+[1.370837] (topic_py) JobEnded: {'identifier': 'topic_py', 'rc': 0}
+[1.405154] (-) TimerEvent: {}
+[1.505990] (-) TimerEvent: {}
+[1.606640] (-) TimerEvent: {}
+[1.707116] (-) TimerEvent: {}
+[1.807579] (-) TimerEvent: {}
+[1.908333] (-) TimerEvent: {}
+[2.009056] (-) TimerEvent: {}
+[2.109637] (-) TimerEvent: {}
+[2.210220] (-) TimerEvent: {}
+[2.310799] (-) TimerEvent: {}
+[2.411264] (-) TimerEvent: {}
+[2.512709] (-) TimerEvent: {}
+[2.613447] (-) TimerEvent: {}
+[2.714099] (-) TimerEvent: {}
+[2.814967] (-) TimerEvent: {}
+[2.915711] (-) TimerEvent: {}
+[3.016254] (-) TimerEvent: {}
+[3.117123] (-) TimerEvent: {}
+[3.217574] (-) TimerEvent: {}
+[3.318529] (-) TimerEvent: {}
+[3.419228] (-) TimerEvent: {}
+[3.520031] (-) TimerEvent: {}
+[3.620692] (-) TimerEvent: {}
+[3.721176] (-) TimerEvent: {}
+[3.821733] (-) TimerEvent: {}
+[3.922176] (-) TimerEvent: {}
+[4.022693] (-) TimerEvent: {}
+[4.123564] (-) TimerEvent: {}
+[4.224197] (-) TimerEvent: {}
+[4.324861] (-) TimerEvent: {}
+[4.425536] (-) TimerEvent: {}
+[4.526059] (-) TimerEvent: {}
+[4.626431] (-) TimerEvent: {}
+[4.727322] (-) TimerEvent: {}
+[4.827830] (-) TimerEvent: {}
+[4.928237] (-) TimerEvent: {}
+[5.029014] (-) TimerEvent: {}
+[5.129587] (-) TimerEvent: {}
+[5.230518] (-) TimerEvent: {}
+[5.331046] (-) TimerEvent: {}
+[5.431618] (-) TimerEvent: {}
+[5.532470] (-) TimerEvent: {}
+[5.633369] (-) TimerEvent: {}
+[5.734168] (-) TimerEvent: {}
+[5.834756] (-) TimerEvent: {}
+[5.935326] (-) TimerEvent: {}
+[6.035931] (-) TimerEvent: {}
+[6.136674] (-) TimerEvent: {}
+[6.237253] (-) TimerEvent: {}
+[6.338071] (-) TimerEvent: {}
+[6.438575] (-) TimerEvent: {}
+[6.539430] (-) TimerEvent: {}
+[6.640231] (-) TimerEvent: {}
+[6.740962] (-) TimerEvent: {}
+[6.841807] (-) TimerEvent: {}
+[6.942402] (-) TimerEvent: {}
+[7.043357] (-) TimerEvent: {}
+[7.144094] (-) TimerEvent: {}
+[7.244887] (-) TimerEvent: {}
+[7.345686] (-) TimerEvent: {}
+[7.446377] (-) TimerEvent: {}
+[7.547350] (-) TimerEvent: {}
+[7.648267] (-) TimerEvent: {}
+[7.749202] (-) TimerEvent: {}
+[7.850077] (-) TimerEvent: {}
+[7.950934] (-) TimerEvent: {}
+[8.051614] (-) TimerEvent: {}
+[8.152470] (-) TimerEvent: {}
+[8.253217] (-) TimerEvent: {}
+[8.353790] (-) TimerEvent: {}
+[8.454363] (-) TimerEvent: {}
+[8.554795] (-) TimerEvent: {}
+[8.655306] (-) TimerEvent: {}
+[8.756202] (-) TimerEvent: {}
+[8.857133] (-) TimerEvent: {}
+[8.958104] (-) TimerEvent: {}
+[9.058948] (-) TimerEvent: {}
+[9.159728] (-) TimerEvent: {}
+[9.260580] (-) TimerEvent: {}
+[9.361173] (-) TimerEvent: {}
+[9.461548] (-) TimerEvent: {}
+[9.497430] (topic_cpp) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable demo_talker_str\x1b[0m\n'}
+[9.561794] (-) TimerEvent: {}
+[9.662813] (-) TimerEvent: {}
+[9.752789] (topic_cpp) StdoutLine: {'line': b'[ 75%] Built target demo_talker_str\n'}
+[9.763010] (-) TimerEvent: {}
+[9.864391] (-) TimerEvent: {}
+[9.965285] (-) TimerEvent: {}
+[10.066173] (-) TimerEvent: {}
+[10.166589] (-) TimerEvent: {}
+[10.267357] (-) TimerEvent: {}
+[10.368491] (-) TimerEvent: {}
+[10.469019] (-) TimerEvent: {}
+[10.569725] (-) TimerEvent: {}
+[10.670283] (-) TimerEvent: {}
+[10.771023] (-) TimerEvent: {}
+[10.872134] (-) TimerEvent: {}
+[10.973191] (-) TimerEvent: {}
+[11.073978] (-) TimerEvent: {}
+[11.174504] (-) TimerEvent: {}
+[11.275315] (-) TimerEvent: {}
+[11.375943] (-) TimerEvent: {}
+[11.476924] (-) TimerEvent: {}
+[11.577675] (-) TimerEvent: {}
+[11.678486] (-) TimerEvent: {}
+[11.778970] (-) TimerEvent: {}
+[11.879795] (-) TimerEvent: {}
+[11.980715] (-) TimerEvent: {}
+[12.081544] (-) TimerEvent: {}
+[12.182565] (-) TimerEvent: {}
+[12.283418] (-) TimerEvent: {}
+[12.383916] (-) TimerEvent: {}
+[12.484617] (-) TimerEvent: {}
+[12.585444] (-) TimerEvent: {}
+[12.685997] (-) TimerEvent: {}
+[12.786861] (-) TimerEvent: {}
+[12.887387] (-) TimerEvent: {}
+[12.987869] (-) TimerEvent: {}
+[13.088675] (-) TimerEvent: {}
+[13.189620] (-) TimerEvent: {}
+[13.290438] (-) TimerEvent: {}
+[13.390912] (-) TimerEvent: {}
+[13.491886] (-) TimerEvent: {}
+[13.592531] (-) TimerEvent: {}
+[13.693299] (-) TimerEvent: {}
+[13.794197] (-) TimerEvent: {}
+[13.894727] (-) TimerEvent: {}
+[13.995432] (-) TimerEvent: {}
+[14.096081] (-) TimerEvent: {}
+[14.196621] (-) TimerEvent: {}
+[14.297404] (-) TimerEvent: {}
+[14.397982] (-) TimerEvent: {}
+[14.498674] (-) TimerEvent: {}
+[14.599393] (-) TimerEvent: {}
+[14.631854] (topic_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable demo_listener_str\x1b[0m\n'}
+[14.699824] (-) TimerEvent: {}
+[14.800703] (-) TimerEvent: {}
+[14.901442] (-) TimerEvent: {}
+[15.001974] (-) TimerEvent: {}
+[15.047461] (topic_cpp) StdoutLine: {'line': b'[100%] Built target demo_listener_str\n'}
+[15.064131] (topic_cpp) CommandEnded: {'returncode': 0}
+[15.065365] (topic_cpp) JobProgress: {'identifier': 'topic_cpp', 'progress': 'install'}
+[15.068316] (topic_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lich/ROS2/ros2_learning_plumbing/build/topic_cpp'], 'cwd': '/home/lich/ROS2/ros2_learning_plumbing/build/topic_cpp', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lich'), ('SSH_CLIENT', '192.168.126.2 63791 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/lich/.vscode-server/cli/servers/Stable-2242ebbb54efeeb0129e08e919e7e8d43033cd83/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/lich/.vscode-server/cli/servers/Stable-2242ebbb54efeeb0129e08e919e7e8d43033cd83/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lich'), ('TERM_PROGRAM_VERSION', '1.139.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-11d73c55-8c18-45f4-b869-d95137050081.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/lich/.vscode-server/cli/servers/Stable-2242ebbb54efeeb0129e08e919e7e8d43033cd83/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/lich/.vscode-server/cli/servers/Stable-2242ebbb54efeeb0129e08e919e7e8d43033cd83/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/lich/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lich/ROS2/ros2_learning_plumbing/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lich'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lich/.vscode-server/cli/servers/Stable-2242ebbb54efeeb0129e08e919e7e8d43033cd83/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/lich/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lich/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-71b27e881953a888.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/lich/.vscode-server/data/User/workspaceStorage/41da7184d93a119faa944795299de872/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8356595b55.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/lich/ROS2/ros2_learning_plumbing/install/topic_py:/home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp:/home/lich/ROS2/ros2_learning_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/lich/ROS2/ros2_learning_plumbing/build/topic_cpp'), ('SSH_CONNECTION', '192.168.126.2 63791 192.168.126.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lich/ROS2/ros2_learning_plumbing/install/topic_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lich/ROS2/ros2_learning_plumbing/install/base_interfaces_demo:/home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp:/home/lich/ROS2/ros2_learning_plumbing/install/topic_py:/opt/ros/humble')]), 'shell': False}
+[15.080079] (topic_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.080355] (topic_cpp) StdoutLine: {'line': b'-- Installing: /home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp/lib/topic_cpp/demo_talker_str\n'}
+[15.083327] (topic_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp/lib/topic_cpp/demo_talker_str" to ""\n'}
+[15.083695] (topic_cpp) StdoutLine: {'line': b'-- Installing: /home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp/lib/topic_cpp/demo_listener_str\n'}
+[15.090181] (topic_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp/lib/topic_cpp/demo_listener_str" to ""\n'}
+[15.090422] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp/share/ament_index/resource_index/package_run_dependencies/topic_cpp\n'}
+[15.090505] (topic_cpp) StdoutLine: {'line': b'-- Installing: /home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp/share/ament_index/resource_index/parent_prefix_path/topic_cpp\n'}
+[15.090881] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp/share/topic_cpp/environment/ament_prefix_path.sh\n'}
+[15.091042] (topic_cpp) StdoutLine: {'line': b'-- Installing: /home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp/share/topic_cpp/environment/ament_prefix_path.dsv\n'}
+[15.091335] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp/share/topic_cpp/environment/path.sh\n'}
+[15.091471] (topic_cpp) StdoutLine: {'line': b'-- Installing: /home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp/share/topic_cpp/environment/path.dsv\n'}
+[15.091687] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp/share/topic_cpp/local_setup.bash\n'}
+[15.091822] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp/share/topic_cpp/local_setup.sh\n'}
+[15.091907] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp/share/topic_cpp/local_setup.zsh\n'}
+[15.092006] (topic_cpp) StdoutLine: {'line': b'-- Installing: /home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp/share/topic_cpp/local_setup.dsv\n'}
+[15.092293] (topic_cpp) StdoutLine: {'line': b'-- Installing: /home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp/share/topic_cpp/package.dsv\n'}
+[15.092675] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp/share/ament_index/resource_index/packages/topic_cpp\n'}
+[15.092895] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp/share/topic_cpp/cmake/topic_cppConfig.cmake\n'}
+[15.093028] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp/share/topic_cpp/cmake/topic_cppConfig-version.cmake\n'}
+[15.093181] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp/share/topic_cpp/package.xml\n'}
+[15.096221] (topic_cpp) CommandEnded: {'returncode': 0}
+[15.102822] (-) TimerEvent: {}
+[15.118550] (topic_cpp) JobEnded: {'identifier': 'topic_cpp', 'rc': 0}
+[15.119897] (-) EventReactorShutdown: {}

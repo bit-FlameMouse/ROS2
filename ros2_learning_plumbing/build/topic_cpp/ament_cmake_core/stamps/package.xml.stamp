@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>topic_cpp</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="lichwork0@gmail.com">lich</maintainer>
+  <license>TODO: License declaration</license>
+
+  <!-- 构建工具的依赖-->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- 依赖列表，有的依赖在生成的时候没有写上，需要在这个地方手动补上-->
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>base_interfaces_demo</depend>
+
+  <!-- 测试依赖-->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <!-- 构建的类型-->
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
