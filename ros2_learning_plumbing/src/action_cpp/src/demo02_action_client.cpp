@@ -74,7 +74,7 @@ private:
     }
   }
 
-  //处理连续反馈回调函数，服务端每发一次进度就调用一次
+  // 处理连续反馈回调函数，服务端每发一次进度就调用一次
   void feedback_callback(GoalHandleProgress::SharedPtr, const std::shared_ptr<const Progress::Feedback> feedback)
   {
     int32_t progress = (int32_t)(feedback->progress * 100); // 0.3 -> 30
