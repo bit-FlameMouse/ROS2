@@ -1,5 +1,7 @@
-/home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp/lib/topic_cpp/demo_talker_str
-/home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp/lib/topic_cpp/demo_listener_str
+/home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp/lib/topic_cpp/demo01_talker_str
+/home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp/lib/topic_cpp/demo02_listener_str
+/home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp/lib/topic_cpp/demo03_talker_student
+/home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp/lib/topic_cpp/demo04_listener_student
 /home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp/share/ament_index/resource_index/package_run_dependencies/topic_cpp
 /home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp/share/ament_index/resource_index/parent_prefix_path/topic_cpp
 /home/lich/ROS2/ros2_learning_plumbing/install/topic_cpp/share/topic_cpp/environment/ament_prefix_path.sh

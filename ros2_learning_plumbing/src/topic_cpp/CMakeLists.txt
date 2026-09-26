@@ -23,17 +23,23 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-# 定义可执行文件编译目标
-add_executable(demo_talker_str src/demo_talker_str.cpp)
-ament_target_dependencies(demo_talker_str rclcpp std_msgs)
+add_executable(demo01_talker_str src/demo01_talker_str.cpp)  # 添加可执行文件
+ament_target_dependencies(demo01_talker_str rclcpp std_msgs) # 添加依赖
 
-add_executable(demo_listener_str src/demo_listener_str.cpp)
-ament_target_dependencies(demo_listener_str rclcpp std_msgs)
+add_executable(demo02_listener_str src/demo02_listener_str.cpp)
+ament_target_dependencies(demo02_listener_str rclcpp std_msgs)
 
-# 安装可执行文件
+add_executable(demo03_talker_student src/demo03_talker_student.cpp)
+ament_target_dependencies(demo03_talker_student rclcpp base_interfaces_demo)
+
+add_executable(demo04_listener_student src/demo04_listener_student.cpp)
+ament_target_dependencies(demo04_listener_student rclcpp base_interfaces_demo)
+
 install(TARGETS
-  demo_talker_str
-  demo_listener_str
+  demo01_talker_str
+  demo02_listener_str
+  demo03_talker_student
+  demo04_listener_student
   DESTINATION lib/${PROJECT_NAME}
 )
 

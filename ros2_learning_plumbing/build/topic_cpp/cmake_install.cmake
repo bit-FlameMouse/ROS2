@@ -43,41 +43,81 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo_talker_str" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo_talker_str")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo01_talker_str" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo01_talker_str")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo_talker_str"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo01_talker_str"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/topic_cpp" TYPE EXECUTABLE FILES "/home/lich/ROS2/ros2_learning_plumbing/build/topic_cpp/demo_talker_str")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo_talker_str" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo_talker_str")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/topic_cpp" TYPE EXECUTABLE FILES "/home/lich/ROS2/ros2_learning_plumbing/build/topic_cpp/demo01_talker_str")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo01_talker_str" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo01_talker_str")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo_talker_str"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo01_talker_str"
          OLD_RPATH "/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo_talker_str")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo01_talker_str")
     endif()
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo_listener_str" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo_listener_str")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo02_listener_str" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo02_listener_str")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo_listener_str"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo02_listener_str"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/topic_cpp" TYPE EXECUTABLE FILES "/home/lich/ROS2/ros2_learning_plumbing/build/topic_cpp/demo_listener_str")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo_listener_str" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo_listener_str")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/topic_cpp" TYPE EXECUTABLE FILES "/home/lich/ROS2/ros2_learning_plumbing/build/topic_cpp/demo02_listener_str")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo02_listener_str" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo02_listener_str")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo_listener_str"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo02_listener_str"
          OLD_RPATH "/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo_listener_str")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo02_listener_str")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo03_talker_student" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo03_talker_student")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo03_talker_student"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/topic_cpp" TYPE EXECUTABLE FILES "/home/lich/ROS2/ros2_learning_plumbing/build/topic_cpp/demo03_talker_student")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo03_talker_student" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo03_talker_student")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo03_talker_student"
+         OLD_RPATH "/opt/ros/humble/lib:/home/lich/ROS2/ros2_learning_plumbing/install/base_interfaces_demo/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo03_talker_student")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo04_listener_student" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo04_listener_student")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo04_listener_student"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/topic_cpp" TYPE EXECUTABLE FILES "/home/lich/ROS2/ros2_learning_plumbing/build/topic_cpp/demo04_listener_student")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo04_listener_student" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo04_listener_student")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo04_listener_student"
+         OLD_RPATH "/opt/ros/humble/lib:/home/lich/ROS2/ros2_learning_plumbing/install/base_interfaces_demo/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic_cpp/demo04_listener_student")
     endif()
   endif()
 endif()

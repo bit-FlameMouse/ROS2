@@ -198,78 +198,152 @@ topic_cpp_uninstall/fast:
 .PHONY : topic_cpp_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named demo_talker_str
+# Target rules for targets named demo01_talker_str
 
 # Build rule for target.
-demo_talker_str: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 demo_talker_str
-.PHONY : demo_talker_str
+demo01_talker_str: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 demo01_talker_str
+.PHONY : demo01_talker_str
 
 # fast build rule for target.
-demo_talker_str/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo_talker_str.dir/build.make CMakeFiles/demo_talker_str.dir/build
-.PHONY : demo_talker_str/fast
+demo01_talker_str/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo01_talker_str.dir/build.make CMakeFiles/demo01_talker_str.dir/build
+.PHONY : demo01_talker_str/fast
 
 #=============================================================================
-# Target rules for targets named demo_listener_str
+# Target rules for targets named demo02_listener_str
 
 # Build rule for target.
-demo_listener_str: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 demo_listener_str
-.PHONY : demo_listener_str
+demo02_listener_str: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 demo02_listener_str
+.PHONY : demo02_listener_str
 
 # fast build rule for target.
-demo_listener_str/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo_listener_str.dir/build.make CMakeFiles/demo_listener_str.dir/build
-.PHONY : demo_listener_str/fast
+demo02_listener_str/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo02_listener_str.dir/build.make CMakeFiles/demo02_listener_str.dir/build
+.PHONY : demo02_listener_str/fast
 
-src/demo_listener_str.o: src/demo_listener_str.cpp.o
-.PHONY : src/demo_listener_str.o
+#=============================================================================
+# Target rules for targets named demo03_talker_student
+
+# Build rule for target.
+demo03_talker_student: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 demo03_talker_student
+.PHONY : demo03_talker_student
+
+# fast build rule for target.
+demo03_talker_student/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo03_talker_student.dir/build.make CMakeFiles/demo03_talker_student.dir/build
+.PHONY : demo03_talker_student/fast
+
+#=============================================================================
+# Target rules for targets named demo04_listener_student
+
+# Build rule for target.
+demo04_listener_student: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 demo04_listener_student
+.PHONY : demo04_listener_student
+
+# fast build rule for target.
+demo04_listener_student/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo04_listener_student.dir/build.make CMakeFiles/demo04_listener_student.dir/build
+.PHONY : demo04_listener_student/fast
+
+src/demo01_talker_str.o: src/demo01_talker_str.cpp.o
+.PHONY : src/demo01_talker_str.o
 
 # target to build an object file
-src/demo_listener_str.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo_listener_str.dir/build.make CMakeFiles/demo_listener_str.dir/src/demo_listener_str.cpp.o
-.PHONY : src/demo_listener_str.cpp.o
+src/demo01_talker_str.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo01_talker_str.dir/build.make CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o
+.PHONY : src/demo01_talker_str.cpp.o
 
-src/demo_listener_str.i: src/demo_listener_str.cpp.i
-.PHONY : src/demo_listener_str.i
+src/demo01_talker_str.i: src/demo01_talker_str.cpp.i
+.PHONY : src/demo01_talker_str.i
 
 # target to preprocess a source file
-src/demo_listener_str.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo_listener_str.dir/build.make CMakeFiles/demo_listener_str.dir/src/demo_listener_str.cpp.i
-.PHONY : src/demo_listener_str.cpp.i
+src/demo01_talker_str.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo01_talker_str.dir/build.make CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.i
+.PHONY : src/demo01_talker_str.cpp.i
 
-src/demo_listener_str.s: src/demo_listener_str.cpp.s
-.PHONY : src/demo_listener_str.s
+src/demo01_talker_str.s: src/demo01_talker_str.cpp.s
+.PHONY : src/demo01_talker_str.s
 
 # target to generate assembly for a file
-src/demo_listener_str.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo_listener_str.dir/build.make CMakeFiles/demo_listener_str.dir/src/demo_listener_str.cpp.s
-.PHONY : src/demo_listener_str.cpp.s
+src/demo01_talker_str.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo01_talker_str.dir/build.make CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.s
+.PHONY : src/demo01_talker_str.cpp.s
 
-src/demo_talker_str.o: src/demo_talker_str.cpp.o
-.PHONY : src/demo_talker_str.o
+src/demo02_listener_str.o: src/demo02_listener_str.cpp.o
+.PHONY : src/demo02_listener_str.o
 
 # target to build an object file
-src/demo_talker_str.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo_talker_str.dir/build.make CMakeFiles/demo_talker_str.dir/src/demo_talker_str.cpp.o
-.PHONY : src/demo_talker_str.cpp.o
+src/demo02_listener_str.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo02_listener_str.dir/build.make CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o
+.PHONY : src/demo02_listener_str.cpp.o
 
-src/demo_talker_str.i: src/demo_talker_str.cpp.i
-.PHONY : src/demo_talker_str.i
+src/demo02_listener_str.i: src/demo02_listener_str.cpp.i
+.PHONY : src/demo02_listener_str.i
 
 # target to preprocess a source file
-src/demo_talker_str.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo_talker_str.dir/build.make CMakeFiles/demo_talker_str.dir/src/demo_talker_str.cpp.i
-.PHONY : src/demo_talker_str.cpp.i
+src/demo02_listener_str.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo02_listener_str.dir/build.make CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.i
+.PHONY : src/demo02_listener_str.cpp.i
 
-src/demo_talker_str.s: src/demo_talker_str.cpp.s
-.PHONY : src/demo_talker_str.s
+src/demo02_listener_str.s: src/demo02_listener_str.cpp.s
+.PHONY : src/demo02_listener_str.s
 
 # target to generate assembly for a file
-src/demo_talker_str.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo_talker_str.dir/build.make CMakeFiles/demo_talker_str.dir/src/demo_talker_str.cpp.s
-.PHONY : src/demo_talker_str.cpp.s
+src/demo02_listener_str.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo02_listener_str.dir/build.make CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.s
+.PHONY : src/demo02_listener_str.cpp.s
+
+src/demo03_talker_student.o: src/demo03_talker_student.cpp.o
+.PHONY : src/demo03_talker_student.o
+
+# target to build an object file
+src/demo03_talker_student.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo03_talker_student.dir/build.make CMakeFiles/demo03_talker_student.dir/src/demo03_talker_student.cpp.o
+.PHONY : src/demo03_talker_student.cpp.o
+
+src/demo03_talker_student.i: src/demo03_talker_student.cpp.i
+.PHONY : src/demo03_talker_student.i
+
+# target to preprocess a source file
+src/demo03_talker_student.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo03_talker_student.dir/build.make CMakeFiles/demo03_talker_student.dir/src/demo03_talker_student.cpp.i
+.PHONY : src/demo03_talker_student.cpp.i
+
+src/demo03_talker_student.s: src/demo03_talker_student.cpp.s
+.PHONY : src/demo03_talker_student.s
+
+# target to generate assembly for a file
+src/demo03_talker_student.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo03_talker_student.dir/build.make CMakeFiles/demo03_talker_student.dir/src/demo03_talker_student.cpp.s
+.PHONY : src/demo03_talker_student.cpp.s
+
+src/demo04_listener_student.o: src/demo04_listener_student.cpp.o
+.PHONY : src/demo04_listener_student.o
+
+# target to build an object file
+src/demo04_listener_student.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo04_listener_student.dir/build.make CMakeFiles/demo04_listener_student.dir/src/demo04_listener_student.cpp.o
+.PHONY : src/demo04_listener_student.cpp.o
+
+src/demo04_listener_student.i: src/demo04_listener_student.cpp.i
+.PHONY : src/demo04_listener_student.i
+
+# target to preprocess a source file
+src/demo04_listener_student.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo04_listener_student.dir/build.make CMakeFiles/demo04_listener_student.dir/src/demo04_listener_student.cpp.i
+.PHONY : src/demo04_listener_student.cpp.i
+
+src/demo04_listener_student.s: src/demo04_listener_student.cpp.s
+.PHONY : src/demo04_listener_student.s
+
+# target to generate assembly for a file
+src/demo04_listener_student.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo04_listener_student.dir/build.make CMakeFiles/demo04_listener_student.dir/src/demo04_listener_student.cpp.s
+.PHONY : src/demo04_listener_student.cpp.s
 
 # Help Target
 help:
@@ -286,14 +360,22 @@ help:
 	@echo "... test"
 	@echo "... topic_cpp_uninstall"
 	@echo "... uninstall"
-	@echo "... demo_listener_str"
-	@echo "... demo_talker_str"
-	@echo "... src/demo_listener_str.o"
-	@echo "... src/demo_listener_str.i"
-	@echo "... src/demo_listener_str.s"
-	@echo "... src/demo_talker_str.o"
-	@echo "... src/demo_talker_str.i"
-	@echo "... src/demo_talker_str.s"
+	@echo "... demo01_talker_str"
+	@echo "... demo02_listener_str"
+	@echo "... demo03_talker_student"
+	@echo "... demo04_listener_student"
+	@echo "... src/demo01_talker_str.o"
+	@echo "... src/demo01_talker_str.i"
+	@echo "... src/demo01_talker_str.s"
+	@echo "... src/demo02_listener_str.o"
+	@echo "... src/demo02_listener_str.i"
+	@echo "... src/demo02_listener_str.s"
+	@echo "... src/demo03_talker_student.o"
+	@echo "... src/demo03_talker_student.i"
+	@echo "... src/demo03_talker_student.s"
+	@echo "... src/demo04_listener_student.o"
+	@echo "... src/demo04_listener_student.i"
+	@echo "... src/demo04_listener_student.s"
 .PHONY : help
 
 

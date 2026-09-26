@@ -1,0 +1,7 @@
+
+# 请求部分
+int32 num1  
+int32 num2
+--
+# 响应部分
+int32 sum
