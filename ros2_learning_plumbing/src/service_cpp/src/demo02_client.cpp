@@ -27,7 +27,7 @@ class MinimalClient: public rclcpp::Node{
       return true;
     }
     // 3-3.组织请求数据并发送；
-    rclcpp::Client<AddInts>::FutureAndRequestId send_request(int32_t num1, int32_t num2){
+    rclcpp::Client<AddInts>::SharedFuture send_request(int32_t num1, int32_t num2){
       auto request = std::make_shared<AddInts::Request>();
       request->num1 = num1;
       request->num2 = num2;

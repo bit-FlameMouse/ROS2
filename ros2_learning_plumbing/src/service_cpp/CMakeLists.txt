@@ -22,4 +22,16 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+add_executable(demo01_server src/demo01_server.cpp)
+ament_target_dependencies(demo01_server rclcpp base_interfaces_demo)
+
+add_executable(demo02_client src/demo02_client.cpp)
+ament_target_dependencies(demo02_client rclcpp base_interfaces_demo)
+
+install(TARGETS
+  demo01_server
+  demo02_client
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 ament_package()

@@ -1,16 +1,46 @@
-*/build/
+# ========== ROS 2 / colcon 构建产物 ==========
+# 任意层级的构建、安装、日志目录
+build/
 install/
 log/
 
+# colcon 生成的标记文件
+.colcon_install_layout
+.built_by
+COLCON_IGNORE
+
+# 运行/调试产生的文件
+.ros/
+*.log
+*.bag
+*.db3
+
+# ========== Python ==========
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
 *.egg
 *.egg-info/
-dist/
+.eggs/
 *.whl
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+pip-wheel-metadata/
 
+# 虚拟环境
+venv/
+.venv/
+env/
+ENV/
+
+# ========== CMake / C / C++ ==========
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
@@ -18,25 +48,35 @@ Makefile
 CTestTestfile.cmake
 CTestConfiguration.ini
 CTestCustom.cmake
+cmake-build-*/
+compile_commands.json
 *.cmake.in.stamp
 *.sh.stamp
 
-.colcon_install_layout
-.built_by
-COLCON_IGNORE
-
-.deps
+# 编译中间产物与库文件
 *.o
 *.o.d
+*.obj
+*.lo
 *.so
 *.a
 *.out
+*.dSYM/
 
+# ========== IDE / 编辑器 ==========
 .vscode/
 .idea/
+.clangd/
+.cache/
+.project
+.cproject
+.settings/
+*.code-workspace
 *.swp
 *.swo
 *~
 
+# ========== 操作系统 ==========
 .DS_Store
 Thumbs.db
+desktop.ini

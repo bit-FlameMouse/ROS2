@@ -1,3 +1,0 @@
-[console_scripts]
-node_helloworld_py = pkg_helloworld_py.node_helloworld_py:main
-
