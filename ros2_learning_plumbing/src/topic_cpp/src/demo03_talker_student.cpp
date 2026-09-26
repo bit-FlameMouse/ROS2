@@ -5,7 +5,7 @@
 // Student 是自定义消息，定义在 base_interfaces_demo/msg/Student.msg
 // =====================================================================
 
-#include "rclcpp/rclcpp.hpp"                         // ROS2 C++ 核心库
+#include "rclcpp/rclcpp.hpp"                         // ROS2 C++ 核心库 
 #include "base_interfaces_demo/msg/student.hpp"      // 自定义消息 Student，编译接口包时自动生成
 
 using namespace std::chrono_literals;                // 允许写 500ms

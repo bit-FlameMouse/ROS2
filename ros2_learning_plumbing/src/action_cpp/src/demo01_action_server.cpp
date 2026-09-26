@@ -28,7 +28,7 @@ public:
   explicit MinimalActionServer(const rclcpp::NodeOptions & options = rclcpp::NodeOptions())
   : Node("minimal_action_server", options)              // 节点名 minimal_action_server
   {
-    // 3-1.创建动作服务端；
+    // 创建动作服务器
     // 第 1 个参数 this 是节点，第 2 个 "get_sum" 是动作名（客户端必须一致），
     // 后面 3 个是回调函数：收到目标、收到取消请求、目标被接受后开始执行
     this->action_server_ = rclcpp_action::create_server<Progress>(
