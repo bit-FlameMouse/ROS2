@@ -1,6 +1,8 @@
 #include "rclcpp/rclcpp.hpp"
 #include "base_interfaces_demo/srv/add_ints.hpp"
 
+#include <cstdlib>
+
 using base_interfaces_demo::srv::AddInts;
 using namespace std::chrono_literals;
 
@@ -31,7 +33,7 @@ class MinimalClient: public rclcpp::Node{
       auto request = std::make_shared<AddInts::Request>();
       request->num1 = num1;
       request->num2 = num2;
-      return client->async_send_request(request);
+      return client->async_send_request(request).future.share();
     }
 
 

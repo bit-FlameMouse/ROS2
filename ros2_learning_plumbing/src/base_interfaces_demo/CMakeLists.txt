@@ -7,12 +7,12 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-find_package(rclcpp REQUIRED) 
 find_package(rosidl_default_generators REQUIRED)
 
 # 为接口文件生成源代码
 rosidl_generate_interfaces( ${PROJECT_NAME}
   "msg/Student.msg"
+  "srv/AddInts.srv"
 )
 
 if(BUILD_TESTING)
