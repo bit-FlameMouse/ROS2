@@ -632,7 +632,7 @@ string            # 另有 wstring，极少用
 
 **复合类型（嵌套）**
 
-- 使用其他消息类型时写成 `包名/消息名`，如 `geometry_msgs/Point position`；同一个包内可以省略包名，直接写 `Point position`。
+- 使用其他消息类型时写成 `包名/消息名`，如 `geometry_msgs/Point position`；同一个包内**必须省略**包名，直接写 `Point position`（官方原话：if you want to refer to a message from the same package you **must not** mention the package name）——多写了包名反而会被判为错误。
 - msg 只能嵌套 msg，不能直接嵌套 srv。
 - ROS2 没有内置 Header：需要时间戳或坐标系时显式写 `std_msgs/Header header`，惯例放在第一个字段；纯时间用 `builtin_interfaces/Time`。
 

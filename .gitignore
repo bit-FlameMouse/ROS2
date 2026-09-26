@@ -1,4 +1,20 @@
-# ========== ROS 2 / colcon 构建产物 ==========
+# ============================================================
+# 说明：本文件位于仓库根目录 ROS2/，下面的规则同时作用于
+#       仓库内所有子文件夹（build/ 这类写法会自动匹配任意层级）。
+#       以 / 开头的规则只匹配仓库根目录，无 / 的匹配任意层级。
+# ============================================================
+
+# ========== 1. AI 助手 / 编辑器缓存（每人本地不同，不上传）==========
+.workbuddy/
+.claude/
+.cursor/
+.aider*
+*.genie
+# Obsidian 配置目录：默认整体忽略；若要保留插件/主题配置，
+# 可把下面这行改成 .obsidian/* 并配合 !.obsidian/plugins/ 之类的反忽略规则
+.obsidian/
+
+# ========== 2. ROS 2 / colcon 构建产物 ==========
 # 任意层级的构建、安装、日志目录
 build/
 install/
@@ -9,13 +25,16 @@ log/
 .built_by
 COLCON_IGNORE
 
-# 运行/调试产生的文件
+# 运行 / 调试产生的文件
 .ros/
 *.log
 *.bag
 *.db3
+*.db3-shm
+*.db3-wal
+*.yaml.bak
 
-# ========== Python ==========
+# ========== 3. Python ==========
 __pycache__/
 *.py[cod]
 *$py.class
@@ -40,7 +59,7 @@ venv/
 env/
 ENV/
 
-# ========== CMake / C / C++ ==========
+# ========== 4. CMake / C / C++ ==========
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
@@ -63,7 +82,7 @@ compile_commands.json
 *.out
 *.dSYM/
 
-# ========== IDE / 编辑器 ==========
+# ========== 5. IDE / 编辑器 ==========
 .vscode/
 .idea/
 .clangd/
@@ -76,7 +95,15 @@ compile_commands.json
 *.swo
 *~
 
-# ========== 操作系统 ==========
+# ========== 6. 操作系统 ==========
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# ========== 7. 个人临时 / 备份文件 ==========
+*.bak
+*.tmp
+*.temp
+*_backup_*
+*.orig
+*.rej
