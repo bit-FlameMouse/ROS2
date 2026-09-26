@@ -28,18 +28,19 @@ public:
     this->client_ptr_ = rclcpp_action::create_client<Progress>(this,"get_sum");
   }
 
-  // 3-2.发送请求；
-  void send_goal(int64_t num)
+  // 3-2.发送请求；成功发送返回 true，否则返回 false（方便调用者决定是否继续等待）
+  bool send_goal(int64_t num)
   {
 
     if (!this->client_ptr_) {                       // 防御性检查：客户端指针为空说明创建失败
       RCLCPP_ERROR(this->get_logger(), "动作客户端未被初始化。");
+      return false;                                 // 必须返回，否则下面解引用空指针会崩溃
     }
 
     // 等待动作服务端上线，最多等 10 秒
     if (!this->client_ptr_->wait_for_action_server(std::chrono::seconds(10))) {
       RCLCPP_ERROR(this->get_logger(), "服务连接失败！");
-      return;
+      return false;
     }
 
     auto goal_msg = Progress::Goal();               // 创建目标对象
@@ -51,7 +52,9 @@ public:
     send_goal_options.goal_response_callback =std::bind(&MinimalActionClient::goal_response_callback, this, _1);
     send_goal_options.feedback_callback =std::bind(&MinimalActionClient::feedback_callback, this, _1, _2);
     send_goal_options.result_callback =std::bind(&MinimalActionClient::result_callback, this, _1);
-    auto goal_handle_future = this->client_ptr_->async_send_goal(goal_msg, send_goal_options); // 异步发送目标，函数立刻返回
+    // 异步发送目标，函数立刻返回；结果全部由上面注册的回调处理，所以不需要保存返回值
+    this->client_ptr_->async_send_goal(goal_msg, send_goal_options);
+    return true;
   }
 
 private:
@@ -100,11 +103,15 @@ int main(int argc, char ** argv)
   // 2.初始化 ROS2 客户端；
   rclcpp::init(argc, argv);
 
-  // 4.调用spin函数，并传入节点对象指针；先发送目标，再进入事件循环等待反馈和结果，直到 Ctrl+C。
+  // 4.创建节点并发送目标：计算 1+2+...+10。
   auto action_client = std::make_shared<MinimalActionClient>();
-  action_client->send_goal(10);                     // 发送目标：计算 1+2+...+10
+  if (!action_client->send_goal(10)) {              // 发送失败（客户端异常或服务端未上线）就直接退出，不再空等
+    rclcpp::shutdown();
+    return 1;
+  }
+  // 5.进入事件循环，等待反馈和结果，直到 Ctrl+C。
   rclcpp::spin(action_client);
-  // 5.释放资源。
+  // 6.释放资源。
   rclcpp::shutdown();
   return 0;
 }

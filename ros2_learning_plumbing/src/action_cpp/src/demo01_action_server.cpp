@@ -10,6 +10,7 @@
 
 #include <memory>   // std::shared_ptr、std::make_shared
 #include <thread>   // std::thread，用于另开线程执行耗时任务
+#include <vector>   // std::vector，用于保存所有工作线程
 
 #include "rclcpp/rclcpp.hpp"                            // ROS2 C++ 核心库
 #include "rclcpp_action/rclcpp_action.hpp"              // 动作相关类（Server、GoalHandle 等）
@@ -39,8 +40,20 @@ public:
     RCLCPP_INFO(this->get_logger(),"动作服务端创建，等待请求...");
   }
 
+  // 析构函数：节点销毁前，先等待所有工作线程结束。
+  // 否则按 Ctrl+C 退出时，工作线程可能还在调用已被销毁的动作服务端，导致程序崩溃。
+  ~MinimalActionServer() override
+  {
+    for (auto & worker : worker_threads_) {
+      if (worker.joinable()) {
+        worker.join(); // 阻塞等待该线程执行完（退出时 rclcpp::ok() 为 false，任务会很快结束）
+      }
+    }
+  }
+
 private:
   rclcpp_action::Server<Progress>::SharedPtr action_server_; // 动作服务端对象
+  std::vector<std::thread> worker_threads_;                  // 执行任务的子线程列表，构造时保存、析构时统一回收
 
   // 3-2.处理请求数据；客户端发来目标时调用，决定"接受"还是"拒绝"
   rclcpp_action::GoalResponse handle_goal(const rclcpp_action::GoalUUID & uuid,std::shared_ptr<const Progress::Goal> goal)
@@ -91,15 +104,29 @@ private:
       result->sum = sum;
       goal_handle->succeed(result);
       RCLCPP_INFO(this->get_logger(), "任务完成！");
+    } else {
+      // 收到退出信号（Ctrl+C）导致任务被中断。
+      // 必须显式把目标标记为"中止"（abort）：abort() 内部先切换目标状态，
+      // 再发布结果；状态一旦变成"中止"，工作线程结束时析构 goal_handle 就不会再
+      // 自动尝试取消并发布结果（那一步会访问已在关闭中的服务端，导致进程崩溃）。
+      // 但此时 ROS2 通信正在关闭，发布结果本身可能失败并抛异常，用 try/catch 兜底。
+      result->sum = sum;
+      try {
+        goal_handle->abort(result);
+        RCLCPP_INFO(this->get_logger(), "任务被中断，已中止");
+      } catch (const std::exception & e) {
+        RCLCPP_WARN(this->get_logger(), "任务被中断，通知客户端失败：%s", e.what());
+      }
     }
   }
 
   // 3-4.生成连续反馈。
-  // 目标被接受后调用：另开一个线程去执行 execute，detach() 让它独立运行。
+  // 目标被接受后调用：另开一个线程去执行 execute，并把线程保存到 worker_threads_。
   // 这样耗时计算不会卡住主线程的 spin（否则接收不到新的请求/取消指令）。
+  // 注意不要用 detach()：线程脱离管理后，可能在节点销毁时还在访问服务端，导致崩溃。
   void handle_accepted(const std::shared_ptr<GoalHandleProgress> goal_handle)
   {
-    std::thread{std::bind(&MinimalActionServer::execute, this, _1), goal_handle}.detach();
+    worker_threads_.emplace_back(std::bind(&MinimalActionServer::execute, this, _1), goal_handle);
   }
 }; 
 
