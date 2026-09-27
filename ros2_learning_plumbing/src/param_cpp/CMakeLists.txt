@@ -8,6 +8,7 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(rcl_interfaces REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -22,10 +23,10 @@ if(BUILD_TESTING)
 endif()
 
 add_executable(demo01_param_server src/demo01_param_server.cpp)  # 参数服务端
-ament_target_dependencies(demo01_param_server rclcpp)            # 依赖 rclcpp
+ament_target_dependencies(demo01_param_server rclcpp rcl_interfaces)            # 依赖 rclcpp
 
 add_executable(demo02_param_client src/demo02_param_client.cpp)  # 参数客户端
-ament_target_dependencies(demo02_param_client rclcpp)            # 依赖 rclcpp
+ament_target_dependencies(demo02_param_client rclcpp rcl_interfaces)            # 依赖 rclcpp
 
 install(TARGETS
   demo01_param_server

@@ -8,6 +8,7 @@
 #include "base_interfaces_demo/srv/add_ints.hpp" // 自定义服务接口
 
 #include <cstdlib>                               // atoi()：把命令行里的字符串转成整数
+#include <memory>                                // std::make_shared
 
 using base_interfaces_demo::srv::AddInts;        // 简化类型名
 using namespace std::chrono_literals;            // 允许写 1s

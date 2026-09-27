@@ -12,6 +12,9 @@
 #include "rclcpp_action/rclcpp_action.hpp"          // 动作相关类（Client、ClientGoalHandle 等）
 #include "base_interfaces_demo/action/progress.hpp" // 自定义动作接口 Progress
 
+#include <functional> // std::bind
+#include <memory>     // std::make_shared
+
 using base_interfaces_demo::action::Progress;                         // 简化类型名
 using GoalHandleProgress = rclcpp_action::ClientGoalHandle<Progress>; // 客户端管理某个目标的"句柄"
 using namespace std::placeholders;                                    // 直接使用 _1、_2 占位符
@@ -23,7 +26,7 @@ public:
   explicit MinimalActionClient(const rclcpp::NodeOptions &node_options = rclcpp::NodeOptions())
       : Node("minimal_action_client", node_options) // 节点名 minimal_action_client
   {
-    // 初始化动作客户端，动作名" get_sum" 必须和服务端保持一致
+    // 初始化动作客户端，动作名 "get_sum" 必须和服务端保持一致
     this->client_ptr_ = rclcpp_action::create_client<Progress>(this, "get_sum");
   }
 

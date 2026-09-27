@@ -8,9 +8,10 @@
 // 配套程序：demo02_action_client
 // =====================================================================
 
-#include <memory> // std::shared_ptr、std::make_shared
-#include <thread> // std::thread，用于另开线程执行耗时任务
-#include <vector> // std::vector，用于保存所有工作线程
+#include <functional> // std::bind
+#include <memory>     // std::shared_ptr、std::make_shared
+#include <thread>     // std::thread，用于另开线程执行耗时任务
+#include <vector>     // std::vector，用于保存所有工作线程
 
 #include "rclcpp/rclcpp.hpp"                        // ROS2 C++ 核心库
 #include "rclcpp_action/rclcpp_action.hpp"          // 动作相关类（Server、GoalHandle 等）

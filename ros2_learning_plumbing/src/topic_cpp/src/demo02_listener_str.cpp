@@ -7,6 +7,9 @@
 #include "rclcpp/rclcpp.hpp"       // ROS2 C++ 核心库
 #include "std_msgs/msg/string.hpp" // 消息类型必须和发布方一致
 
+#include <functional> // std::bind
+#include <memory>     // std::make_shared
+
 using std::placeholders::_1; // std::bind 的占位符：表示"回调函数的第 1 个参数"（这里就是收到的消息）
 
 // 自定义节点类：继承 rclcpp::Node

@@ -8,6 +8,9 @@
 #include "rclcpp/rclcpp.hpp"                         // ROS2 C++ 核心库 
 #include "base_interfaces_demo/msg/student.hpp"      // 自定义消息 Student，编译接口包时自动生成
 
+#include <functional>                                // std::bind
+#include <memory>                                    // std::make_shared
+
 using namespace std::chrono_literals;                // 允许写 500ms
 using base_interfaces_demo::msg::Student;            // 简化类型名，后面直接写 Student
 

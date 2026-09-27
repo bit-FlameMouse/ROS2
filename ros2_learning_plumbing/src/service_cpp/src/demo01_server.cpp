@@ -8,6 +8,9 @@
 #include "rclcpp/rclcpp.hpp"                     // ROS2 C++ 核心库
 #include "base_interfaces_demo/srv/add_ints.hpp" // 自定义服务接口：里面包含 AddInts::Request（请求）和 AddInts::Response（响应）
 
+#include <functional> // std::bind
+#include <memory>     // std::make_shared
+
 using base_interfaces_demo::srv::AddInts; // 简化类型名
 
 using std::placeholders::_1; // std::bind 占位符：回调的第 1 个参数（请求）

@@ -7,6 +7,9 @@
 #include "rclcpp/rclcpp.hpp"                    // ROS2 C++ 核心库
 #include "base_interfaces_demo/msg/student.hpp" // 自定义消息 Student
 
+#include <functional>                           // std::bind
+#include <memory>                               // std::make_shared
+
 using std::placeholders::_1;                     // std::bind 占位符：回调的第 1 个参数（收到的消息）
 using base_interfaces_demo::msg::Student;        // 简化类型名
 

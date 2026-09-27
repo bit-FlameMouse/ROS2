@@ -7,6 +7,9 @@
 #include "rclcpp/rclcpp.hpp"       // ROS2 的 C++ 核心库，Node、Publisher、Timer 等类都在这里
 #include "std_msgs/msg/string.hpp" // ROS2 内置的标准 String 消息类型，消息内容放在 data 字段里
 
+#include <functional> // std::bind
+#include <memory>     // std::make_shared
+
 using namespace std::chrono_literals; // 允许直接写 500ms，等价于 std::chrono::milliseconds(500)
 
 // 自定义节点类：继承 rclcpp::Node（一个类就是一个 ROS2 节点）
