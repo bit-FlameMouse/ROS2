@@ -1,20 +1,8 @@
 #!/usr/bin/env python3
-# Copyright 2026 patrol_robot developer
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
 # 文件用途：启动 Gazebo 世界 + TurtleBot3 机器人（FR-01：仿真环境一键启动）
 #   复用官方 launch（gzserver / gzclient / robot_state_publisher / spawn），
 #   仅通过参数注入世界文件、型号与初始位姿（AS-64）。
+# 版权：2026 patrol_robot developer，Apache-2.0 许可（许可证原文见仓库根目录 LICENSE 文件）
 import os
 
 from ament_index_python.packages import get_package_share_directory

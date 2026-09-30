@@ -3,6 +3,7 @@
 #   用法： bash scripts/arch_check.sh
 #   退出码：0 = 全部通过；1 = 存在失败项
 #   豁免：命中行带 AS-EXEMPT 注释的视为已登记的例外（16 §17.1）
+# 版权：2026 patrol_robot developer，Apache-2.0 许可（许可证原文见仓库根目录 LICENSE 文件）
 set -uo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"

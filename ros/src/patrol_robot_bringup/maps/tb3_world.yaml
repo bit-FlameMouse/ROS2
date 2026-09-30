@@ -1,8 +1,10 @@
-# 由世界几何离线生成（见 scripts/generate_map_from_world.py 文件头说明）
+# 由 SLAM Toolbox 于 headless 仿真中采集（2026-09-30，mapping.launch.py）
+# 采集路径：scripts 中的外环闭环巡线（半径 2.1 m，12 段 + 回环）
+# 也可以用 scripts/generate_map_from_world.py 从世界几何离线重建
 image: tb3_world.pgm
 mode: trinary
 resolution: 0.050000
-origin: [-3.900000, -4.000000, 0.000000]
+origin: [-2.950000, -2.580000, 0.000000]
 negate: 0
 occupied_thresh: 0.65
 free_thresh: 0.25

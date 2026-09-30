@@ -1,20 +1,8 @@
 #!/usr/bin/env python3
-# Copyright 2026 patrol_robot developer
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
 # 文件用途：一键巡逻演示链路（FR-12）：仿真 + Nav2 + 两个自研节点
 #   启动顺序（AS-59）：Gazebo → robot_state_publisher → Nav2 激活 → 自研节点
 #   任务层延迟 8s 启动，给 Nav2 生命周期激活留时间（K-09）
+# 版权：2026 patrol_robot developer，Apache-2.0 许可（许可证原文见仓库根目录 LICENSE 文件）
 import os
 
 from ament_index_python.packages import get_package_share_directory
@@ -37,6 +25,7 @@ def generate_launch_description():
     patrol_params = LaunchConfiguration('patrol_params')
     auto_start = LaunchConfiguration('auto_start')
     use_rviz = LaunchConfiguration('use_rviz')
+    gui = LaunchConfiguration('gui')
     task_delay = LaunchConfiguration('task_delay')
 
     return LaunchDescription([
@@ -57,6 +46,9 @@ def generate_launch_description():
             description='任务层启动后是否自动开始巡逻'),
         DeclareLaunchArgument('use_rviz', default_value='true', description='是否启动 RViz2'),
         DeclareLaunchArgument(
+            'gui', default_value='true',
+            description='是否启动 Gazebo 客户端（gui:=false 为 headless 模式）'),
+        DeclareLaunchArgument(
             'task_delay', default_value='8.0',
             description='任务层延迟启动秒数（等待 Nav2 生命周期激活）'),
 
@@ -69,6 +61,7 @@ def generate_launch_description():
                 'map': map_file,
                 'params_file': nav2_params,
                 'use_rviz': use_rviz,
+                'gui': gui,
             }.items(),
         ),
 

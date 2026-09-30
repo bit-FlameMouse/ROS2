@@ -87,7 +87,7 @@ RViz 中航点标记随进度由灰变黄再变绿；机器人正前方出现障
 | 演示视频 | ≤ 3 分钟 MP4（含讲解音轨），完整呈现「建图 → 定位 → 导航 → 巡逻 → 安全守护」 |
 | 地图资产 | `maps/tb3_world.pgm` + `.yaml`（随仓库提交，是项目输入资产） |
 | 测试证据 | `colcon test` 全绿 + 08 文档执行记录表 |
-| 文档 | 17 份（README + `docs/00 ~ 16`），含 81 条架构规范条款 |
+| 文档 | 18 份（README + `docs/00 ~ 17`），含 81 条架构规范条款 |
 | 工程化脚本 | `install_deps.sh` / `build.sh` / `record_demo.sh`，以及规划的 `arch_check.sh`（架构约束自动检查） |
 
 ### 3.4 可量化验收指标
@@ -217,6 +217,7 @@ ros2 launch patrol_robot_bringup patrol.launch.py
 | 14 | [变更记录与迭代规划](docs/14-变更记录与迭代规划.md) | 版本历史、Roadmap、技术债清单 |
 | 15 | [术语表与参考资料](docs/15-术语表与参考资料.md) | 中英术语对照、官方文档与参考实现 |
 | 16 | [架构规范与设计约束](docs/16-架构规范与设计约束.md) | 81 条强制架构条款（AS-01~AS-81）、架构适应度函数、架构评审清单 |
+| 17 | [仿真验收测试操作手册](docs/17-仿真验收测试操作手册.md) | 上机测试步骤、环境注意事项（RMW/daemon/headless）、实测记录 |
 
 > **02 / 16 / 07 的区别**：02 讲「架构**长什么样**、为什么这么设计」，16 讲「架构上**必须**怎么做、不许怎么搭」，
 > 07 讲「每一行 C++ **怎么写**」。改设计回 02，搭结构看 16，写代码看 07。
@@ -248,13 +249,13 @@ ros2 launch patrol_robot_bringup patrol.launch.py
 | 单元测试（34 个用例，覆盖 08 文档 TC-U-01~06） | ✅ `colcon test` 全绿 |
 | 编译零警告 + `ament_lint`（cpplint/uncrustify/xmllint/flake8…） | ✅ 通过 |
 | 5 条 launch 链路 + 3 个参数文件 + 2 个 RViz 配置 | ✅ 完成 |
-| 地图资产 `maps/tb3_world.{pgm,yaml}` | ✅ 随仓库提交（见下） |
-| 工程化脚本（依赖/构建/录制/架构检查/地图生成） | ✅ 完成 |
-| 仿真全链路实测（Gazebo + Nav2） | ⏳ 需按 03 文档安装依赖后执行（本开发环境未安装 Gazebo 栈） |
+| 地图资产 `maps/tb3_world.{pgm,yaml}` | ✅ 随仓库提交（SLAM 实采，见下） |
+| 工程化脚本（依赖/构建/录制/架构检查/地图生成/上机测试） | ✅ 完成 |
+| 仿真全链路实测（Gazebo + Nav2） | ✅ 已完成一轮 headless 验证（TC-I-01/02/03/04/05、TC-P-03）；TC-S/TC-P 其余项按 17 文档执行 |
 
-> **地图说明**：`maps/tb3_world.pgm` 由 `scripts/generate_map_from_world.py` 从
-> TurtleBot3 官方世界几何离线生成（10 文档 §6 降级预案 P2 的工程化实现），
-> 与仿真世界障碍布局严格一致；正式演示前建议按 09 文档 §6 用
-> `mapping.launch.py` + SLAM Toolbox 重新采集并覆盖（命令相同，产物名相同）。
+> **地图说明**：`maps/tb3_world.pgm` 由 **SLAM Toolbox 实采**（`mapping.launch.py` +
+> `scripts/simtest/drive_perimeter.py` 外环闭环巡线 13/13 段，2026-09-30），与仿真世界障碍布局一致；
+> `scripts/generate_map_from_world.py` 保留为无仿真环境下的离线重建工具（10 文档 §6 降级预案 P2）。
+> 上机测试步骤与环境注意事项见 [17 仿真验收测试操作手册](docs/17-仿真验收测试操作手册.md)。
 
 > 文档与代码不同步时，以文档为准——先改文档再改代码。

@@ -10,6 +10,7 @@
 # 用法：
 #   python3 scripts/generate_map_from_world.py --output src/patrol_robot_bringup/maps/tb3_world
 #   （可选 --model-sdf 显式指定 turtlebot3_world/model.sdf 路径）
+# 版权：2026 patrol_robot developer，Apache-2.0 许可（许可证原文见仓库根目录 LICENSE 文件）
 import argparse
 import math
 import os

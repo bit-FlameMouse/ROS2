@@ -4,6 +4,7 @@
 #   bash scripts/build.sh                     # 编译全部三个包
 #   bash scripts/build.sh --packages-select patrol_robot_core
 #   bash scripts/build.sh --clean             # 先清理 build/install/log 再编译
+# 版权：2026 patrol_robot developer，Apache-2.0 许可（许可证原文见仓库根目录 LICENSE 文件）
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"

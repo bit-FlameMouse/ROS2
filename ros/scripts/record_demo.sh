@@ -6,6 +6,7 @@
 # 说明：
 #   - 本脚本只录话题数据；演示画面/音轨请使用 OBS 等录屏软件（见 12 文档 §8）
 #   - Ctrl+C 结束录制；回放： ros2 bag play <bag_dir>
+# 版权：2026 patrol_robot developer，Apache-2.0 许可（许可证原文见仓库根目录 LICENSE 文件）
 set -euo pipefail
 
 source /opt/ros/humble/setup.bash

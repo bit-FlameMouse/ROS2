@@ -1,21 +1,9 @@
 #!/usr/bin/env python3
-# Copyright 2026 patrol_robot developer
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
 # 文件用途：建图链路（FR-03）：仿真 + SLAM Toolbox + RViz（+ 可选键盘遥控）
 #   建图完成后用 nav2_map_server 的 map_saver_cli 保存地图（见 09 文档 §6.2）：
 #     ros2 run nav2_map_server map_saver_cli \
 #       -f src/patrol_robot_bringup/maps/tb3_world
+# 版权：2026 patrol_robot developer，Apache-2.0 许可（许可证原文见仓库根目录 LICENSE 文件）
 import os
 
 from ament_index_python.packages import get_package_share_directory
@@ -37,6 +25,7 @@ def generate_launch_description():
     use_sim_time = LaunchConfiguration('use_sim_time')
     use_rviz = LaunchConfiguration('use_rviz')
     use_teleop = LaunchConfiguration('use_teleop')
+    gui = LaunchConfiguration('gui')
 
     return LaunchDescription([
         DeclareLaunchArgument('use_sim_time', default_value='true'),
@@ -44,12 +33,18 @@ def generate_launch_description():
         DeclareLaunchArgument(
             'use_teleop', default_value='false',
             description='是否随 launch 启动键盘遥控（默认否，建议另开终端运行）'),
+        DeclareLaunchArgument(
+            'gui', default_value='true',
+            description='是否启动 Gazebo 客户端（gui:=false 为 headless 模式）'),
 
         # 1) 仿真世界
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(
                 os.path.join(pkg_bringup, 'launch', 'simulation.launch.py')),
-            launch_arguments={'use_sim_time': use_sim_time}.items(),
+            launch_arguments={
+                'use_sim_time': use_sim_time,
+                'gui': gui,
+            }.items(),
         ),
 
         # 2) SLAM Toolbox（在线异步建图）

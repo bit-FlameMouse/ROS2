@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # 文件用途：安装本项目全部运行时与编译依赖（见 docs/03-环境搭建与依赖清单.md §5.2）
+# 版权：2026 patrol_robot developer，Apache-2.0 许可（许可证原文见仓库根目录 LICENSE 文件）
 set -euo pipefail
 
 if [ "${ROS_DISTRO:-}" != "humble" ]; then
