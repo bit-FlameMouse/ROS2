@@ -192,7 +192,12 @@ ros2 run nav2_map_server map_saver_cli -f ~/ros2_ws/src/patrol_robot_bringup/map
 ros2 launch patrol_robot_bringup patrol.launch.py
 ```
 
-完整流程与排错见 [`docs/09-构建部署与运行手册.md`](docs/09-构建部署与运行手册.md)。
+完整流程与排错见 [`docs/09-构建部署与运行手册.md`](docs/09-构建部署与运行手册.md)，
+上机测试步骤见 [`docs/17-仿真验收测试操作手册.md`](docs/17-仿真验收测试操作手册.md)。
+
+> **路径说明**：以上命令在“工作空间根目录”（含 `src/` 的那一层）执行。
+> 09 文档用 `~/ros2_ws` 描述推荐布局；若仓库目录直接作为工作空间（本机为 `/home/lich/ROS2/ros`），
+> 请把 `~/ros2_ws` 替换为该目录（`scripts/` 与 `docs/` 位于仓库根）。
 
 ---
 
