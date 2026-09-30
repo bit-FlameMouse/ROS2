@@ -1,0 +1,112 @@
+// Copyright 2026 patrol_robot developer
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+// 文件用途：Nav2 NavigateToPose Action 的非阻塞客户端封装
+#ifndef PATROL_ROBOT_CORE__NAV_CLIENT_HPP_
+#define PATROL_ROBOT_CORE__NAV_CLIENT_HPP_
+
+#include <chrono>
+#include <cstdint>
+#include <memory>
+#include <mutex>
+#include <string>
+
+#include "nav2_msgs/action/navigate_to_pose.hpp"
+#include "rclcpp/rclcpp.hpp"
+#include "rclcpp_action/rclcpp_action.hpp"
+
+namespace patrol_robot_core
+{
+
+/// @brief 单次导航任务的状态
+enum class NavTaskState : uint8_t
+{
+  IDLE = 0,    ///< 未发送目标
+  PENDING,     ///< 已发送，等待服务器接受
+  ACTIVE,      ///< 已接受，导航进行中
+  SUCCEEDED,   ///< 到达目标
+  ABORTED,     ///< 导航失败
+  CANCELED,    ///< 被取消
+  REJECTED,    ///< 目标被服务器拒绝
+};
+
+/// @brief 导航任务状态转字符串（日志用）
+const char * toString(NavTaskState state);
+
+/// @brief NavigateToPose Action 客户端封装（非阻塞）
+/// @details 线程安全：内部成员由 mutex_ 保护；回调只更新内部状态，
+///          上层通过 state() 轮询（单点更新模型，见 16 文档 AS-54）。
+class NavClient
+{
+public:
+  using NavigateToPose = nav2_msgs::action::NavigateToPose;
+  using GoalHandle = rclcpp_action::ClientGoalHandle<NavigateToPose>;
+
+  /// @brief 构造函数
+  /// @param node        宿主节点（不持有所有权）
+  /// @param action_name Action 名称，默认 "navigate_to_pose"
+  /// @param frame_id    目标位姿参考坐标系，通常为 "map"
+  NavClient(rclcpp::Node * node, const std::string & action_name, const std::string & frame_id);
+
+  /// @brief 阻塞等待 Action Server 就绪（仅启动期与发送前使用，见 AS-60）
+  /// @param timeout 超时时间
+  /// @return 就绪返回 true
+  bool waitForServer(std::chrono::milliseconds timeout);
+
+  /// @brief 发送导航目标（非阻塞，立即返回）
+  /// @param x 目标 x（m）
+  /// @param y 目标 y（m）
+  /// @param yaw 目标偏航角（rad），内部转四元数
+  /// @return 是否成功提交（不代表导航成功）
+  bool sendGoal(double x, double y, double yaw);
+
+  /// @brief 请求取消当前目标（目标尚未被接受时回退为 cancel all）
+  void cancel();
+
+  /// @brief 清空内部状态（下一次 sendGoal 前调用，避免读到旧结果）
+  void detach();
+
+  /// @brief 当前任务状态（线程安全）
+  NavTaskState state() const;
+
+  /// @brief 是否处于终态
+  bool isFinished() const;
+
+  /// @brief 距目标剩余距离（m），无反馈时返回 -1.0
+  double distanceRemaining() const;
+
+  /// @brief Nav2 触发恢复行为的次数
+  int16_t recoveryCount() const;
+
+private:
+  void onGoalResponse(GoalHandle::SharedPtr goal_handle);
+  void onFeedback(
+    GoalHandle::SharedPtr,
+    const std::shared_ptr<const NavigateToPose::Feedback> feedback);
+  void onResult(const GoalHandle::WrappedResult & result);
+
+  rclcpp::Node * node_{nullptr};
+  std::string frame_id_;
+  rclcpp_action::Client<NavigateToPose>::SharedPtr client_;
+
+  mutable std::mutex mutex_;  ///< 保护以下全部可变成员
+  NavTaskState state_{NavTaskState::IDLE};
+  GoalHandle::SharedPtr goal_handle_;
+  double distance_remaining_{-1.0};
+  int16_t recovery_count_{0};
+  bool goal_sent_{false};
+};
+
+}  // namespace patrol_robot_core
+
+#endif  // PATROL_ROBOT_CORE__NAV_CLIENT_HPP_

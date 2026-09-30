@@ -1,0 +1,55 @@
+# 文件用途：任务层参数（patrol_node + safety_guard_node）
+# 参数按节点名分组，节点名必须与 launch 中的 name= 一致
+# 参数契约见 docs/05-接口设计说明书.md §5
+
+safety_guard_node:
+  ros__parameters:
+    # ---- 检测几何 ----
+    scan_topic: "scan"
+    fov_deg: 60.0            # 前向扇区总视场角（度）
+    range_min: 0.02          # 有效距离下限（m）
+    range_max: 3.50          # 有效距离上限（m）
+
+    # ---- 迟滞阈值（resume 必须 > stop，否则节点拒绝启动）----
+    stop_distance: 0.30      # 触发紧急停车的距离
+    resume_distance: 0.60    # 解除紧急状态的距离
+
+    # ---- 输出 ----
+    emergency_topic: "/safety/emergency_stop"
+    distance_topic: "/safety/nearest_obstacle_distance"
+
+    # ---- 危险开关：直接接管 /cmd_vel（默认关闭，见 02 文档 ADR-06）----
+    allow_cmd_vel_override: false
+    cmd_vel_topic: "cmd_vel"
+
+patrol_node:
+  ros__parameters:
+    # ==================== 航点定义 ====================
+    # 4 个平行数组，长度必须一致；坐标基于 map 坐标系
+    # 本默认值适配 maps/tb3_world.pgm（六边形世界，中心 3x3 圆柱阵列）：
+    #   3 个航点位于圆柱阵列外侧的环形通道，距障碍与墙体均留足余量
+    # 注意：修改地图后必须在 RViz 中重新选点（白色空闲区，距墙 ≥ 0.5 m）
+    waypoint_x:    [ 1.75,  0.00, -1.75]
+    waypoint_y:    [ 0.00,  1.90,  0.00]
+    waypoint_yaw:  [ 0.00,  1.57,  3.14]
+    waypoint_wait: [ 2.0,   2.0,   2.0]
+
+    # ==================== 任务策略 ====================
+    loop_count: 0               # 0 = 无限循环；N = 巡逻 N 轮后停止（演示 2 轮可设 2）
+    max_retries: 2              # 单个航点最大尝试次数（含首次）
+    skip_failed_waypoint: true  # 重试超限后是否跳过该点
+    waypoint_timeout_sec: 60.0  # 单航点超时（s），0 = 不限制
+    auto_start: false           # 启动后是否立即巡逻
+
+    # ==================== 接口配置 ====================
+    global_frame: "map"
+    action_name: "navigate_to_pose"
+    status_topic: "/patrol/status"
+    markers_topic: "/patrol/markers"
+    mode_service: "/patrol/set_mode"
+    safety_topic: "/safety/emergency_stop"
+    use_safety_hold: true
+
+    # ==================== 时序 ====================
+    tick_period_ms: 100         # 状态机 tick 周期（10–1000）
+    status_publish_hz: 1.0      # 状态发布频率（0.1–20）

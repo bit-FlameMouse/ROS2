@@ -1,0 +1,16 @@
+# 巡逻模式控制服务
+# 服务名：/patrol/set_mode（参数 mode_service 可覆盖）
+# 契约：见 docs/05-接口设计说明书.md §3.1
+
+# ---- 请求模式常量 ----
+uint8 REQ_START  = 0   # 开始巡逻（从 current_waypoint_index 继续）
+uint8 REQ_PAUSE  = 1   # 暂停：取消当前导航目标，保留索引
+uint8 REQ_RESUME = 2   # 继续：从保留的索引重新发起导航
+uint8 REQ_STOP   = 3   # 停止：取消并回到 IDLE，索引归零
+uint8 REQ_RESET  = 4   # 复位：清零统计信息与错误状态
+
+uint8 mode
+---
+bool  success
+string message          # 失败原因，如 ALREADY_RUNNING / NO_WAYPOINTS
+uint8 current_mode      # 处理后的实际模式（对应 PatrolStatus 中的常量）
