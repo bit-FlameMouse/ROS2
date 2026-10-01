@@ -71,7 +71,7 @@ RViz 中航点标记随进度由灰变黄再变绿；机器人正前方出现障
 | 观察 `ros2 topic echo /patrol/status` | 1 Hz 输出：`mode` 在 1(MOVING)/2(WAITING) 间切换，`distance_remaining` 持续递减，`current_waypoint_index` 递增 |
 | 机器人到达第 1 个航点 | 状态转 `WAITING` 并停留 2 s；该航点 Marker 由**黄变绿**，`completed_waypoints` +1；随后自动驶向第 2 个航点 |
 | 走完全部 3 个航点 | `current_loop` +1，索引归 0，进入下一轮循环（`loop_count=0` 时为无限循环） |
-| `mode: 1`（PAUSE）/ `mode: 2`（RESUME） | 机器人立即停车（取消当前导航目标）并**保留航点索引**；继续后从同一航点重新发起导航 |
+| `mode: 1`（PAUSE）/ `mode: 2`（RESUME） | 机器人立即停车（取消当前导航目标）并**保留航点索引**；继续后：路上暂停 → 从同一航点重新发起导航；停留期暂停 → 回到停留计时（重计满停留时间、不重复计数） |
 | 在 Gazebo 中用 `Insert` 在机器人正前方约 0.2 m 放一个 Box | 约 0.2 s 内 `/safety/emergency_stop` 变 `true`，机器人停车，状态转 `SAFETY_HOLD`(4)，日志出现 WARN |
 | 右键删除该 Box | 前方距离恢复超过 0.6 m 后标志复位，机器人**自动继续**原航点巡逻 |
 | 把某个航点故意设到墙里（不可达） | 单航点重试 `max_retries` 次，日志记录超时/中止；随后按 `skip_failed_waypoint=true` 跳过该点继续巡逻 |
@@ -88,7 +88,7 @@ RViz 中航点标记随进度由灰变黄再变绿；机器人正前方出现障
 | 地图资产 | `maps/tb3_world.pgm` + `.yaml`（随仓库提交，是项目输入资产） |
 | 测试证据 | `colcon test` 全绿 + 08 文档执行记录表 |
 | 文档 | 18 份（README + `docs/00 ~ 17`），含 81 条架构规范条款 |
-| 工程化脚本 | `install_deps.sh` / `build.sh` / `record_demo.sh`，以及规划的 `arch_check.sh`（架构约束自动检查） |
+| 工程化脚本 | `install_deps.sh` / `build.sh` / `record_demo.sh` / `arch_check.sh`（架构约束自动检查）/ `scripts/simtest/`（上机测试脚本集） |
 
 ### 3.4 可量化验收指标
 
@@ -222,7 +222,7 @@ ros2 launch patrol_robot_bringup patrol.launch.py
 | 14 | [变更记录与迭代规划](docs/14-变更记录与迭代规划.md) | 版本历史、Roadmap、技术债清单 |
 | 15 | [术语表与参考资料](docs/15-术语表与参考资料.md) | 中英术语对照、官方文档与参考实现 |
 | 16 | [架构规范与设计约束](docs/16-架构规范与设计约束.md) | 81 条强制架构条款（AS-01~AS-81）、架构适应度函数、架构评审清单 |
-| 17 | [仿真验收测试操作手册](docs/17-仿真验收测试操作手册.md) | 有界面环境的上机测试步骤、截图留证、环境注意事项（RMW/daemon）、实测记录 |
+| 17 | [仿真验收测试操作手册](docs/17-仿真验收测试操作手册.md) | 无界面（headless 服务器）环境的一步步上机测试步骤、文本留证清单、环境注意事项（RMW/daemon/离线加固）、实测记录 |
 
 > **02 / 16 / 07 的区别**：02 讲「架构**长什么样**、为什么这么设计」，16 讲「架构上**必须**怎么做、不许怎么搭」，
 > 07 讲「每一行 C++ **怎么写**」。改设计回 02，搭结构看 16，写代码看 07。
@@ -245,18 +245,18 @@ ros2 launch patrol_robot_bringup patrol.launch.py
 
 ## 9. 状态
 
-当前阶段：**v0.2.0 代码实现完成，文档已同步**。
+当前阶段：**v0.2.2 无界面验收加固与健壮性修复完成，文档已同步**。
 
 | 项 | 状态 |
 | --- | --- |
 | 三个功能包源码（2 个 C++ 节点 + 4 个类） | ✅ 完成 |
 | 自定义接口（1 msg + 1 srv） | ✅ 完成 |
-| 单元测试（34 个用例，覆盖 08 文档 TC-U-01~06） | ✅ `colcon test` 全绿 |
+| 单元测试（36 个用例，覆盖 08 文档 TC-U-01~06） | ✅ `colcon test` 全绿 |
 | 编译零警告 + `ament_lint`（cpplint/uncrustify/xmllint/flake8…） | ✅ 通过 |
 | 5 条 launch 链路 + 3 个参数文件 + 2 个 RViz 配置 | ✅ 完成 |
 | 地图资产 `maps/tb3_world.{pgm,yaml}` | ✅ 随仓库提交（SLAM 实采，见下） |
 | 工程化脚本（依赖/构建/录制/架构检查/地图生成/上机测试） | ✅ 完成 |
-| 仿真全链路实测（Gazebo + Nav2） | ✅ 已完成一轮 headless 验证（TC-I-01/02/03/04/05、TC-P-03）；TC-S/TC-P 其余项按 17 文档执行 |
+| 仿真全链路实测（Gazebo + Nav2） | ✅ 已完成一轮 headless 验证（TC-I-01/02/03/04/05、TC-P-03）；2026-10-01 离线加固后启动复验通过（~20 s 全链路就绪）；TC-S/TC-P 其余项按 17 文档执行 |
 
 > **地图说明**：`maps/tb3_world.pgm` 由 **SLAM Toolbox 实采**（`mapping.launch.py` +
 > `scripts/simtest/drive_perimeter.py` 外环闭环巡线 13/13 段，2026-09-30），与仿真世界障碍布局一致；

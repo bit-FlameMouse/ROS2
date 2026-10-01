@@ -191,6 +191,54 @@ TEST(PatrolStateMachineTest, ResetFromFailedReturnsIdle)
   EXPECT_EQ(sm.errorCode(), 0u);
 }
 
+// TC-U-04m 等待态暂停/恢复：回到 WAITING，不重发目标、不重复计数、重计停留时间
+TEST(PatrolStateMachineTest, PauseResumeFromWaitingReturnsToWaiting)
+{
+  PatrolStateMachine sm(makeConfig(3, 1));
+  sm.handle(PatrolEvent::START);
+  sm.handle(PatrolEvent::GOAL_SUCCEEDED);
+  ASSERT_EQ(sm.state(), PatrolState::WAITING);
+  ASSERT_EQ(sm.completedWaypoints(), 1u);
+
+  const auto pause_cmd = sm.handle(PatrolEvent::PAUSE);
+  EXPECT_EQ(sm.state(), PatrolState::PAUSED);
+  EXPECT_TRUE(pause_cmd.cancel_goal);
+
+  const auto resume_cmd = sm.handle(PatrolEvent::RESUME);
+  EXPECT_EQ(sm.state(), PatrolState::WAITING);
+  EXPECT_FALSE(resume_cmd.send_goal);
+  EXPECT_TRUE(resume_cmd.restart_wait);
+  EXPECT_EQ(sm.completedWaypoints(), 1u);  // 未重复计数
+
+  const auto next = sm.handle(PatrolEvent::WAIT_ELAPSED);
+  EXPECT_TRUE(next.send_goal);
+  EXPECT_EQ(next.target_index, 1u);
+  EXPECT_EQ(sm.completedWaypoints(), 1u);
+}
+
+// TC-U-04n 等待态安全暂停/恢复：回到 WAITING，不重发目标、不重复计数
+TEST(PatrolStateMachineTest, SafetyClearedDuringWaitingReturnsToWaiting)
+{
+  PatrolStateMachine sm(makeConfig(3, 1));
+  sm.handle(PatrolEvent::START);
+  sm.handle(PatrolEvent::GOAL_SUCCEEDED);
+  ASSERT_EQ(sm.state(), PatrolState::WAITING);
+
+  const auto hold_cmd = sm.handle(PatrolEvent::SAFETY_TRIGGERED);
+  EXPECT_EQ(sm.state(), PatrolState::SAFETY_HOLD);
+  EXPECT_TRUE(hold_cmd.cancel_goal);
+
+  const auto clear_cmd = sm.handle(PatrolEvent::SAFETY_CLEARED);
+  EXPECT_EQ(sm.state(), PatrolState::WAITING);
+  EXPECT_FALSE(clear_cmd.send_goal);
+  EXPECT_TRUE(clear_cmd.restart_wait);
+
+  const auto next = sm.handle(PatrolEvent::WAIT_ELAPSED);
+  EXPECT_TRUE(next.send_goal);
+  EXPECT_EQ(next.target_index, 1u);
+  EXPECT_EQ(sm.completedWaypoints(), 1u);
+}
+
 // 附加：停留时间读取
 TEST(PatrolStateMachineTest, CurrentWaitSecFollowsIndex)
 {

@@ -51,6 +51,13 @@ def generate_launch_description():
             os.path.join(pkg_tb3_gazebo, 'models') + ':' +
             os.environ.get('GAZEBO_MODEL_PATH', '')),
 
+        # 离线加固：禁用 Gazebo 在线模型库（models.gazebosim.org）。
+        # 世界引用的模型（ground_plane / sun / turtlebot3_world / turtlebot3_burger）
+        # 全部由本地路径解析；若不禁用，gzserver 启动时会先联网拉取模型列表，
+        # 在网络受限（TCP 可建连但无响应）的环境下会长时间阻塞，导致世界加载停滞、
+        # /spawn_entity 服务不可用、机器人无法生成（2026-10-01 实测问题）。
+        SetEnvironmentVariable('GAZEBO_MODEL_DATABASE_URI', ''),
+
         # 1) Gazebo 服务端（世界物理与传感器）
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(

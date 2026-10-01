@@ -55,6 +55,7 @@ struct SmCommand
 {
   bool send_goal{false};     ///< 需要向 Nav2 发送目标
   bool cancel_goal{false};   ///< 需要取消当前目标
+  bool restart_wait{false};  ///< 需要重置停留计时（恢复到 WAITING 时）
   uint32_t target_index{0};  ///< send_goal 时的目标航点索引
 };
 
@@ -106,6 +107,9 @@ private:
 
   Config config_;
   PatrolState state_{PatrolState::IDLE};
+  /// @brief 进入 PAUSED / SAFETY_HOLD 前的状态（MOVING 或 WAITING），
+  ///        用于恢复时区分"重新发目标"与"回到停留"
+  PatrolState resume_state_{PatrolState::MOVING};
   uint32_t index_{0};
   uint32_t loop_{0};
   uint32_t completed_{0};

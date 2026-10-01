@@ -34,6 +34,8 @@ const char * toString(NavTaskState state);
 /// @brief NavigateToPose Action 客户端封装（非阻塞）
 /// @details 线程安全：内部成员由 mutex_ 保护；回调只更新内部状态，
 ///          上层通过 state() 轮询（单点更新模型，见 16 文档 AS-54）。
+///          代数守卫（generation_）：每个目标携带递增代数，回调仅在代数
+///          与当前值一致时生效，丢弃已取消/已分离目标的迟到回调（K-16 加固）。
 class NavClient
 {
 public:
@@ -46,12 +48,14 @@ public:
   /// @param frame_id    目标位姿参考坐标系，通常为 "map"
   NavClient(rclcpp::Node * node, const std::string & action_name, const std::string & frame_id);
 
-  /// @brief 阻塞等待 Action Server 就绪（仅启动期与发送前使用，见 AS-60）
+  /// @brief 阻塞等待 Action Server 就绪（仅启动期使用，见 AS-60）
   /// @param timeout 超时时间
   /// @return 就绪返回 true
   bool waitForServer(std::chrono::milliseconds timeout);
 
   /// @brief 发送导航目标（非阻塞，立即返回）
+  /// @details 服务端未就绪时立即返回 false（不做阻塞等待），
+  ///          保证 tick 线程与安全响应的实时性（AS-53 例外条款口径）。
   /// @param x 目标 x（m）
   /// @param y 目标 y（m）
   /// @param yaw 目标偏航角（rad），内部转四元数
@@ -77,11 +81,15 @@ public:
   int16_t recoveryCount() const;
 
 private:
-  void onGoalResponse(GoalHandle::SharedPtr goal_handle);
+  void onGoalResponse(uint64_t generation, GoalHandle::SharedPtr goal_handle);
   void onFeedback(
+    uint64_t generation,
     GoalHandle::SharedPtr,
     const std::shared_ptr<const NavigateToPose::Feedback> feedback);
-  void onResult(const GoalHandle::WrappedResult & result);
+  void onResult(uint64_t generation, const GoalHandle::WrappedResult & result);
+
+  /// @brief 是否为终态（调用方必须已持有 mutex_）
+  bool isFinished_locked() const;
 
   rclcpp::Node * node_{nullptr};
   std::string frame_id_;
@@ -93,6 +101,7 @@ private:
   double distance_remaining_{-1.0};
   int16_t recovery_count_{0};
   bool goal_sent_{false};
+  uint64_t generation_{0};  ///< 目标代数：回调携带快照代数，不一致即丢弃
 };
 
 }  // namespace patrol_robot_core

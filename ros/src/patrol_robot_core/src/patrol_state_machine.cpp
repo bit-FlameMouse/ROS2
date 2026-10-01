@@ -99,6 +99,7 @@ SmCommand PatrolStateMachine::handle(PatrolEvent event)
 
     case PatrolEvent::PAUSE:
       if (state_ == PatrolState::MOVING || state_ == PatrolState::WAITING) {
+        resume_state_ = state_;  // 记住暂停前的状态（MOVING / WAITING）
         state_ = PatrolState::PAUSED;
         cmd.cancel_goal = true;
       }
@@ -106,14 +107,21 @@ SmCommand PatrolStateMachine::handle(PatrolEvent event)
 
     case PatrolEvent::RESUME:
       if (state_ == PatrolState::PAUSED) {
-        state_ = PatrolState::MOVING;
-        cmd.send_goal = true;
-        cmd.target_index = index_;
+        if (resume_state_ == PatrolState::WAITING) {
+          // 暂停发生在航点停留期间：回到 WAITING 继续停留，不重发目标、不重复计数
+          state_ = PatrolState::WAITING;
+          cmd.restart_wait = true;
+        } else {
+          state_ = PatrolState::MOVING;
+          cmd.send_goal = true;
+          cmd.target_index = index_;
+        }
       }
       return cmd;
 
     case PatrolEvent::SAFETY_TRIGGERED:
       if (state_ == PatrolState::MOVING || state_ == PatrolState::WAITING) {
+        resume_state_ = state_;  // 记住安全暂停前的状态（MOVING / WAITING）
         state_ = PatrolState::SAFETY_HOLD;
         cmd.cancel_goal = true;
       }
@@ -121,9 +129,15 @@ SmCommand PatrolStateMachine::handle(PatrolEvent event)
 
     case PatrolEvent::SAFETY_CLEARED:
       if (state_ == PatrolState::SAFETY_HOLD) {
-        state_ = PatrolState::MOVING;
-        cmd.send_goal = true;
-        cmd.target_index = index_;
+        if (resume_state_ == PatrolState::WAITING) {
+          // 安全暂停发生在航点停留期间：回到 WAITING 继续停留，不重发目标、不重复计数
+          state_ = PatrolState::WAITING;
+          cmd.restart_wait = true;
+        } else {
+          state_ = PatrolState::MOVING;
+          cmd.send_goal = true;
+          cmd.target_index = index_;
+        }
       }
       return cmd;
 

@@ -389,7 +389,12 @@ private:
           wait_start_ = now();
           break;
         case NavTaskState::ABORTED:
+          applyCommand(handleEvent(PatrolEvent::GOAL_FAILED));
+          break;
         case NavTaskState::REJECTED:
+          // FR-07 / 05 §6：目标被拒绝映射为 ERR_GOAL_REJECTED
+          setNodeError(
+            patrol_interfaces::msg::PatrolStatus::ERR_GOAL_REJECTED, "目标被 Nav2 拒绝");
           applyCommand(handleEvent(PatrolEvent::GOAL_FAILED));
           break;
         case NavTaskState::CANCELED:
@@ -424,6 +429,11 @@ private:
     if (cmd.cancel_goal) {
       cancel_expected_ = true;
       nav_->cancel();
+    }
+
+    if (cmd.restart_wait) {
+      // 从暂停/安全暂停恢复到 WAITING：重新开始停留计时
+      wait_start_ = now();
     }
 
     if (cmd.send_goal) {

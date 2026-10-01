@@ -43,7 +43,10 @@ bool NavClient::waitForServer(std::chrono::milliseconds timeout)
 
 bool NavClient::sendGoal(double x, double y, double yaw)
 {
-  if (!waitForServer(5s)) {
+  // 非阻塞就绪检查：不可用时立即失败，绝不阻塞 tick 线程（安全响应实时性优先）
+  // AS-EXEMPT(AS-60): 运行期就绪等待改为非阻塞检查（AS-53 优先）；启动期显式
+  // waitForServer(10 s) 保留于 patrol_node，留痕见 04 文档 §14.2 #1
+  if (!client_ || !client_->action_server_is_ready()) {
     RCLCPP_ERROR(node_->get_logger(), "[NavClient] Action server 不可用，目标未发送");
     return false;
   }
@@ -60,21 +63,32 @@ bool NavClient::sendGoal(double x, double y, double yaw)
   q.setRPY(0.0, 0.0, yaw);
   goal.pose.pose.orientation = tf2::toMsg(q);
 
+  uint64_t generation = 0;
   {
     std::lock_guard<std::mutex> lock(mutex_);
+    generation = ++generation_;
     state_ = NavTaskState::PENDING;
     distance_remaining_ = -1.0;
     recovery_count_ = 0;
     goal_sent_ = true;
   }
 
+  // 回调按代数捕获：目标被取消/分离后，其迟到回调因代数不匹配被丢弃（K-16）
   auto options = rclcpp_action::Client<NavigateToPose>::SendGoalOptions();
   options.goal_response_callback =
-    std::bind(&NavClient::onGoalResponse, this, std::placeholders::_1);
+    [this, generation](GoalHandle::SharedPtr handle) {
+      onGoalResponse(generation, std::move(handle));
+    };
   options.feedback_callback =
-    std::bind(&NavClient::onFeedback, this, std::placeholders::_1, std::placeholders::_2);
+    [this, generation](
+    GoalHandle::SharedPtr handle,
+    const std::shared_ptr<const NavigateToPose::Feedback> feedback) {
+      onFeedback(generation, std::move(handle), feedback);
+    };
   options.result_callback =
-    std::bind(&NavClient::onResult, this, std::placeholders::_1);
+    [this, generation](const GoalHandle::WrappedResult & result) {
+      onResult(generation, result);
+    };
 
   client_->async_send_goal(goal, options);
 
@@ -88,10 +102,19 @@ void NavClient::cancel()
 {
   GoalHandle::SharedPtr handle;
   bool cancel_all = false;
+  bool nothing_to_cancel = false;
   {
     std::lock_guard<std::mutex> lock(mutex_);
-    handle = goal_handle_;
-    cancel_all = (handle == nullptr) && goal_sent_;
+    // 目标已处于终态（或从未发送）时无目标可取消，直接返回避免噪声日志
+    if (state_ == NavTaskState::IDLE || isFinished_locked()) {
+      nothing_to_cancel = true;
+    } else {
+      handle = goal_handle_;
+      cancel_all = (handle == nullptr) && goal_sent_;
+    }
+  }
+  if (nothing_to_cancel) {
+    return;
   }
 
   if (handle) {
@@ -107,6 +130,7 @@ void NavClient::cancel()
 void NavClient::detach()
 {
   std::lock_guard<std::mutex> lock(mutex_);
+  ++generation_;  // 使旧目标的迟到回调失效
   state_ = NavTaskState::IDLE;
   goal_handle_.reset();
   distance_remaining_ = -1.0;
@@ -120,11 +144,16 @@ NavTaskState NavClient::state() const
   return state_;
 }
 
+bool NavClient::isFinished_locked() const
+{
+  return state_ == NavTaskState::SUCCEEDED || state_ == NavTaskState::ABORTED ||
+         state_ == NavTaskState::CANCELED || state_ == NavTaskState::REJECTED;
+}
+
 bool NavClient::isFinished() const
 {
   std::lock_guard<std::mutex> lock(mutex_);
-  return state_ == NavTaskState::SUCCEEDED || state_ == NavTaskState::ABORTED ||
-         state_ == NavTaskState::CANCELED || state_ == NavTaskState::REJECTED;
+  return isFinished_locked();
 }
 
 double NavClient::distanceRemaining() const
@@ -139,9 +168,12 @@ int16_t NavClient::recoveryCount() const
   return recovery_count_;
 }
 
-void NavClient::onGoalResponse(GoalHandle::SharedPtr goal_handle)
+void NavClient::onGoalResponse(uint64_t generation, GoalHandle::SharedPtr goal_handle)
 {
   std::lock_guard<std::mutex> lock(mutex_);
+  if (generation != generation_) {
+    return;  // 旧目标的迟到响应，丢弃
+  }
   if (!goal_handle) {
     state_ = NavTaskState::REJECTED;
     return;
@@ -151,17 +183,26 @@ void NavClient::onGoalResponse(GoalHandle::SharedPtr goal_handle)
 }
 
 void NavClient::onFeedback(
+  uint64_t generation,
   GoalHandle::SharedPtr,
   const std::shared_ptr<const NavigateToPose::Feedback> feedback)
 {
   std::lock_guard<std::mutex> lock(mutex_);
+  if (generation != generation_) {
+    return;  // 旧目标的迟到反馈，丢弃
+  }
   distance_remaining_ = static_cast<double>(feedback->distance_remaining);
   recovery_count_ = feedback->number_of_recoveries;
 }
 
-void NavClient::onResult(const GoalHandle::WrappedResult & result)
+void NavClient::onResult(uint64_t generation, const GoalHandle::WrappedResult & result)
 {
   std::lock_guard<std::mutex> lock(mutex_);
+  if (generation != generation_) {
+    // 旧目标（已被取消/分离）的迟到结果：丢弃，避免污染新目标的运行状态（K-16）
+    RCLCPP_DEBUG(node_->get_logger(), "[NavClient] 丢弃旧目标的迟到结果（代数已过期）");
+    return;
+  }
   goal_handle_.reset();
   switch (result.code) {
     case rclcpp_action::ResultCode::SUCCEEDED:
