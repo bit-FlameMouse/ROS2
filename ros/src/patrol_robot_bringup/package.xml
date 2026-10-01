@@ -3,7 +3,7 @@
             schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>patrol_robot_bringup</name>
-  <version>0.2.0</version>
+  <version>0.2.2</version>
   <description>巡逻机器人系统的 launch、参数、地图与 RViz 配置</description>
   <maintainer email="dev@example.com">patrol_robot developer</maintainer>
   <license>Apache-2.0</license>
