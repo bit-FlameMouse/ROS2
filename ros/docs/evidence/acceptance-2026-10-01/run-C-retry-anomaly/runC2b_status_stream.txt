@@ -1,0 +1,6645 @@
+header:
+  stamp:
+    sec: 36
+    nanosec: 100000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 0
+total_waypoints: 3
+completed_waypoints: 0
+current_loop: 0
+retry_count: 0
+distance_remaining: 2.3333094120025635
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 37
+    nanosec: 100000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 0
+total_waypoints: 3
+completed_waypoints: 0
+current_loop: 0
+retry_count: 0
+distance_remaining: 2.108309507369995
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 38
+    nanosec: 100000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 0
+total_waypoints: 3
+completed_waypoints: 0
+current_loop: 0
+retry_count: 0
+distance_remaining: 1.9083094596862793
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 39
+    nanosec: 100000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 0
+total_waypoints: 3
+completed_waypoints: 0
+current_loop: 0
+retry_count: 0
+distance_remaining: 1.708309531211853
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 40
+    nanosec: 100000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 0
+total_waypoints: 3
+completed_waypoints: 0
+current_loop: 0
+retry_count: 0
+distance_remaining: 1.508309245109558
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 41
+    nanosec: 100000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 0
+total_waypoints: 3
+completed_waypoints: 0
+current_loop: 0
+retry_count: 0
+distance_remaining: 1.3083094358444214
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 42
+    nanosec: 100000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 0
+total_waypoints: 3
+completed_waypoints: 0
+current_loop: 0
+retry_count: 0
+distance_remaining: 1.083309531211853
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 43
+    nanosec: 100000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 0
+total_waypoints: 3
+completed_waypoints: 0
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8833093047142029
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 44
+    nanosec: 0
+  frame_id: map
+mode: 1
+current_waypoint_index: 0
+total_waypoints: 3
+completed_waypoints: 0
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.6583095192909241
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 45
+    nanosec: 0
+  frame_id: map
+mode: 1
+current_waypoint_index: 0
+total_waypoints: 3
+completed_waypoints: 0
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.43330949544906616
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 46
+    nanosec: 0
+  frame_id: map
+mode: 1
+current_waypoint_index: 0
+total_waypoints: 3
+completed_waypoints: 0
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.2583095133304596
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 47
+    nanosec: 0
+  frame_id: map
+mode: 1
+current_waypoint_index: 0
+total_waypoints: 3
+completed_waypoints: 0
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.25996890664100647
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 48
+    nanosec: 0
+  frame_id: map
+mode: 1
+current_waypoint_index: 0
+total_waypoints: 3
+completed_waypoints: 0
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.25993794202804565
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 49
+    nanosec: 0
+  frame_id: map
+mode: 2
+current_waypoint_index: 0
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 50
+    nanosec: 0
+  frame_id: map
+mode: 2
+current_waypoint_index: 0
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 51
+    nanosec: 0
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 52
+    nanosec: 0
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 53
+    nanosec: 0
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 54
+    nanosec: 0
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 55
+    nanosec: 0
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 55
+    nanosec: 900000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 56
+    nanosec: 900000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 57
+    nanosec: 900000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 58
+    nanosec: 900000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 59
+    nanosec: 900000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 60
+    nanosec: 900000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 61
+    nanosec: 900000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 62
+    nanosec: 900000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 63
+    nanosec: 900000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 64
+    nanosec: 900000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 65
+    nanosec: 900000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 66
+    nanosec: 900000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 67
+    nanosec: 800000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 68
+    nanosec: 800000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 69
+    nanosec: 800000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 70
+    nanosec: 800000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 71
+    nanosec: 800000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 72
+    nanosec: 800000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 73
+    nanosec: 800000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 74
+    nanosec: 800000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 75
+    nanosec: 800000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 76
+    nanosec: 800000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 77
+    nanosec: 800000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 78
+    nanosec: 800000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 79
+    nanosec: 700000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 80
+    nanosec: 700000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 81
+    nanosec: 700000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 82
+    nanosec: 700000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 83
+    nanosec: 700000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 84
+    nanosec: 700000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 85
+    nanosec: 700000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 86
+    nanosec: 700000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 87
+    nanosec: 700000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 88
+    nanosec: 700000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 89
+    nanosec: 700000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 90
+    nanosec: 700000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 91
+    nanosec: 600000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 92
+    nanosec: 600000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 93
+    nanosec: 600000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 94
+    nanosec: 600000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 95
+    nanosec: 600000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 96
+    nanosec: 600000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 97
+    nanosec: 600000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 98
+    nanosec: 600000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 99
+    nanosec: 600000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 100
+    nanosec: 600000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 101
+    nanosec: 600000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 102
+    nanosec: 500000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 1
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 103
+    nanosec: 500000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 4.183309555053711
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 104
+    nanosec: 500000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 4.008309364318848
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 105
+    nanosec: 500000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 3.858309745788574
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 106
+    nanosec: 500000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 3.6333096027374268
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 107
+    nanosec: 500000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 3.433309316635132
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 108
+    nanosec: 500000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 3.233309507369995
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 109
+    nanosec: 500000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 3.0083096027374268
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 110
+    nanosec: 500000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 2.808309555053711
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 111
+    nanosec: 500000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 2.608309507369995
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 112
+    nanosec: 500000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 2.4083094596862793
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 113
+    nanosec: 500000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 2.2083094120025635
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 114
+    nanosec: 400000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 1.9833095073699951
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 115
+    nanosec: 400000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 1.7833094596862793
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 116
+    nanosec: 400000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 1.583309531211853
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 117
+    nanosec: 400000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 1.3583095073699951
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 118
+    nanosec: 400000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 1.1833094358444214
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 119
+    nanosec: 400000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.9833095669746399
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 120
+    nanosec: 400000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.708309531211853
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 121
+    nanosec: 400000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.5083094835281372
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 122
+    nanosec: 400000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.26632440090179443
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 123
+    nanosec: 300000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.02999996207654476
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 124
+    nanosec: 300000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.1702229082584381
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 125
+    nanosec: 300000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.3963119685649872
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 126
+    nanosec: 300000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.3963119685649872
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 127
+    nanosec: 300000000
+  frame_id: map
+mode: 1
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.6199568510055542
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 128
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 129
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 130
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 131
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 132
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 133
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 134
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 135
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 136
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 137
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 138
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 139
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 140
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 141
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 142
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 143
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 144
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 145
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 146
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 147
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 148
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 149
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 150
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 151
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 152
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 153
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 154
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 155
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 156
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 157
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 158
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 159
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 160
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 161
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 162
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 163
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 164
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 165
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 166
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 167
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 168
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 169
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 170
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 171
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 172
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 173
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 173
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 174
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 175
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 176
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 177
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 178
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 179
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 180
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 181
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 182
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 183
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 184
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 185
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 186
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 187
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 188
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 189
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 190
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 191
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 192
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 193
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 194
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 195
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 196
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 197
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 198
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 199
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 200
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 201
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 202
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 203
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 204
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 205
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 206
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 207
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 208
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 209
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 210
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 211
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 212
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 213
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 214
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 215
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 216
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 217
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 218
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 219
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 220
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 221
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 222
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 223
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 224
+    nanosec: 500000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 225
+    nanosec: 500000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 226
+    nanosec: 500000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 227
+    nanosec: 500000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 228
+    nanosec: 500000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 229
+    nanosec: 500000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 230
+    nanosec: 500000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 231
+    nanosec: 500000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 232
+    nanosec: 500000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 233
+    nanosec: 500000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 234
+    nanosec: 500000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 235
+    nanosec: 500000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 236
+    nanosec: 400000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 237
+    nanosec: 400000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 238
+    nanosec: 400000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 239
+    nanosec: 400000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 240
+    nanosec: 400000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 241
+    nanosec: 400000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 242
+    nanosec: 400000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 243
+    nanosec: 400000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 244
+    nanosec: 400000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 245
+    nanosec: 400000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 246
+    nanosec: 400000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 247
+    nanosec: 400000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 248
+    nanosec: 400000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 249
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 250
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 251
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 252
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 253
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 254
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 255
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 256
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 257
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 258
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 259
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 260
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 261
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 262
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 263
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 264
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 265
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 266
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 267
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 268
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 269
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 270
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 271
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 272
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 273
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 274
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 275
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 276
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 277
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 278
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 279
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 280
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 281
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 282
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 283
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 284
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 285
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 286
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 287
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 288
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 289
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 290
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 291
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 292
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 293
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 294
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 295
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 296
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 297
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 298
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 299
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 300
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 301
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 302
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 303
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 304
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 304
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 305
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 306
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 307
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 308
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 309
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 310
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 311
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 312
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 313
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 314
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 315
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 316
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 317
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 318
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 319
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 320
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 321
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 322
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 323
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 324
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 325
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 326
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 327
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 328
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 329
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 330
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 331
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 332
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 333
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 334
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 335
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 336
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 337
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 338
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 339
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 340
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 341
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 342
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 343
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 344
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 345
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 346
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 347
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 348
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 349
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 350
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 351
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 352
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 353
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 354
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 355
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 356
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 357
+    nanosec: 500000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 358
+    nanosec: 500000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 359
+    nanosec: 500000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 360
+    nanosec: 500000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 361
+    nanosec: 500000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 362
+    nanosec: 500000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 363
+    nanosec: 500000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 364
+    nanosec: 500000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 365
+    nanosec: 500000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 366
+    nanosec: 500000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 367
+    nanosec: 500000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 368
+    nanosec: 500000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 369
+    nanosec: 400000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 370
+    nanosec: 400000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 371
+    nanosec: 400000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 372
+    nanosec: 400000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 373
+    nanosec: 400000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 374
+    nanosec: 400000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 375
+    nanosec: 400000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 376
+    nanosec: 400000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 377
+    nanosec: 400000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 378
+    nanosec: 400000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 379
+    nanosec: 400000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 380
+    nanosec: 400000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 381
+    nanosec: 400000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 382
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 383
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 384
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 385
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 386
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 387
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 388
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 389
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 390
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 391
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 392
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 393
+    nanosec: 300000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 394
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 395
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 396
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 397
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 398
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 399
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 400
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 401
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 402
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 403
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 404
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 405
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 406
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 407
+    nanosec: 200000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 408
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 409
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 410
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 411
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 412
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 413
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 414
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 415
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 416
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 417
+    nanosec: 100000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 418
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 419
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 420
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 421
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 422
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 423
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 424
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 425
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 426
+    nanosec: 0
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 426
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 427
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 428
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 429
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 430
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 431
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 432
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 433
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 434
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 435
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 436
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 437
+    nanosec: 900000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 438
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 439
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 440
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 441
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 442
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 443
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 444
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 445
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 446
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 447
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 448
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 449
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 450
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 451
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 452
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 453
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 454
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 455
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 456
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 457
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 458
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 459
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 460
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 461
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 462
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 463
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 464
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 465
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 466
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 467
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 468
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 469
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 470
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 471
+    nanosec: 500000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 472
+    nanosec: 500000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 473
+    nanosec: 500000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 474
+    nanosec: 500000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 1
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.8275696039199829
+error_code: 0
+error_message: ''
+---

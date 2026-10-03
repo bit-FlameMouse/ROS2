@@ -1,0 +1,41 @@
+00:31:45 窗口收官采样
+===mem===
+00:15:41 第0次 patrol_rss=18960KB safety_rss=17680KB patrol_cpu=1.3% safety_cpu=0.3%
+00:20:41 第1次 patrol_rss=19564KB safety_rss=18312KB patrol_cpu=1.0% safety_cpu=0.3%
+00:25:41 第2次 patrol_rss=20136KB safety_rss=18920KB patrol_cpu=0.9% safety_cpu=0.3%
+00:30:41 第3次 patrol_rss=20692KB safety_rss=19404KB patrol_cpu=0.8% safety_cpu=0.3%
+SAMPLER_DONE 00:30:42
+===status===
+===liveness===
+error: list of process IDs must follow -p
+
+Usage:
+ ps [options]
+
+ Try 'ps --help <simple|list|output|threads|misc|all>'
+  or 'ps --help <s|l|o|t|m|a>'
+ for additional help text.
+
+For more details see ps(1).
+error: list of process IDs must follow -p
+
+Usage:
+ ps [options]
+
+ Try 'ps --help <simple|list|output|threads|misc|all>'
+  or 'ps --help <s|l|o|t|m|a>'
+ for additional help text.
+
+For more details see ps(1).
+patrol PID= RSS=KB; safety PID= RSS=KB
+===log===
+log总行数: 9301
+too-old: 4179
+Goal_succeeded: 9
+emergency_set: 3
+wp_timeout: 3
+failed_progress: 19
+mode5_or_err4: 0
+===stream===
+status流行数: 26835
+COLLECT_DONE 00:31:55

@@ -1,0 +1,6 @@
+[INFO] [1790867771.776009773] [spawn_entity]: Spawn Entity started
+[INFO] [1790867771.776531869] [spawn_entity]: Loading entity XML from file /tmp/safety_box.sdf
+[INFO] [1790867771.777450581] [spawn_entity]: Waiting for service /spawn_entity, timeout = 30
+[INFO] [1790867771.777830145] [spawn_entity]: Waiting for service /spawn_entity
+[INFO] [1790867771.783198643] [spawn_entity]: Calling service /spawn_entity
+[INFO] [1790867771.993014506] [spawn_entity]: Spawn status: SpawnEntity: Successfully spawned entity [safety_box]

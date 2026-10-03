@@ -1,0 +1,84 @@
+290:[patrol_node-6] [INFO] [1790869109.832746311] [patrol_node]: [NavClient] 目标已发送: x=1.75 y=0.00 yaw=0.00 frame=map
+291:[patrol_node-6] [INFO] [1790869109.832823607] [patrol_node]: 前往航点 [0] x=1.75 y=0.00 yaw=0.00 (wait=2.0s)
+293:[component_container_isolated-4] [INFO] [1790869109.833489396] [bt_navigator]: Begin navigating from current location (-2.00, -0.50) to (1.75, 0.00)
+318:[patrol_node-6] [INFO] [1790869133.232604842] [patrol_node]: [NavClient] 目标已发送: x=0.00 y=-2.80 yaw=1.57 frame=map
+319:[patrol_node-6] [INFO] [1790869133.232695193] [patrol_node]: 前往航点 [1] x=0.00 y=-2.80 yaw=1.57 (wait=2.0s)
+320:[component_container_isolated-4] [INFO] [1790869133.233132758] [bt_navigator]: Begin navigating from current location (1.69, -0.23) to (0.00, -2.80)
+321:[component_container_isolated-4] [WARN] [1790869133.233681269] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+322:[component_container_isolated-4] [WARN] [1790869133.233730102] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+326:[component_container_isolated-4] [WARN] [1790869133.964836398] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+327:[component_container_isolated-4] [WARN] [1790869133.964938781] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+332:[component_container_isolated-4] [WARN] [1790869134.965546034] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+333:[component_container_isolated-4] [WARN] [1790869134.965628419] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+337:[component_container_isolated-4] [WARN] [1790869135.964732677] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+338:[component_container_isolated-4] [WARN] [1790869135.964834059] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+343:[component_container_isolated-4] [INFO] [1790869137.684685650] [behavior_server]: spin completed successfully
+344:[component_container_isolated-4] [WARN] [1790869137.713973242] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+345:[component_container_isolated-4] [WARN] [1790869137.714073081] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+349:[component_container_isolated-4] [WARN] [1790869137.964779393] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+350:[component_container_isolated-4] [WARN] [1790869137.964858272] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+354:[component_container_isolated-4] [INFO] [1790869142.984209540] [behavior_server]: wait completed successfully
+355:[component_container_isolated-4] [WARN] [1790869143.014098279] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+356:[component_container_isolated-4] [WARN] [1790869143.014214720] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+360:[component_container_isolated-4] [WARN] [1790869143.965726568] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+361:[component_container_isolated-4] [WARN] [1790869143.965804445] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+366:[component_container_isolated-4] [INFO] [1790869150.184735822] [behavior_server]: backup completed successfully
+367:[component_container_isolated-4] [WARN] [1790869150.214157350] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+368:[component_container_isolated-4] [WARN] [1790869150.214248783] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+372:[component_container_isolated-4] [WARN] [1790869150.964850045] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+373:[component_container_isolated-4] [WARN] [1790869150.964926069] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+378:[component_container_isolated-4] [WARN] [1790869151.965477341] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+379:[component_container_isolated-4] [WARN] [1790869151.965571860] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+383:[component_container_isolated-4] [WARN] [1790869152.964750260] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+384:[component_container_isolated-4] [WARN] [1790869152.964848596] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+389:[component_container_isolated-4] [INFO] [1790869154.684635105] [behavior_server]: spin completed successfully
+390:[component_container_isolated-4] [WARN] [1790869154.714255890] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+391:[component_container_isolated-4] [WARN] [1790869154.714317527] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+395:[component_container_isolated-4] [WARN] [1790869154.964731262] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+396:[component_container_isolated-4] [WARN] [1790869154.964825210] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+400:[component_container_isolated-4] [ERROR] [1790869154.993926000] [bt_navigator]: Goal failed
+401:[patrol_node-6] [INFO] [1790869155.033117637] [patrol_node]: [NavClient] 目标已发送: x=0.00 y=-2.80 yaw=1.57 frame=map
+402:[patrol_node-6] [INFO] [1790869155.033201185] [patrol_node]: 前往航点 [1] x=0.00 y=-2.80 yaw=1.57 (wait=2.0s)
+403:[component_container_isolated-4] [INFO] [1790869155.033520269] [bt_navigator]: Begin navigating from current location (1.77, -0.48) to (0.00, -2.80)
+404:[component_container_isolated-4] [WARN] [1790869155.034119954] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+405:[component_container_isolated-4] [WARN] [1790869155.034194224] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+409:[component_container_isolated-4] [WARN] [1790869155.964884693] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+410:[component_container_isolated-4] [WARN] [1790869155.964970696] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+414:[component_container_isolated-4] [INFO] [1790869161.085879254] [behavior_server]: wait completed successfully
+415:[component_container_isolated-4] [WARN] [1790869161.114380850] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+416:[component_container_isolated-4] [WARN] [1790869161.114491129] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+420:[component_container_isolated-4] [WARN] [1790869161.964759443] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+421:[component_container_isolated-4] [WARN] [1790869161.964848531] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+425:[component_container_isolated-4] [INFO] [1790869168.184641295] [behavior_server]: backup completed successfully
+426:[component_container_isolated-4] [WARN] [1790869168.214344865] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+427:[component_container_isolated-4] [WARN] [1790869168.214431599] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+431:[component_container_isolated-4] [WARN] [1790869168.965148191] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+432:[component_container_isolated-4] [WARN] [1790869168.965241828] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+437:[component_container_isolated-4] [WARN] [1790869169.966150442] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+438:[component_container_isolated-4] [WARN] [1790869169.966247215] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+442:[component_container_isolated-4] [WARN] [1790869170.964814643] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+443:[component_container_isolated-4] [WARN] [1790869170.964918820] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+448:[component_container_isolated-4] [INFO] [1790869172.685169237] [behavior_server]: spin completed successfully
+449:[component_container_isolated-4] [WARN] [1790869172.714510110] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+450:[component_container_isolated-4] [WARN] [1790869172.714607705] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+454:[component_container_isolated-4] [WARN] [1790869172.964942173] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+455:[component_container_isolated-4] [WARN] [1790869172.965023246] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+459:[component_container_isolated-4] [INFO] [1790869177.985078183] [behavior_server]: wait completed successfully
+460:[component_container_isolated-4] [WARN] [1790869178.014233996] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+461:[component_container_isolated-4] [WARN] [1790869178.014356819] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+465:[component_container_isolated-4] [WARN] [1790869178.965105756] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+466:[component_container_isolated-4] [WARN] [1790869178.965193072] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+470:[component_container_isolated-4] [INFO] [1790869185.084510785] [behavior_server]: backup completed successfully
+471:[component_container_isolated-4] [WARN] [1790869185.114806345] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+472:[component_container_isolated-4] [WARN] [1790869185.114897597] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+476:[component_container_isolated-4] [WARN] [1790869185.964955054] [planner_server]: The goal sent to the planner is off the global costmap. Planning will always fail to this goal.
+477:[component_container_isolated-4] [WARN] [1790869185.965037760] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+481:[component_container_isolated-4] [ERROR] [1790869185.994190632] [bt_navigator]: Goal failed
+482:[patrol_node-6] [INFO] [1790869186.033364172] [patrol_node]: [NavClient] 目标已发送: x=-1.75 y=0.00 yaw=3.14 frame=map
+483:[patrol_node-6] [INFO] [1790869186.033444373] [patrol_node]: 前往航点 [2] x=-1.75 y=0.00 yaw=3.14 (wait=2.0s)
+484:[component_container_isolated-4] [INFO] [1790869186.033785629] [bt_navigator]: Begin navigating from current location (1.94, -0.10) to (-1.75, 0.00)
+704:[safety_guard_node-5] [WARN] [1790869211.459112424] [safety_guard_node]: 前方障碍过近（0.26 m < 0.30 m），置位紧急标志
+705:[patrol_node-6] [WARN] [1790869211.459235928] [patrol_node]: 安全标志变化: emergency=true
+712:[component_container_isolated-4] [INFO] [1790869211.555261796] [controller_server]: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+714:[component_container_isolated-4] [INFO] [1790869211.555928518] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+715:[component_container_isolated-4] [INFO] [1790869211.556137403] [bt_navigator]: Goal canceled

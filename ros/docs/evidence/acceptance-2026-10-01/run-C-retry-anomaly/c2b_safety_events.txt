@@ -1,0 +1,2 @@
+[safety_guard_node-5] [WARN] [1790869211.459112424] [safety_guard_node]: 前方障碍过近（0.26 m < 0.30 m），置位紧急标志
+[patrol_node-6] [WARN] [1790869211.459235928] [patrol_node]: 安全标志变化: emergency=true

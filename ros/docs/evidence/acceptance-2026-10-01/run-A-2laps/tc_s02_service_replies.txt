@@ -1,0 +1,37 @@
+### TC-S-02 服务序列（Run A2）  2026-10-01 23:09:59
+--- 1) START mode:0
+requester: making request: patrol_interfaces.srv.SetPatrolMode_Request(mode=0)
+
+response:
+patrol_interfaces.srv.SetPatrolMode_Response(success=True, message='OK', current_mode=1)
+
+--- 2) 重复 START mode:0（应 NO_STATE_CHANGE）
+requester: making request: patrol_interfaces.srv.SetPatrolMode_Request(mode=0)
+
+response:
+patrol_interfaces.srv.SetPatrolMode_Response(success=False, message='NO_STATE_CHANGE', current_mode=1)
+
+--- 3) PAUSE mode:1（应 current_mode=3）
+requester: making request: patrol_interfaces.srv.SetPatrolMode_Request(mode=1)
+
+response:
+patrol_interfaces.srv.SetPatrolMode_Response(success=True, message='OK', current_mode=3)
+
+--- 4) RESUME mode:2（应 current_mode=1）
+requester: making request: patrol_interfaces.srv.SetPatrolMode_Request(mode=2)
+
+response:
+patrol_interfaces.srv.SetPatrolMode_Response(success=True, message='OK', current_mode=1)
+
+--- 5) STOP mode:3（应 current_mode=0）
+requester: making request: patrol_interfaces.srv.SetPatrolMode_Request(mode=3)
+
+response:
+patrol_interfaces.srv.SetPatrolMode_Response(success=True, message='OK', current_mode=0)
+
+--- 6) RESET mode:4（应 OK）
+requester: making request: patrol_interfaces.srv.SetPatrolMode_Request(mode=4)
+
+response:
+patrol_interfaces.srv.SetPatrolMode_Response(success=True, message='OK', current_mode=0)
+

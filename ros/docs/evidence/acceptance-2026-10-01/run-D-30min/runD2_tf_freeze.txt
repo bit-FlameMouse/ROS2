@@ -1,0 +1,29 @@
+D2 的 map→odom 冻结证据（AMCL 静止门控 → Nav2 Transform too old 刷屏）
+
+冻结对象：nav2 侧解析到的 map→odom "位姿估计时间"（Transform time）冻结于 sim 234.165s，
+= 第 1 次夹停（1790870748.33）前 1.1 s 机器人最后一次滤波更新的时刻；
+此后机器人低速/静止，AMCL 静止门控使滤波不再更新。
+旁证：mode 4 停驻期间实测 /amcl_pose 6 s 内 0 条（00:21，机器人静止）。
+
+冻结期样本（Transform time 恒为 234.165，Data time 持续增大）：
+[component_container_isolated-4] [ERROR] [1790870743.752007833] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790870743.752007833] [tf_help]: Data time: 235s 300000000ns, Transform time: 234s 165000000ns
+[component_container_isolated-4] [ERROR] [1790871053.723961283] [tf_help]: Data time: 543s 900000000ns, Transform time: 234s 165000000ns
+[component_container_isolated-4] [ERROR] [1790871084.794403151] [tf_help]: Data time: 574s 100000000ns, Transform time: 234s 165000000ns
+[component_container_isolated-4] [ERROR] [1790871088.894904782] [tf_help]: Data time: 578s 200000000ns, Transform time: 234s 165000000ns
+[component_container_isolated-4] [ERROR] [1790871258.004734222] [tf_help]: Data time: 749s 500000000ns, Transform time: 234s 165000000ns
+[component_container_isolated-4] [ERROR] [1790871262.955698838] [tf_help]: Data time: 751s 500000000ns, Transform time: 234s 165000000ns
+
+统计（00:26 收尾复核版）：
+- too-old 总条数 = 4179（全日志 grep -c）
+- 全部 4179 条的 Transform time 恒为 234.165s（uniq -c 复核：4179/4179）
+- 最后一条 = 1790871262.955（第 3 次夹停 1262.883 后 72 ms、goal cancel 1790871263.00 前 45 ms）
+- 分段：夹停#1 后 743.75→1150.20 密集（~10 Hz）；
+  1150.20→1258.00 出现 107 s 空窗（该窗内无 too-old 记录）；
+  WP2 段 1258.00→1262.955 再度密集（~20 Hz，新目标下发后控制器每拍查询）
+- tf 重发实测（00:21:55，mode 4 停驻）：/tf 中 map→odom 以 5 Hz 持续重发（6 s 30 条），
+  时间戳随仿真推进（sim 1241.5→1247.4），数值冻结于 (-0.047, 0.004)（= 最后一次滤波修正量）
+- 恢复条件实测：机器人真实移动（≥0.10 m 量级）后滤波重新推进
+  （前段实跑证据：夹停解除→自动恢复巡线；cluster-1 止于机器人爬行时刻 sim 642.2）
+
+（早期版本此文件曾记"最后一条=1790871150.198"——那是 00:14 的中间快照，收尾复核已更正。）

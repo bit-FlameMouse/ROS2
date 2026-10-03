@@ -1,0 +1,70 @@
+D2 事件时间线（安全夹停 → 人工解除 → 自动恢复 → 导航抖动恢复）
+生成时间：2026-10-02 00:14（跑动中提取）
+
+== 1) 安全夹停（pinch at pillar (1.1,-1.1)，全程第 11 次接近 WP0）==
+730:[safety_guard_node-5] [WARN] [1790870748.333889448] [safety_guard_node]: 前方障碍过近（0.28 m < 0.30 m），置位紧急标志
+731:[patrol_node-6] [WARN] [1790870748.334035152] [patrol_node]: 安全标志变化: emergency=true
+734:[patrol_node-6] [WARN] [1790870748.375804868] [patrol_node]: [NavClient] 已请求取消当前导航目标
+735:[component_container_isolated-4] [INFO] [1790870748.397689645] [controller_server]: Goal was canceled. Stopping the robot.
+741:[patrol_node-6] [WARN] [1790871027.556375276] [patrol_node]: 安全标志变化: emergency=false
+860:[safety_guard_node-5] [WARN] [1790871030.386316372] [safety_guard_node]: 前方障碍过近（0.27 m < 0.30 m），置位紧急标志
+861:[patrol_node-6] [WARN] [1790871030.386385843] [patrol_node]: 安全标志变化: emergency=true
+866:[patrol_node-6] [WARN] [1790871030.477261400] [patrol_node]: [NavClient] 已请求取消当前导航目标
+
+== 2) 人工驶离（脚本 runD2_recover_script.py：转 48° + 倒车 0.34 m）==
+[PRE] yaw=-168.7 target=-120.7 emg=True near=0.2767901122570038 raw_min=0.249 pos=(1.330,-0.786)
+[R] ok=True yaw=-123.4 near=0.252346009016037 raw_min=0.250
+[B] CLEARED travel=0.340 near=0.6148062348365784 raw_min=0.478
+[END] travel=0.080 yaw=-165.4 emg=False near=0.36589425802230835 raw_min=0.347 pos=(1.323,-0.706)
+
+== 3) 解除后 patrol 自动恢复 + 二次触发 + 再次恢复 ==
+291:[patrol_node-6] [INFO] [1790870524.674398603] [patrol_node]: 前往航点 [0] x=1.75 y=0.00 yaw=0.00 (wait=2.0s)
+321:[patrol_node-6] [INFO] [1790870548.474769211] [patrol_node]: 前往航点 [1] x=0.00 y=1.90 yaw=1.57 (wait=2.0s)
+344:[patrol_node-6] [INFO] [1790870568.974604776] [patrol_node]: 前往航点 [2] x=-1.75 y=0.00 yaw=3.14 (wait=2.0s)
+368:[patrol_node-6] [INFO] [1790870590.474836330] [patrol_node]: 前往航点 [0] x=1.75 y=0.00 yaw=0.00 (wait=2.0s)
+397:[patrol_node-6] [INFO] [1790870615.675044586] [patrol_node]: 前往航点 [1] x=0.00 y=1.90 yaw=1.57 (wait=2.0s)
+420:[patrol_node-6] [INFO] [1790870635.374976056] [patrol_node]: 前往航点 [2] x=-1.75 y=0.00 yaw=3.14 (wait=2.0s)
+444:[patrol_node-6] [INFO] [1790870656.575332206] [patrol_node]: 前往航点 [0] x=1.75 y=0.00 yaw=0.00 (wait=2.0s)
+472:[patrol_node-6] [INFO] [1790870681.675194952] [patrol_node]: 前往航点 [1] x=0.00 y=1.90 yaw=1.57 (wait=2.0s)
+494:[patrol_node-6] [INFO] [1790870700.975213058] [patrol_node]: 前往航点 [2] x=-1.75 y=0.00 yaw=3.14 (wait=2.0s)
+518:[patrol_node-6] [INFO] [1790870722.175589337] [patrol_node]: 前往航点 [0] x=1.75 y=0.00 yaw=0.00 (wait=2.0s)
+731:[patrol_node-6] [WARN] [1790870748.334035152] [patrol_node]: 安全标志变化: emergency=true
+741:[patrol_node-6] [WARN] [1790871027.556375276] [patrol_node]: 安全标志变化: emergency=false
+
+== 4) 导航抖动期：Failed to make progress 与恢复行为 ==
+375:[component_container_isolated-4] [WARN] [1790870595.596965124] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 10.0000 Hz
+1292:[component_container_isolated-4] [ERROR] [1790871046.449789604] [controller_server]: Failed to make progress
+1299:[component_container_isolated-4] [WARN] [1790871046.544282734] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+1715:[component_container_isolated-4] [ERROR] [1790871056.670129167] [controller_server]: Failed to make progress
+1719:[component_container_isolated-4] [WARN] [1790871057.200595317] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 2.0000 Hz
+2136:[component_container_isolated-4] [ERROR] [1790871067.369520039] [controller_server]: Failed to make progress
+2143:[component_container_isolated-4] [WARN] [1790871067.545102581] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+2557:[component_container_isolated-4] [ERROR] [1790871077.695623299] [controller_server]: Failed to make progress
+2559:[component_container_isolated-4] [INFO] [1790871077.708837951] [behavior_server]: Running spin
+2567:[component_container_isolated-4] [INFO] [1790871077.888931197] [behavior_server]: Running wait
+2983:[component_container_isolated-4] [ERROR] [1790871093.140609900] [controller_server]: Failed to make progress
+2990:[component_container_isolated-4] [WARN] [1790871093.346296190] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+3410:[component_container_isolated-4] [ERROR] [1790871103.497092609] [controller_server]: Failed to make progress
+3412:[component_container_isolated-4] [INFO] [1790871103.509182125] [behavior_server]: Running backup
+3422:[component_container_isolated-4] [WARN] [1790871104.200120321] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 1.6667 Hz
+3839:[component_container_isolated-4] [ERROR] [1790871114.369467104] [controller_server]: Failed to make progress
+3846:[component_container_isolated-4] [WARN] [1790871114.546330316] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+4256:[component_container_isolated-4] [ERROR] [1790871124.596736534] [controller_server]: Failed to make progress
+4258:[component_container_isolated-4] [INFO] [1790871124.608827454] [behavior_server]: Running spin
+4266:[component_container_isolated-4] [INFO] [1790871124.808818800] [behavior_server]: Running wait
+4682:[component_container_isolated-4] [ERROR] [1790871139.949804829] [controller_server]: Failed to make progress
+4689:[component_container_isolated-4] [WARN] [1790871140.144469703] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+5101:[component_container_isolated-4] [ERROR] [1790871150.244706844] [controller_server]: Failed to make progress
+5103:[component_container_isolated-4] [INFO] [1790871150.259069095] [behavior_server]: Running backup
+5112:[component_container_isolated-4] [WARN] [1790871151.200195925] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 1.1111 Hz
+== 3) 解除后 patrol 自动恢复 + 二次触发 + 再次恢复 ==
+741:[patrol_node-6] [WARN] [1790871027.556375276] [patrol_node]: 安全标志变化: emergency=false
+743:[patrol_node-6] [INFO] [1790871027.577512844] [patrol_node]: 前往航点 [0] x=1.75 y=0.00 yaw=0.00 (wait=2.0s)
+861:[patrol_node-6] [WARN] [1790871030.386385843] [patrol_node]: 安全标志变化: emergency=true
+871:[patrol_node-6] [WARN] [1790871036.222287857] [patrol_node]: 安全标志变化: emergency=false
+874:[patrol_node-6] [INFO] [1790871036.277820357] [patrol_node]: 前往航点 [0] x=1.75 y=0.00 yaw=0.00 (wait=2.0s)
+3129:[patrol_node-6] [INFO] [1790871096.678677555] [patrol_node]: 前往航点 [0] x=1.75 y=0.00 yaw=0.00 (wait=2.0s)
+5358:[patrol_node-6] [INFO] [1790871157.078767777] [patrol_node]: 前往航点 [1] x=0.00 y=1.90 yaw=1.57 (wait=2.0s)
+6804:[patrol_node-6] [INFO] [1790871197.579376108] [patrol_node]: 前往航点 [1] x=0.00 y=1.90 yaw=1.57 (wait=2.0s)
+9086:[patrol_node-6] [INFO] [1790871257.979370859] [patrol_node]: 前往航点 [2] x=-1.75 y=0.00 yaw=3.14 (wait=2.0s)
+9291:[patrol_node-6] [WARN] [1790871262.883085592] [patrol_node]: 安全标志变化: emergency=true

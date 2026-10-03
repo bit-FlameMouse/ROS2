@@ -1,0 +1,12 @@
+=== 施救前快照 00:09:36 ===
+mode: 4
+current_waypoint_index: 0
+completed_waypoints: 9
+current_loop: 3
+distance_remaining: 0.8417465090751648
+error_code: 0
+error_message: ''
+data: true
+---
+data: 0.26727572083473206
+---

@@ -1,0 +1,39 @@
+=== 巡逻关键节点（patrol_node）===
+[patrol_node-6] [INFO] [1790867346.018446676] [patrol_node]: patrol_node 已启动，tick=100 ms
+[patrol_node-6] [INFO] [1790867346.019155653] [patrol_node]: 航点集合 frame=map count=3
+[patrol_node-6]   [0] x=1.75 y=0 yaw=0 wait=2s
+[patrol_node-6]   [1] x=0 y=1.9 yaw=1.57 wait=2s
+[patrol_node-6]   [2] x=-1.75 y=0 yaw=3.14 wait=2s
+[patrol_node-6] [INFO] [1790867400.422058144] [patrol_node]: 前往航点 [0] x=1.75 y=0.00 yaw=0.00 (wait=2.0s)
+[patrol_node-6] [INFO] [1790867400.422203103] [patrol_node]: 模式请求 START: IDLE → MOVING (OK)
+[patrol_node-6] [INFO] [1790867404.121752783] [patrol_node]: 模式请求 START: MOVING → MOVING (NO_STATE_CHANGE)
+[patrol_node-6] [INFO] [1790867405.822601989] [patrol_node]: 模式请求 PAUSE: MOVING → PAUSED (OK)
+[patrol_node-6] [INFO] [1790867407.521909701] [patrol_node]: 前往航点 [0] x=1.75 y=0.00 yaw=0.00 (wait=2.0s)
+[patrol_node-6] [INFO] [1790867407.522072484] [patrol_node]: 模式请求 RESUME: PAUSED → MOVING (OK)
+[patrol_node-6] [INFO] [1790867409.222066866] [patrol_node]: 模式请求 STOP: MOVING → IDLE (OK)
+[patrol_node-6] [INFO] [1790867410.922133960] [patrol_node]: 模式请求 RESET: IDLE → IDLE (OK)
+[patrol_node-6] [INFO] [1790867433.423322386] [patrol_node]: 前往航点 [0] x=1.75 y=0.00 yaw=0.00 (wait=2.0s)
+[patrol_node-6] [INFO] [1790867433.423466012] [patrol_node]: 模式请求 START: IDLE → MOVING (OK)
+[patrol_node-6] [INFO] [1790867449.824318740] [patrol_node]: 前往航点 [1] x=0.00 y=1.90 yaw=1.57 (wait=2.0s)
+[patrol_node-6] [INFO] [1790867470.525124465] [patrol_node]: 前往航点 [2] x=-1.75 y=0.00 yaw=3.14 (wait=2.0s)
+[patrol_node-6] [INFO] [1790867491.926054747] [patrol_node]: 前往航点 [0] x=1.75 y=0.00 yaw=0.00 (wait=2.0s)
+[patrol_node-6] [INFO] [1790867509.227090940] [patrol_node]: 模式请求 PAUSE: MOVING → PAUSED (OK)
+[patrol_node-6] [INFO] [1790867514.027417055] [patrol_node]: 前往航点 [0] x=1.75 y=0.00 yaw=0.00 (wait=2.0s)
+[patrol_node-6] [INFO] [1790867514.027595006] [patrol_node]: 模式请求 RESUME: PAUSED → MOVING (OK)
+[patrol_node-6] [INFO] [1790867521.827796714] [patrol_node]: 前往航点 [1] x=0.00 y=1.90 yaw=1.57 (wait=2.0s)
+[patrol_node-6] [INFO] [1790867540.828368880] [patrol_node]: 前往航点 [2] x=-1.75 y=0.00 yaw=3.14 (wait=2.0s)
+[patrol_node-6] [INFO] [1790867562.229078467] [patrol_node]: 巡逻任务全部完成：共 6 个航点，2 轮
+
+=== Nav2 起终点 ===
+[component_container_isolated-4] [INFO] [1790867400.422435296] [bt_navigator]: Begin navigating from current location (-2.00, -0.50) to (1.75, 0.00)
+[component_container_isolated-4] [INFO] [1790867407.522278971] [bt_navigator]: Begin navigating from current location (-0.86, -0.56) to (1.75, 0.00)
+[component_container_isolated-4] [INFO] [1790867433.423736275] [bt_navigator]: Begin navigating from current location (-0.53, -0.57) to (1.75, 0.00)
+[component_container_isolated-4] [INFO] [1790867449.824676922] [bt_navigator]: Begin navigating from current location (1.66, -0.19) to (0.00, 1.90)
+[component_container_isolated-4] [INFO] [1790867470.525498376] [bt_navigator]: Begin navigating from current location (0.20, 1.83) to (-1.75, 0.00)
+[component_container_isolated-4] [INFO] [1790867491.926396022] [bt_navigator]: Begin navigating from current location (-1.79, 0.19) to (1.75, 0.00)
+[component_container_isolated-4] [INFO] [1790867514.027871036] [bt_navigator]: Begin navigating from current location (1.09, 0.49) to (1.75, 0.00)
+[component_container_isolated-4] [INFO] [1790867521.828267347] [bt_navigator]: Begin navigating from current location (1.63, 0.19) to (0.00, 1.90)
+[component_container_isolated-4] [INFO] [1790867540.828828030] [bt_navigator]: Begin navigating from current location (0.23, 1.82) to (-1.75, 0.00)
+
+=== 安全事件（应为空）===
+0

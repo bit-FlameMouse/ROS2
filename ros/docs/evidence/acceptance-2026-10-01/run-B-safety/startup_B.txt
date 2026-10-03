@@ -1,0 +1,4 @@
+[spawn_entity.py-3] [INFO] [1790867672.143200662] [spawn_entity]: Spawn status: SpawnEntity: Successfully spawned entity [burger]
+[patrol_node-6] [INFO] [1790867678.403618119] [patrol_node]: Nav2 Action Server 'navigate_to_pose' 已就绪
+[patrol_node-6] [INFO] [1790867678.409366340] [patrol_node]: patrol_node 已启动，tick=100 ms
+[safety_guard_node-5] [INFO] [1790867683.364528164] [safety_guard_node]: 已收到激光数据，扫描链路正常

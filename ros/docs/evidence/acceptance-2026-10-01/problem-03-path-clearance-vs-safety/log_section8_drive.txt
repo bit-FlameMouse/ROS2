@@ -1,0 +1,86 @@
+[patrol_node-6] [INFO] [1790866933.405516805] [patrol_node]: [NavClient] 目标已发送: x=1.75 y=0.00 yaw=0.00 frame=map
+[patrol_node-6] [INFO] [1790866933.405598568] [patrol_node]: 前往航点 [0] x=1.75 y=0.00 yaw=0.00 (wait=2.0s)
+[patrol_node-6] [INFO] [1790866933.405849040] [patrol_node]: 模式请求 START: IDLE → MOVING (OK)
+[component_container_isolated-4] [INFO] [1790866933.406392021] [bt_navigator]: Begin navigating from current location (-2.00, -0.50) to (1.75, 0.00)
+[component_container_isolated-4] [INFO] [1790866933.428308257] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-4] [WARN] [1790866933.428448280] [controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded general_goal_checker . This warning will appear once.
+[component_container_isolated-4] [INFO] [1790866934.479215846] [controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1790866935.529285176] [controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1790866936.529191609] [controller_server]: Passing new path to controller.
+[patrol_node-6] [INFO] [1790866937.305351815] [patrol_node]: 模式请求 START: MOVING → MOVING (NO_STATE_CHANGE)
+[component_container_isolated-4] [INFO] [1790866937.579279043] [controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1790866938.579004062] [controller_server]: Passing new path to controller.
+[patrol_node-6] [WARN] [1790866939.105687325] [patrol_node]: [NavClient] 已请求取消当前导航目标
+[patrol_node-6] [INFO] [1790866939.105905856] [patrol_node]: 模式请求 PAUSE: MOVING → PAUSED (OK)
+[component_container_isolated-4] [ERROR] [1790866939.127790753] [bt_navigator_navigate_to_pose_rclcpp_node]: Failed to get result for follow_path in node halt!
+[component_container_isolated-4] [INFO] [1790866939.127930716] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[component_container_isolated-4] [INFO] [1790866939.128156190] [bt_navigator]: Goal canceled
+[component_container_isolated-4] [INFO] [1790866939.129209087] [controller_server]: Goal was canceled. Stopping the robot.
+[component_container_isolated-4] [INFO] [1790866939.129267588] [controller_server]: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+[patrol_node-6] [INFO] [1790866941.105636772] [patrol_node]: [NavClient] 目标已发送: x=1.75 y=0.00 yaw=0.00 frame=map
+[patrol_node-6] [INFO] [1790866941.105726080] [patrol_node]: 前往航点 [0] x=1.75 y=0.00 yaw=0.00 (wait=2.0s)
+[patrol_node-6] [INFO] [1790866941.105983264] [patrol_node]: 模式请求 RESUME: PAUSED → MOVING (OK)
+[component_container_isolated-4] [INFO] [1790866941.106345435] [bt_navigator]: Begin navigating from current location (-0.88, -0.91) to (1.75, 0.00)
+[component_container_isolated-4] [INFO] [1790866941.127272672] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-4] [INFO] [1790866942.177825153] [controller_server]: Passing new path to controller.
+[patrol_node-6] [WARN] [1790866942.905654303] [patrol_node]: [NavClient] 已请求取消当前导航目标
+[patrol_node-6] [INFO] [1790866942.905838339] [patrol_node]: 模式请求 STOP: MOVING → IDLE (OK)
+[component_container_isolated-4] [ERROR] [1790866942.927663798] [bt_navigator_navigate_to_pose_rclcpp_node]: Failed to get result for follow_path in node halt!
+[component_container_isolated-4] [INFO] [1790866942.927820703] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[component_container_isolated-4] [INFO] [1790866942.927939847] [controller_server]: Goal was canceled. Stopping the robot.
+[component_container_isolated-4] [INFO] [1790866942.927981566] [controller_server]: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+[component_container_isolated-4] [INFO] [1790866942.928008286] [bt_navigator]: Goal canceled
+[patrol_node-6] [INFO] [1790866944.905872894] [patrol_node]: 模式请求 RESET: IDLE → IDLE (OK)
+[gzserver-1] 1790866946.504102 [30]   gzserver: ddsi_udp_conn_write to udp/192.168.126.128:58478 failed with retcode -1
+[gzserver-1] 1790866946.504154 [30]   gzserver: ddsi_udp_conn_write to udp/239.255.0.1:14901 failed with retcode -1
+[gzserver-1] 1790866946.504176 [30]   gzserver: ddsi_udp_conn_write to udp/192.168.126.128:40586 failed with retcode -1
+[gzserver-1] 1790866946.537037 [30]   gzserver: ddsi_udp_conn_write to udp/192.168.126.128:58478 failed with retcode -1
+[gzserver-1] 1790866946.537072 [30]   gzserver: ddsi_udp_conn_write to udp/239.255.0.1:14901 failed with retcode -1
+[gzserver-1] 1790866946.537097 [30]   gzserver: ddsi_udp_conn_write to udp/192.168.126.128:40586 failed with retcode -1
+[gzserver-1] 1790866946.573744 [30]   gzserver: ddsi_udp_conn_write to udp/192.168.126.128:58478 failed with retcode -1
+[gzserver-1] 1790866946.573785 [30]   gzserver: ddsi_udp_conn_write to udp/239.255.0.1:14901 failed with retcode -1
+[gzserver-1] 1790866946.573807 [30]   gzserver: ddsi_udp_conn_write to udp/192.168.126.128:40586 failed with retcode -1
+[gzserver-1] 1790866946.588031 [30]   gzserver: ddsi_udp_conn_write to udp/239.255.0.1:14901 failed with retcode -1
+[gzserver-1] 1790866946.610064 [30]   gzserver: ddsi_udp_conn_write to udp/192.168.126.128:58478 failed with retcode -1
+[gzserver-1] 1790866946.610109 [30]   gzserver: ddsi_udp_conn_write to udp/239.255.0.1:14901 failed with retcode -1
+[gzserver-1] 1790866946.610135 [30]   gzserver: ddsi_udp_conn_write to udp/192.168.126.128:40586 failed with retcode -1
+[robot_state_publisher-2] 1790866946.625688 [30]        tev: ddsi_udp_conn_write to udp/239.255.0.1:14901 failed with retcode -1
+[gzserver-1] Exception sending a multicast message:Network is unreachable
+[gzserver-1] Exception sending a multicast message:Network is unreachable
+[gzserver-1] 1790866946.641220 [30]   gzserver: ddsi_udp_conn_write to udp/192.168.126.128:58478 failed with retcode -1
+[gzserver-1] 1790866946.641278 [30]   gzserver: ddsi_udp_conn_write to udp/239.255.0.1:14901 failed with retcode -1
+[gzserver-1] 1790866946.641313 [30]   gzserver: ddsi_udp_conn_write to udp/192.168.126.128:40586 failed with retcode -1
+[patrol_node-6] [INFO] [1790866959.905665834] [patrol_node]: [NavClient] 目标已发送: x=1.75 y=0.00 yaw=0.00 frame=map
+[patrol_node-6] [INFO] [1790866959.905757827] [patrol_node]: 前往航点 [0] x=1.75 y=0.00 yaw=0.00 (wait=2.0s)
+[patrol_node-6] [INFO] [1790866959.906145797] [patrol_node]: 模式请求 START: IDLE → MOVING (OK)
+[component_container_isolated-4] [INFO] [1790866959.906222330] [bt_navigator]: Begin navigating from current location (-0.91, -1.23) to (1.75, 0.00)
+[component_container_isolated-4] [INFO] [1790866959.927681468] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-4] [INFO] [1790866960.978129273] [controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1790866962.028909397] [controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1790866963.028033440] [controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1790866964.078071082] [controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1790866965.078885971] [controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1790866966.128188458] [controller_server]: Passing new path to controller.
+[safety_guard_node-5] [WARN] [1790866966.797175512] [safety_guard_node]: 前方障碍过近（0.28 m < 0.30 m），置位紧急标志
+[patrol_node-6] [WARN] [1790866966.797321587] [patrol_node]: 安全标志变化: emergency=true
+[patrol_node-6] [WARN] [1790866966.805446610] [patrol_node]: [NavClient] 已请求取消当前导航目标
+[component_container_isolated-4] [ERROR] [1790866966.826871815] [bt_navigator_navigate_to_pose_rclcpp_node]: Failed to get result for follow_path in node halt!
+[component_container_isolated-4] [INFO] [1790866966.826993775] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[component_container_isolated-4] [INFO] [1790866966.827237614] [bt_navigator]: Goal canceled
+[component_container_isolated-4] [INFO] [1790866966.828192429] [controller_server]: Goal was canceled. Stopping the robot.
+[component_container_isolated-4] [INFO] [1790866966.828240450] [controller_server]: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+[gzserver-1] 1790867007.958739 [30]   gzserver: ddsi_udp_conn_write to udp/192.168.126.128:58478 failed with retcode -1
+[gzserver-1] 1790867007.958795 [30]   gzserver: ddsi_udp_conn_write to udp/239.255.0.1:14901 failed with retcode -1
+[gzserver-1] 1790867007.958818 [30]   gzserver: ddsi_udp_conn_write to udp/192.168.126.128:40586 failed with retcode -1
+[gzserver-1] 1790867007.995123 [30]   gzserver: ddsi_udp_conn_write to udp/192.168.126.128:58478 failed with retcode -1
+[gzserver-1] 1790867007.995180 [30]   gzserver: ddsi_udp_conn_write to udp/239.255.0.1:14901 failed with retcode -1
+[gzserver-1] 1790867007.995211 [30]   gzserver: ddsi_udp_conn_write to udp/192.168.126.128:40586 failed with retcode -1
+[gzserver-1] 1790867008.013156 [30]   gzserver: ddsi_udp_conn_write to udp/239.255.0.1:14901 failed with retcode -1
+[gzserver-1] 1790867008.031302 [30]   gzserver: ddsi_udp_conn_write to udp/192.168.126.128:58478 failed with retcode -1
+[gzserver-1] 1790867008.031338 [30]   gzserver: ddsi_udp_conn_write to udp/239.255.0.1:14901 failed with retcode -1
+[gzserver-1] 1790867008.031373 [30]   gzserver: ddsi_udp_conn_write to udp/192.168.126.128:40586 failed with retcode -1
+[gzserver-1] 1790867008.065683 [30]   gzserver: ddsi_udp_conn_write to udp/192.168.126.128:58478 failed with retcode -1
+[gzserver-1] 1790867008.065724 [30]   gzserver: ddsi_udp_conn_write to udp/239.255.0.1:14901 failed with retcode -1
+[gzserver-1] 1790867008.065746 [30]   gzserver: ddsi_udp_conn_write to udp/192.168.126.128:40586 failed with retcode -1
+[robot_state_publisher-2] 1790867008.080850 [30]        tev: ddsi_udp_conn_write to udp/239.255.0.1:14901 failed with retcode -1
+[gzserver-1] 1790867008.083437 [30]   gzserver: ddsi_udp_conn_write to udp/239.255.0.1:14901 failed with retcode -1

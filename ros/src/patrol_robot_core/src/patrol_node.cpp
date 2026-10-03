@@ -29,6 +29,33 @@ namespace patrol_robot_core
 {
 using namespace std::chrono_literals;  // NOLINT(build/namespaces)
 
+namespace
+{
+// 航点 Marker 的显示设置（集中定义，便于统一调整；数值与 05 文档 §2.2 一致）
+constexpr char kWaypointNs[] = "patrol_waypoints";  ///< 航点球体的 Marker 命名空间
+constexpr char kLabelNs[] = "patrol_labels";        ///< 航点文本的 Marker 命名空间
+
+constexpr float kSphereDiameter = 0.25f;    ///< 球体直径（m）
+constexpr float kSphereZ = 0.15f;           ///< 球心离地高度（m）
+constexpr float kTextHeight = 0.22f;        ///< 文本高度（m，TEXT_VIEW_FACING 的 scale.z）
+constexpr float kTextZ = 0.45f;             ///< 文本中心离地高度（m）
+constexpr float kWaypointAlpha = 0.90f;     ///< 球体透明度
+constexpr float kLabelAlpha = 0.95f;        ///< 文本透明度
+
+/// @brief RViz 配色（RGB 分量均在 [0, 1]）
+struct Rgb
+{
+  float r;
+  float g;
+  float b;
+};
+
+constexpr Rgb kColorVisited{0.20f, 0.85f, 0.30f};  ///< 绿：本轮已完成 / 全部完成
+constexpr Rgb kColorCurrent{1.00f, 0.85f, 0.00f};  ///< 黄：当前目标
+constexpr Rgb kColorPending{0.60f, 0.60f, 0.60f};  ///< 灰：未访问
+constexpr Rgb kColorLabel{1.00f, 1.00f, 1.00f};    ///< 白：航点文本
+}  // namespace
+
 class PatrolNode : public rclcpp::Node
 {
 public:
@@ -496,66 +523,100 @@ private:
   }
 
   // ---------------- 可视化 ----------------
+  using Marker = visualization_msgs::msg::Marker;  ///< 下文 Marker 类型简写
+
+  /// @brief 发布航点 MarkerArray：每个航点一个球体 + 一个文本标签
   void publishMarkers()
   {
-    using visualization_msgs::msg::Marker;
-
-    visualization_msgs::msg::MarkerArray arr;
     const auto stamp = now();
     const auto snap = snapshot();
+
+    visualization_msgs::msg::MarkerArray arr;
 
     // 先清理，避免航点数量减少时残留旧 Marker
     Marker clear;
     clear.header.frame_id = global_frame_;
     clear.header.stamp = stamp;
-    clear.ns = "patrol_waypoints";
+    clear.ns = kWaypointNs;
     clear.action = Marker::DELETEALL;
     arr.markers.push_back(clear);
 
-    const uint32_t current = snap.index;
-    const bool running = (snap.state == PatrolState::MOVING || snap.state == PatrolState::WAITING ||
-      snap.state == PatrolState::PAUSED || snap.state == PatrolState::SAFETY_HOLD);
-    const bool all_finished = snap.finished_all && snap.state == PatrolState::IDLE;
-
     for (const auto & wp : waypoints_.waypoints) {
-      Marker m;
-      m.header.frame_id = global_frame_;
-      m.header.stamp = stamp;
-      m.ns = "patrol_waypoints";
-      m.id = static_cast<int>(wp.index);
-      m.type = Marker::SPHERE;
-      m.action = Marker::ADD;
-      m.pose.position.x = wp.x;
-      m.pose.position.y = wp.y;
-      m.pose.position.z = 0.15;
-      m.pose.orientation.w = 1.0;  // 必须显式初始化（04 §8 关键设计点 5）
-      m.scale.x = m.scale.y = m.scale.z = 0.25;
-      m.lifetime = rclcpp::Duration(0, 0);  // 0 = 永不过期
-
-      if (all_finished) {
-        m.color.r = 0.20f; m.color.g = 0.85f; m.color.b = 0.30f;  // 绿：全部完成
-      } else if (running && wp.index == current) {
-        m.color.r = 1.00f; m.color.g = 0.85f; m.color.b = 0.00f;  // 黄：当前目标
-      } else if (running && wp.index < current) {
-        m.color.r = 0.20f; m.color.g = 0.85f; m.color.b = 0.30f;  // 绿：本轮已完成
-      } else {
-        m.color.r = 0.60f; m.color.g = 0.60f; m.color.b = 0.60f;  // 灰：未访问
-      }
-      m.color.a = 0.9f;
-      arr.markers.push_back(m);
-
-      Marker label = m;
-      label.ns = "patrol_labels";     // 必须换 ns，否则 ID 与球体冲突（K-13）
-      label.type = Marker::TEXT_VIEW_FACING;
-      label.scale.z = 0.22;
-      label.pose.position.z = 0.45;
-      label.color.r = label.color.g = label.color.b = 1.0f;
-      label.color.a = 0.95f;
-      label.text = "WP" + std::to_string(wp.index);
-      arr.markers.push_back(label);
+      arr.markers.push_back(makeWaypointSphere(wp, waypointColor(snap, wp.index), stamp));
+      arr.markers.push_back(makeWaypointLabel(wp, stamp));
     }
 
     marker_pub_->publish(arr);
+  }
+
+  /// @brief 计算航点配色：全部完成 > 当前目标 > 本轮已完成 > 未访问（05 §2.2）
+  static Rgb waypointColor(const Snapshot & snap, uint32_t index)
+  {
+    // "当前目标/已完成"仅在巡逻进行中生效，其余状态一律按未访问显示
+    const bool active = snap.state == PatrolState::MOVING || snap.state == PatrolState::WAITING ||
+      snap.state == PatrolState::PAUSED || snap.state == PatrolState::SAFETY_HOLD;
+
+    if (snap.finished_all && snap.state == PatrolState::IDLE) {
+      return kColorVisited;
+    }
+    if (active && index == snap.index) {
+      return kColorCurrent;
+    }
+    if (active && index < snap.index) {
+      return kColorVisited;
+    }
+    return kColorPending;
+  }
+
+  /// @brief 构造航点球体 Marker
+  Marker makeWaypointSphere(
+    const Waypoint & wp, const Rgb & color, const rclcpp::Time & stamp) const
+  {
+    Marker m = makeBaseMarker(kWaypointNs, wp.index, stamp);
+    m.type = Marker::SPHERE;
+    m.pose.position.x = wp.x;
+    m.pose.position.y = wp.y;
+    m.pose.position.z = kSphereZ;
+    m.scale.x = m.scale.y = m.scale.z = kSphereDiameter;
+    setColor(m, color, kWaypointAlpha);
+    return m;
+  }
+
+  /// @brief 构造航点文本 Marker（ns 必须与球体不同，否则 ID 冲突，K-13）
+  Marker makeWaypointLabel(const Waypoint & wp, const rclcpp::Time & stamp) const
+  {
+    Marker m = makeBaseMarker(kLabelNs, wp.index, stamp);
+    m.type = Marker::TEXT_VIEW_FACING;
+    m.pose.position.x = wp.x;
+    m.pose.position.y = wp.y;
+    m.pose.position.z = kTextZ;
+    m.scale.z = kTextHeight;
+    setColor(m, kColorLabel, kLabelAlpha);
+    m.text = "WP" + std::to_string(wp.index);
+    return m;
+  }
+
+  /// @brief 构造公共字段（坐标系/时间戳/ns/ID/生命周期/朝向）已就绪的 Marker
+  Marker makeBaseMarker(const std::string & ns, uint32_t id, const rclcpp::Time & stamp) const
+  {
+    Marker m;
+    m.header.frame_id = global_frame_;
+    m.header.stamp = stamp;
+    m.ns = ns;
+    m.id = static_cast<int>(id);
+    m.action = Marker::ADD;
+    m.lifetime = rclcpp::Duration(0, 0);  // 0 = 永不过期
+    m.pose.orientation.w = 1.0;  // 必须显式初始化（04 §8 关键设计点 5）
+    return m;
+  }
+
+  /// @brief 写入 Marker 颜色（含透明度）
+  static void setColor(Marker & m, const Rgb & rgb, float alpha)
+  {
+    m.color.r = rgb.r;
+    m.color.g = rgb.g;
+    m.color.b = rgb.b;
+    m.color.a = alpha;
   }
 
   // ---------------- 工具 ----------------

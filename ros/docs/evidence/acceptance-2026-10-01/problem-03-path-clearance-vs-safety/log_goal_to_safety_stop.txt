@@ -1,0 +1,295 @@
+[patrol_node-6] [INFO] [1790866959.905665834] [patrol_node]: [NavClient] 目标已发送: x=1.75 y=0.00 yaw=0.00 frame=map
+[patrol_node-6] [INFO] [1790866959.905757827] [patrol_node]: 前往航点 [0] x=1.75 y=0.00 yaw=0.00 (wait=2.0s)
+[patrol_node-6] [INFO] [1790866959.906145797] [patrol_node]: 模式请求 START: IDLE → MOVING (OK)
+[component_container_isolated-4] [INFO] [1790866959.906222330] [bt_navigator]: Begin navigating from current location (-0.91, -1.23) to (1.75, 0.00)
+[component_container_isolated-4] [INFO] [1790866959.927681468] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-4] [ERROR] [1790866959.934807654] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866959.934885701] [tf_help]: Data time: 172s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866959.982961614] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866959.983041985] [tf_help]: Data time: 172s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866960.032536375] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866960.032609532] [tf_help]: Data time: 172s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866960.083765244] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866960.083839805] [tf_help]: Data time: 172s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866960.133265692] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866960.133379325] [tf_help]: Data time: 172s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866960.182326723] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866960.182397065] [tf_help]: Data time: 172s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866960.233416860] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866960.233477804] [tf_help]: Data time: 172s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866960.281813181] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866960.281877331] [tf_help]: Data time: 172s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866960.332886132] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866960.333013381] [tf_help]: Data time: 172s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866960.381193358] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866960.381264892] [tf_help]: Data time: 172s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866960.432923700] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866960.432996227] [tf_help]: Data time: 172s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866960.482766522] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866960.482915783] [tf_help]: Data time: 172s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866960.533459302] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866960.533507823] [tf_help]: Data time: 172s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866960.582584625] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866960.582621955] [tf_help]: Data time: 172s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866960.632589892] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866960.632637421] [tf_help]: Data time: 172s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866960.684231708] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866960.684297572] [tf_help]: Data time: 172s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866960.732735642] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866960.732801505] [tf_help]: Data time: 172s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866960.784393819] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866960.784466325] [tf_help]: Data time: 172s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866960.833280010] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866960.833356675] [tf_help]: Data time: 172s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866960.882854589] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866960.882930722] [tf_help]: Data time: 172s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866960.932508264] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866960.932570661] [tf_help]: Data time: 172s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [INFO] [1790866960.978129273] [controller_server]: Passing new path to controller.
+[component_container_isolated-4] [ERROR] [1790866960.982786084] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866960.982848491] [tf_help]: Data time: 173s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866961.032898933] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866961.032971550] [tf_help]: Data time: 173s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866961.082999469] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866961.083062498] [tf_help]: Data time: 173s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866961.133972789] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866961.134044143] [tf_help]: Data time: 173s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866961.183441257] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866961.183507451] [tf_help]: Data time: 173s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866961.233777216] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866961.233849111] [tf_help]: Data time: 173s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866961.282663508] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866961.282731195] [tf_help]: Data time: 173s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866961.333704845] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866961.333767633] [tf_help]: Data time: 173s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866961.383635180] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866961.383767769] [tf_help]: Data time: 173s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866961.432740245] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866961.432901648] [tf_help]: Data time: 173s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866961.483724894] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866961.483796939] [tf_help]: Data time: 173s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866961.532437410] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866961.532515807] [tf_help]: Data time: 173s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866961.582473084] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866961.582552223] [tf_help]: Data time: 173s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866961.632572916] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866961.632638669] [tf_help]: Data time: 173s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866961.684665133] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866961.684739342] [tf_help]: Data time: 173s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866961.733485992] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866961.733544332] [tf_help]: Data time: 173s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866961.783673662] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866961.783739145] [tf_help]: Data time: 173s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866961.834472633] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866961.834547714] [tf_help]: Data time: 173s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866961.882729050] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866961.882793100] [tf_help]: Data time: 173s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866961.933807536] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866961.933934726] [tf_help]: Data time: 173s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866961.982773408] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866961.983436556] [tf_help]: Data time: 173s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [INFO] [1790866962.028909397] [controller_server]: Passing new path to controller.
+[component_container_isolated-4] [ERROR] [1790866962.033934069] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866962.033989533] [tf_help]: Data time: 174s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866962.082988889] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866962.083059842] [tf_help]: Data time: 174s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866962.133350678] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866962.133439174] [tf_help]: Data time: 174s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866962.182004032] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866962.182074835] [tf_help]: Data time: 174s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866962.233882472] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866962.233943988] [tf_help]: Data time: 174s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866962.283283383] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866962.283352774] [tf_help]: Data time: 174s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866962.333041114] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866962.333111346] [tf_help]: Data time: 174s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866962.383826079] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866962.383892374] [tf_help]: Data time: 174s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866962.433132912] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866962.433187665] [tf_help]: Data time: 174s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866962.482328607] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866962.482402065] [tf_help]: Data time: 174s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866962.532759665] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866962.532825128] [tf_help]: Data time: 174s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866962.583122435] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866962.583188810] [tf_help]: Data time: 174s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866962.633399153] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866962.633462222] [tf_help]: Data time: 174s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866962.682865758] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866962.682932072] [tf_help]: Data time: 174s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866962.733458941] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866962.733535585] [tf_help]: Data time: 174s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866962.783118127] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866962.783182078] [tf_help]: Data time: 174s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866962.832949698] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866962.833087277] [tf_help]: Data time: 174s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866962.883764899] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866962.883819853] [tf_help]: Data time: 174s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866962.932540984] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866962.932618300] [tf_help]: Data time: 174s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866962.983469197] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866962.983543768] [tf_help]: Data time: 174s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [INFO] [1790866963.028033440] [controller_server]: Passing new path to controller.
+[component_container_isolated-4] [ERROR] [1790866963.033072709] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866963.033132923] [tf_help]: Data time: 175s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866963.082335641] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866963.082398790] [tf_help]: Data time: 175s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866963.132775145] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866963.132901783] [tf_help]: Data time: 175s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866963.183766298] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866963.183835528] [tf_help]: Data time: 175s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866963.233213936] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866963.233280311] [tf_help]: Data time: 175s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866963.283580394] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866963.283646949] [tf_help]: Data time: 175s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866963.333410912] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866963.333479882] [tf_help]: Data time: 175s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866963.382766748] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866963.382831841] [tf_help]: Data time: 175s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866963.434092400] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866963.434168964] [tf_help]: Data time: 175s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866963.483305606] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866963.483371791] [tf_help]: Data time: 175s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866963.532859294] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866963.532948212] [tf_help]: Data time: 175s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866963.582344423] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866963.582413102] [tf_help]: Data time: 175s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866963.633536931] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866963.633610159] [tf_help]: Data time: 175s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866963.683280971] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866963.684162329] [tf_help]: Data time: 175s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866963.733391416] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866963.733462279] [tf_help]: Data time: 175s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866963.782845494] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866963.782917930] [tf_help]: Data time: 175s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866963.833956135] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866963.834021377] [tf_help]: Data time: 175s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866963.883493972] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866963.883573091] [tf_help]: Data time: 175s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866963.933573610] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866963.933628934] [tf_help]: Data time: 175s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866963.983525467] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866963.983603103] [tf_help]: Data time: 175s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866964.034003665] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866964.034074458] [tf_help]: Data time: 175s 900000000ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [INFO] [1790866964.078071082] [controller_server]: Passing new path to controller.
+[component_container_isolated-4] [ERROR] [1790866964.082792454] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866964.082848139] [tf_help]: Data time: 177s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866964.132807740] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866964.132941933] [tf_help]: Data time: 177s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866964.182625656] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866964.182686631] [tf_help]: Data time: 177s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866964.232696688] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866964.232768743] [tf_help]: Data time: 177s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866964.283228325] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866964.283293668] [tf_help]: Data time: 177s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866964.333877154] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866964.333944220] [tf_help]: Data time: 177s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866964.382677484] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866964.382746805] [tf_help]: Data time: 177s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866964.433763575] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866964.433833176] [tf_help]: Data time: 177s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866964.482547846] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866964.482593261] [tf_help]: Data time: 177s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866964.532622194] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866964.532693097] [tf_help]: Data time: 177s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866964.583176935] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866964.583233030] [tf_help]: Data time: 177s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866964.633216537] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866964.633280217] [tf_help]: Data time: 177s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866964.682097349] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866964.682157061] [tf_help]: Data time: 177s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866964.732699229] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866964.732777006] [tf_help]: Data time: 177s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866964.783482982] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866964.783559566] [tf_help]: Data time: 177s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866964.832007234] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866964.832083888] [tf_help]: Data time: 177s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866964.882679076] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866964.882745000] [tf_help]: Data time: 177s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866964.934692872] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866964.934767523] [tf_help]: Data time: 177s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866964.982608729] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866964.982684953] [tf_help]: Data time: 177s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866965.033172337] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866965.033250164] [tf_help]: Data time: 177s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [INFO] [1790866965.078885971] [controller_server]: Passing new path to controller.
+[component_container_isolated-4] [ERROR] [1790866965.083462240] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866965.083521702] [tf_help]: Data time: 178s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866965.133189957] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866965.133256171] [tf_help]: Data time: 178s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866965.182184152] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866965.182251048] [tf_help]: Data time: 178s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866965.233902903] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866965.233981431] [tf_help]: Data time: 178s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866965.282260973] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866965.282336625] [tf_help]: Data time: 178s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866965.332657954] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866965.332728066] [tf_help]: Data time: 178s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866965.384555054] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866965.384742587] [tf_help]: Data time: 178s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866965.433250548] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866965.433326992] [tf_help]: Data time: 178s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866965.483692727] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866965.483760875] [tf_help]: Data time: 178s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866965.533879568] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866965.533929732] [tf_help]: Data time: 178s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866965.582391937] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866965.582483699] [tf_help]: Data time: 178s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866965.633527808] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866965.633603851] [tf_help]: Data time: 178s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866965.684432698] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866965.684501127] [tf_help]: Data time: 178s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866965.733348009] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866965.733392844] [tf_help]: Data time: 178s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866965.783419020] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866965.783483101] [tf_help]: Data time: 178s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866965.833839841] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866965.833978211] [tf_help]: Data time: 178s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866965.882206125] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866965.882288409] [tf_help]: Data time: 178s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866965.933417982] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866965.933482183] [tf_help]: Data time: 178s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866965.983598550] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866965.983669804] [tf_help]: Data time: 178s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866966.032591043] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866966.032665944] [tf_help]: Data time: 178s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866966.082391315] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866966.082492596] [tf_help]: Data time: 178s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [INFO] [1790866966.128188458] [controller_server]: Passing new path to controller.
+[component_container_isolated-4] [ERROR] [1790866966.130971514] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866966.131096318] [tf_help]: Data time: 179s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866966.182295652] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866966.182362668] [tf_help]: Data time: 179s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866966.232746127] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866966.232810058] [tf_help]: Data time: 179s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866966.283009392] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866966.283164363] [tf_help]: Data time: 179s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866966.332295837] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866966.332337235] [tf_help]: Data time: 179s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866966.382865136] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866966.382934307] [tf_help]: Data time: 179s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866966.434496313] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866966.434618293] [tf_help]: Data time: 179s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866966.482889137] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866966.482998854] [tf_help]: Data time: 179s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866966.533243923] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866966.533314957] [tf_help]: Data time: 179s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866966.583617184] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866966.583690922] [tf_help]: Data time: 179s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866966.634182034] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866966.634273987] [tf_help]: Data time: 179s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866966.684321314] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866966.684400834] [tf_help]: Data time: 179s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866966.732747712] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866966.732812104] [tf_help]: Data time: 179s 0ns, Transform time: 132s 164000000ns
+[component_container_isolated-4] [ERROR] [1790866966.782232751] [tf_help]: Transform data too old when converting from map to odom
+[component_container_isolated-4] [ERROR] [1790866966.782296982] [tf_help]: Data time: 179s 0ns, Transform time: 132s 164000000ns
+[safety_guard_node-5] [WARN] [1790866966.797175512] [safety_guard_node]: 前方障碍过近（0.28 m < 0.30 m），置位紧急标志
+[patrol_node-6] [WARN] [1790866966.797321587] [patrol_node]: 安全标志变化: emergency=true
+[patrol_node-6] [WARN] [1790866966.805446610] [patrol_node]: [NavClient] 已请求取消当前导航目标
+[component_container_isolated-4] [ERROR] [1790866966.826871815] [bt_navigator_navigate_to_pose_rclcpp_node]: Failed to get result for follow_path in node halt!
+[component_container_isolated-4] [INFO] [1790866966.826993775] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[component_container_isolated-4] [INFO] [1790866966.827237614] [bt_navigator]: Goal canceled
+[component_container_isolated-4] [INFO] [1790866966.828192429] [controller_server]: Goal was canceled. Stopping the robot.
+[component_container_isolated-4] [INFO] [1790866966.828240450] [controller_server]: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.

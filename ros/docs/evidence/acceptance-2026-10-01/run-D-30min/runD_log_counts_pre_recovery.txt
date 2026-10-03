@@ -1,0 +1,7 @@
+counts @ 23:58:36
+Received plan with zero length: 358
+Resulting plan has 0 poses: 87
+Transform data too old: 152
+Controller patience exceeded: 56
+前方障碍过近: 0
+process has died: 0

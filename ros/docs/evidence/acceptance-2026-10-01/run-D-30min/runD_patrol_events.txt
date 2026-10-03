@@ -1,0 +1,38 @@
+292:[patrol_node-6] [INFO] [1790869647.867677007] [patrol_node]: 前往航点 [0] x=1.75 y=0.00 yaw=0.00 (wait=2.0s)
+317:[component_container_isolated-4] [INFO] [1790869669.298116098] [controller_server]: Reached the goal!
+318:[component_container_isolated-4] [INFO] [1790869669.329120700] [bt_navigator]: Goal succeeded
+320:[patrol_node-6] [INFO] [1790869671.467083692] [patrol_node]: 前往航点 [1] x=0.00 y=1.90 yaw=1.57 (wait=2.0s)
+341:[component_container_isolated-4] [INFO] [1790869690.245708501] [controller_server]: Reached the goal!
+342:[component_container_isolated-4] [INFO] [1790869690.278137132] [bt_navigator]: Goal succeeded
+344:[patrol_node-6] [INFO] [1790869692.366627019] [patrol_node]: 前往航点 [2] x=-1.75 y=0.00 yaw=3.14 (wait=2.0s)
+365:[component_container_isolated-4] [INFO] [1790869711.544821005] [controller_server]: Reached the goal!
+366:[component_container_isolated-4] [INFO] [1790869711.577779046] [bt_navigator]: Goal succeeded
+368:[patrol_node-6] [INFO] [1790869713.666067038] [patrol_node]: 前往航点 [0] x=1.75 y=0.00 yaw=0.00 (wait=2.0s)
+393:[component_container_isolated-4] [INFO] [1790869737.143877635] [controller_server]: Reached the goal!
+394:[component_container_isolated-4] [INFO] [1790869737.177295162] [bt_navigator]: Goal succeeded
+396:[patrol_node-6] [INFO] [1790869739.265651251] [patrol_node]: 前往航点 [1] x=0.00 y=1.90 yaw=1.57 (wait=2.0s)
+415:[component_container_isolated-4] [INFO] [1790869756.643652158] [controller_server]: Reached the goal!
+416:[component_container_isolated-4] [INFO] [1790869756.677067231] [bt_navigator]: Goal succeeded
+418:[patrol_node-6] [INFO] [1790869758.765448935] [patrol_node]: 前往航点 [2] x=-1.75 y=0.00 yaw=3.14 (wait=2.0s)
+439:[component_container_isolated-4] [INFO] [1790869777.793694529] [controller_server]: Reached the goal!
+440:[component_container_isolated-4] [INFO] [1790869777.826559553] [bt_navigator]: Goal succeeded
+442:[patrol_node-6] [INFO] [1790869779.865626410] [patrol_node]: 前往航点 [0] x=1.75 y=0.00 yaw=0.00 (wait=2.0s)
+467:[component_container_isolated-4] [INFO] [1790869802.943597943] [controller_server]: Reached the goal!
+468:[component_container_isolated-4] [INFO] [1790869802.976878063] [bt_navigator]: Goal succeeded
+470:[patrol_node-6] [INFO] [1790869805.064849376] [patrol_node]: 前往航点 [1] x=0.00 y=1.90 yaw=1.57 (wait=2.0s)
+489:[component_container_isolated-4] [INFO] [1790869822.493767893] [controller_server]: Reached the goal!
+490:[component_container_isolated-4] [INFO] [1790869822.525626589] [bt_navigator]: Goal succeeded
+492:[patrol_node-6] [INFO] [1790869824.565039615] [patrol_node]: 前往航点 [2] x=-1.75 y=0.00 yaw=3.14 (wait=2.0s)
+518:[component_container_isolated-4] [INFO] [1790869847.293850291] [controller_server]: Reached the goal!
+519:[component_container_isolated-4] [INFO] [1790869847.326507967] [bt_navigator]: Goal succeeded
+521:[patrol_node-6] [INFO] [1790869849.364588236] [patrol_node]: 前往航点 [0] x=1.75 y=0.00 yaw=0.00 (wait=2.0s)
+549:[component_container_isolated-4] [INFO] [1790869872.894461701] [controller_server]: Reached the goal!
+550:[component_container_isolated-4] [INFO] [1790869872.926050769] [bt_navigator]: Goal succeeded
+552:[patrol_node-6] [INFO] [1790869874.964477696] [patrol_node]: 前往航点 [1] x=0.00 y=1.90 yaw=1.57 (wait=2.0s)
+737:[component_container_isolated-4] [ERROR] [1790869899.505573760] [bt_navigator]: Goal failed
+739:[patrol_node-6] [INFO] [1790869899.563720760] [patrol_node]: 前往航点 [1] x=0.00 y=1.90 yaw=1.57 (wait=2.0s)
+923:[component_container_isolated-4] [ERROR] [1790869933.215258962] [bt_navigator]: Goal failed
+925:[patrol_node-6] [INFO] [1790869933.263641364] [patrol_node]: 前往航点 [2] x=-1.75 y=0.00 yaw=3.14 (wait=2.0s)
+1232:[component_container_isolated-4] [ERROR] [1790869961.004742170] [bt_navigator]: Goal failed
+1234:[patrol_node-6] [INFO] [1790869961.063537423] [patrol_node]: 前往航点 [2] x=-1.75 y=0.00 yaw=3.14 (wait=2.0s)
+1652:[component_container_isolated-4] [ERROR] [1790869985.115034003] [bt_navigator]: Goal failed

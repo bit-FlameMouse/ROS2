@@ -1,0 +1,6 @@
+[safety_guard_node-5] [WARN] [1790867772.134142030] [safety_guard_node]: 前方障碍过近（0.16 m < 0.30 m），置位紧急标志
+[patrol_node-6] [WARN] [1790867772.134332203] [patrol_node]: 安全标志变化: emergency=true
+[safety_guard_node-5] [INFO] [1790867838.775013920] [safety_guard_node]: 前方畅通（0.72 m > 0.60 m），解除紧急标志
+[patrol_node-6] [WARN] [1790867838.775191508] [patrol_node]: 安全标志变化: emergency=false
+[patrol_node-6] [WARN] [1790867877.442394152] [patrol_node]: 安全标志变化: emergency=true
+[patrol_node-6] [WARN] [1790867900.423758580] [patrol_node]: 安全标志变化: emergency=false

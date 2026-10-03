@@ -1,0 +1,40 @@
+mode: 4
+current_waypoint_index: 0
+total_waypoints: 3
+completed_waypoints: 0
+current_loop: 0
+retry_count: 0
+distance_remaining: 3.358309745788574
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 500
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 0
+total_waypoints: 3
+completed_waypoints: 0
+current_loop: 0
+retry_count: 0
+distance_remaining: 3.358309745788574
+error_code: 0
+error_message: ''
+---
+header:
+  stamp:
+    sec: 501
+    nanosec: 700000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 0
+total_waypoints: 3
+completed_waypoints: 0
+current_loop: 0
+retry_count: 0
+distance_remaining: 3.358309745788574
+error_code: 0
+error_message: ''
+---

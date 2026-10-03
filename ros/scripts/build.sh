@@ -10,8 +10,12 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT"
 
+# ROS 2 Humble 的 setup.bash 在 set -u 下会因引用未定义变量（AMENT_TRACE_SETUP_FILES）
+# 报错并返回非零，配合 set -e 会让脚本在干净终端里直接退出；source 期间临时关闭 -u。
 # shellcheck disable=SC1091
+set +u
 source /opt/ros/humble/setup.bash
+set -u
 
 CLEAN=0
 ARGS=()

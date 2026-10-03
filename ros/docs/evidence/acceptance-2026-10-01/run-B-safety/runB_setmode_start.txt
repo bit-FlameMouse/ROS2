@@ -1,0 +1,5 @@
+requester: making request: patrol_interfaces.srv.SetPatrolMode_Request(mode=0)
+
+response:
+patrol_interfaces.srv.SetPatrolMode_Response(success=True, message='OK', current_mode=1)
+

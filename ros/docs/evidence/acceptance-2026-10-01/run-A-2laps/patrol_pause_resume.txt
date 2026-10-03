@@ -1,0 +1,21 @@
+### 巡逻中暂停/恢复  2026-10-01 23:11:48
+--- PAUSE mode:1
+requester: making request: patrol_interfaces.srv.SetPatrolMode_Request(mode=1)
+
+response:
+patrol_interfaces.srv.SetPatrolMode_Response(success=True, message='OK', current_mode=3)
+
+--- 暂停后日志（应有取消/停车）
+[component_container_isolated-4] [INFO] [1790867509.249808914] [controller_server]: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+[component_container_isolated-4] [INFO] [1790867509.250064103] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[component_container_isolated-4] [INFO] [1790867509.250303251] [bt_navigator]: Goal canceled
+--- RESUME mode:2
+requester: making request: patrol_interfaces.srv.SetPatrolMode_Request(mode=2)
+
+response:
+patrol_interfaces.srv.SetPatrolMode_Response(success=True, message='OK', current_mode=1)
+
+--- 恢复后日志（应有重新发送目标）
+[component_container_isolated-4] [INFO] [1790867516.099508225] [controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1790867517.149130918] [controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1790867518.149230995] [controller_server]: Passing new path to controller.

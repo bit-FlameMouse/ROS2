@@ -11,6 +11,6 @@ uint8 REQ_RESET  = 4   # 复位：清零统计信息与错误状态
 
 uint8 mode
 ---
-bool  success
+bool  success   # 反馈本次通信是否成功
 string message          # 失败原因，如 ALREADY_RUNNING / NO_WAYPOINTS
 uint8 current_mode      # 处理后的实际模式（对应 PatrolStatus 中的常量）

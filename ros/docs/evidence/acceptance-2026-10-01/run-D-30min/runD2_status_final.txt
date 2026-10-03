@@ -1,0 +1,18 @@
+D2 终态快照（/patrol/status 最后一条，取自 runD2_status_stream.txt 末尾；sim 1787.6 ≈ 00:31:27；
+仿真进程随后于 00:31:42 被后台任务 30 min 时限自动终止，恰满 00:01:42–00:31:42 窗口）
+---
+header:
+  stamp:
+    sec: 1787
+    nanosec: 600000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 2
+total_waypoints: 3
+completed_waypoints: 9
+current_loop: 3
+retry_count: 0
+distance_remaining: 3.358309507369995
+error_code: 3
+error_message: 航点导航超时
+---

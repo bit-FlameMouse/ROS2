@@ -9,7 +9,12 @@
 # 版权：2026 patrol_robot developer，Apache-2.0 许可（许可证原文见仓库根目录 LICENSE 文件）
 set -euo pipefail
 
+# ROS 2 Humble 的 setup.bash 在 set -u 下会因引用未定义变量（AMENT_TRACE_SETUP_FILES）
+# 报错并返回非零，配合 set -e 会让脚本在干净终端里直接退出；source 期间临时关闭 -u。
+# shellcheck disable=SC1091
+set +u
 source /opt/ros/humble/setup.bash
+set -u
 
 OUT_DIR="${1:-$HOME/patrol_demo_bag}"
 

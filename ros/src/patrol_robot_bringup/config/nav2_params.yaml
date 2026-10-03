@@ -1,9 +1,13 @@
 # 文件用途：Nav2 参数（TurtleBot3 Burger + tb3_world 六边形世界）
 # 基线：ros-humble-nav2-bringup 1.1.x 官方 params/nav2_params.yaml，
 #       按 docs/04-详细设计说明书.md §10.3 做最小修改，改动项如下：
-#         1. amcl：开启 set_initial_pose，初始位姿对齐 Gazebo 出生点 (-2.0, -0.5, 0)
+#         1. amcl：开启 set_initial_pose，初始位姿对齐 Gazebo 出生点 (-2.0, -0.5, 0)；
+#            update_min_d/a 降为 0.10（v0.2.3：行驶中更勤地刷新 map→odom，
+#            避免 global costmap 反复报变换"过旧"，见 04 §14.3 #3）
 #         2. controller_server：max_vel_x 0.22、max_vel_theta 0.8，差速底盘 vy_samples=0
-#         3. local/global costmap：robot_radius 0.1（Burger），inflation_radius 0.30
+#         3. local/global costmap：robot_radius 0.1（Burger），inflation_radius 0.55、
+#            cost_scaling_factor 8.0（v0.2.3：0.8 m 宽走廊内形成强梯度把路径压向中线，
+#            与障碍物表面间距 ≥0.4 m，高于安全阈值 0.30 m，见 04 §14.3 #3）
 #         4. velocity_smoother：限速与 controller 保持一致
 # 说明：地图文件由 launch 的 map 参数注入（map_server.yaml_filename 留空）
 
@@ -40,8 +44,8 @@ amcl:
     sigma_hit: 0.2
     tf_broadcast: true
     transform_tolerance: 1.0
-    update_min_a: 0.2
-    update_min_d: 0.25
+    update_min_a: 0.10
+    update_min_d: 0.10
     z_hit: 0.5
     z_max: 0.05
     z_rand: 0.5
@@ -204,8 +208,8 @@ local_costmap:
       plugins: ["voxel_layer", "inflation_layer"]
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
-        cost_scaling_factor: 3.0
-        inflation_radius: 0.30
+        cost_scaling_factor: 8.0
+        inflation_radius: 0.55
       voxel_layer:
         plugin: "nav2_costmap_2d::VoxelLayer"
         enabled: True
@@ -259,8 +263,8 @@ global_costmap:
         map_subscribe_transient_local: True
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
-        cost_scaling_factor: 3.0
-        inflation_radius: 0.30
+        cost_scaling_factor: 8.0
+        inflation_radius: 0.55
       always_send_full_costmap: True
 
 map_server:

@@ -1,0 +1,18 @@
+== 第 3 次安全夹停（去 WP2 途中，00:14:23）==
+871:[patrol_node-6] [WARN] [1790871036.222287857] [patrol_node]: 安全标志变化: emergency=false
+9290:[safety_guard_node-5] [WARN] [1790871262.882969791] [safety_guard_node]: 前方障碍过近（0.27 m < 0.30 m），置位紧急标志
+9291:[patrol_node-6] [WARN] [1790871262.883085592] [patrol_node]: 安全标志变化: emergency=true
+9297:[component_container_isolated-4] [INFO] [1790871263.002002218] [controller_server]: Goal was canceled. Stopping the robot.
+
+== 现场读数 00:15:44 ==
+  x: 2.1491290916469747
+  y: 0.11666807068412963
+  z: 0.008532425778296973
+  x: 0.0017495371320746362
+  y: 0.0022721435998640698
+  z: -0.6020527825666808
+  w: 0.798451140325444
+data: 0.32612746953964233
+---
+data: true
+---

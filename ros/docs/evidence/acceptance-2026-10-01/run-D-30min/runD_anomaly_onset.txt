@@ -1,0 +1,26 @@
+[component_container_isolated-4] [INFO] [1790869872.926050769] [bt_navigator]: Goal succeeded
+[patrol_node-6] [INFO] [1790869874.964397717] [patrol_node]: [NavClient] 目标已发送: x=0.00 y=1.90 yaw=1.57 frame=map
+[patrol_node-6] [INFO] [1790869874.964477696] [patrol_node]: 前往航点 [1] x=0.00 y=1.90 yaw=1.57 (wait=2.0s)
+[component_container_isolated-4] [INFO] [1790869874.965003415] [bt_navigator]: Begin navigating from current location (1.65, 0.20) to (0.00, 1.90)
+[component_container_isolated-4] [INFO] [1790869874.986128935] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-4] [WARN] [1790869874.986391665] [controller_server]: Resulting plan has 0 poses in it.
+[component_container_isolated-4] [WARN] [1790869875.036698942] [controller_server]: Resulting plan has 0 poses in it.
+[component_container_isolated-4] [WARN] [1790869875.086590985] [controller_server]: Received plan with zero length
+[component_container_isolated-4] [WARN] [1790869875.136717701] [controller_server]: Received plan with zero length
+[component_container_isolated-4] [WARN] [1790869875.186742595] [controller_server]: Received plan with zero length
+[component_container_isolated-4] [WARN] [1790869875.236720235] [controller_server]: Received plan with zero length
+[component_container_isolated-4] [WARN] [1790869875.286632599] [controller_server]: Received plan with zero length
+[component_container_isolated-4] [WARN] [1790869875.336645243] [controller_server]: Received plan with zero length
+[component_container_isolated-4] [ERROR] [1790869875.337132961] [controller_server]: Controller patience exceeded
+[component_container_isolated-4] [WARN] [1790869875.337236484] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[component_container_isolated-4] [INFO] [1790869875.355775578] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[component_container_isolated-4] [INFO] [1790869875.357126616] [controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-4] [WARN] [1790869875.487576154] [controller_server]: Resulting plan has 0 poses in it.
+[component_container_isolated-4] [WARN] [1790869875.487692801] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[component_container_isolated-4] [WARN] [1790869875.487742193] [controller_server]: Resulting plan has 0 poses in it.
+[component_container_isolated-4] [WARN] [1790869875.538713877] [controller_server]: Received plan with zero length
+[component_container_isolated-4] [WARN] [1790869875.589083962] [controller_server]: Received plan with zero length
+[component_container_isolated-4] [WARN] [1790869875.640160011] [controller_server]: Received plan with zero length
+[component_container_isolated-4] [WARN] [1790869875.690976997] [controller_server]: Received plan with zero length
+[component_container_isolated-4] [WARN] [1790869875.741980913] [controller_server]: Received plan with zero length
+[component_container_isolated-4] [ERROR] [1790869875.742073055] [controller_server]: Controller patience exceeded

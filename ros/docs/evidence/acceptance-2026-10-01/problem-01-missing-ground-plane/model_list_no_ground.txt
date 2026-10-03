@@ -1,0 +1,5 @@
+requester: making request: gazebo_msgs.srv.GetModelList_Request()
+
+response:
+gazebo_msgs.srv.GetModelList_Response(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=238, nanosec=368000000), frame_id=''), model_names=['turtlebot3_world', 'burger'], success=True)
+

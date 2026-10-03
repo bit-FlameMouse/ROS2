@@ -1,0 +1,15 @@
+header:
+  stamp:
+    sec: 163
+    nanosec: 800000000
+  frame_id: map
+mode: 4
+current_waypoint_index: 1
+total_waypoints: 3
+completed_waypoints: 2
+current_loop: 0
+retry_count: 0
+distance_remaining: 0.0
+error_code: 0
+error_message: ''
+---

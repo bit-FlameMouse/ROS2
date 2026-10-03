@@ -46,10 +46,18 @@ def generate_launch_description():
 
         # 官方 TB3 launch 在模块加载期读取这两个环境变量，必须在 Include 之前设置
         SetEnvironmentVariable('TURTLEBOT3_MODEL', robot_model),
+        # 模型搜索路径 = TB3 模型目录 + 调用方已有路径 + Gazebo 系统模型目录。
+        # 系统模型目录（Ubuntu 22.04 / Gazebo Classic 11 为 /usr/share/gazebo-11/models）
+        # 必须始终保留：世界文件引用的 ground_plane / sun 位于其中，若整体覆盖为
+        # 仅 TB3 模型目录，世界将缺失地面，机器人出生后持续自由落体
+        # （2026-10-01 无界面验收实测问题，证据见 docs/evidence/acceptance-2026-10-01/）。
         SetEnvironmentVariable(
             'GAZEBO_MODEL_PATH',
-            os.path.join(pkg_tb3_gazebo, 'models') + ':' +
-            os.environ.get('GAZEBO_MODEL_PATH', '')),
+            ':'.join(p for p in (
+                os.path.join(pkg_tb3_gazebo, 'models'),
+                os.environ.get('GAZEBO_MODEL_PATH', ''),
+                '/usr/share/gazebo-11/models',
+            ) if p)),
 
         # 离线加固：禁用 Gazebo 在线模型库（models.gazebosim.org）。
         # 世界引用的模型（ground_plane / sun / turtlebot3_world / turtlebot3_burger）

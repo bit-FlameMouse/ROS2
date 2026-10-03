@@ -1,0 +1,5 @@
+机器人位姿: x=0.19 y=1.87 yaw=103.2°
+正前方 0.25 m 处坐标: x=0.13 y=2.11
+插入障碍物示例（复制执行，注意替换坐标）：
+  ros2 run gazebo_ros spawn_entity.py -entity safety_box \
+    -file /tmp/safety_box.sdf -x 0.13 -y 2.11 -z 0.2

@@ -3,7 +3,7 @@
             schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>patrol_interfaces</name>
-  <version>0.2.2</version>
+  <version>0.2.3</version>
   <description>巡逻机器人系统的自定义消息与服务接口</description>
   <maintainer email="dev@example.com">patrol_robot developer</maintainer>
   <license>Apache-2.0</license>
